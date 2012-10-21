@@ -1,148 +1,130 @@
 body {
-    background-color: #000;
-    color: #888;
+	background-color : #000;
+	color : #888;
 }
-
 .module.community-bulletin {
-    background-color: #21201D;
-    border: 1px solid #33322B;
-    moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),0 1px 0 #000000 inset;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),0 1px 0 #000000 inset;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),0 1px 0 #000000 inset;
+	background-color : #21201D;
+	border : 1px solid #33322B;
+	moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),0 1px 0 #000000 inset;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),0 1px 0 #000000 inset;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),0 1px 0 #000000 inset;
 }
-
 .tagged-interesting {
-    background-color: #2A2D2D;
+	background-color: #2A2D2D;
 }
-
 .module {
-    background-color: #000;
+	background-color : #000;
 }
-
 .new-post-activity, #new-answer-activity {
-    background-color: #111111;
+	background-color : #111111;	
 }
-
 #footer {
-    background-color: #000;
+	background-color : #000;
 }
-
 #tabs a {
-    background: #000;
-    border: 1px solid #000;
-    color: #888;
+	background: #000;
+	border: 1px solid #000;
+	color: #888;
 }
-
 #tabs a.youarehere {
-    background: #000;
-    border: 1px solid #888;
-    border-bottom-color: #000;
-    color: #fff;
+	background: #000;
+	border: 1px solid #888;
+	border-bottom-color: #000;
+	color: #fff;
 }
-
 #tabs a:hover {
-    background: black;
-    border: 1px solid #888;
-    border-bottom-color: #000;
+	background: black;
+	border: 1px solid #888;
+	border-bottom-color: #000;
 }
-
 .post-tag, .post-text .post-tag, .wmd-preview a.post-tag {
-    background-color: #000;
-    border: 2px solid #05272D;
+	background-color : #000;
+	border: 2px solid #05272D;
 }
-
-.delete-tag {
-    opacity: 0.3;
-}
-
 .delete-tag:hover {
-    opacity: 1.0;
+	opacity : 1.0;
 }
-
 .answered-accepted {
-    background-color: #3A5408;
+	background-color : #3A5408;
 }
-
 input, select, button {
-    background-color: #000;
-    color: #888;
+	background-color: #000;
+	color: #888;
 }
-
 textarea {
-    background-color: #000;
-    border: 1px solid #666;
-    color: #888;
+	background-color: #000;
+	border : 1px solid #666;
+	color: #888;
 }
-
 .owner {
-    background-color: #282D2D;
+	background-color : #282D2D;
 }
-
 .wmd-button-bar {
-    background-color: #000;
+	background-color : #000;
+}
+.wmd-button > span {
+	-webkit-box-shadow : inset 0 0 10px 2px rgba(0, 0, 0, 1);
+	box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 1);
+	opacity: 0.5;
+}
+.wmd-button:hover > span {
+	-webkit-box-shadow : inset 0 0 10px 1px rgba(0, 0, 0, 1);
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 1);
+	opacity: 0.8;
+}
+.grippie {
+	background-color: #111;
+	border: 1px solid #222;
+}
+.question-status {
+	background-color : #111;
+}
+code {
+	background-color : #111;
+}
+pre {
+	background-color : #111;
+	border-left: 5px solid #333;
+}
+.deleted-answer {
+	background-color: #281212;
+}
+.ad502-room {
+	background-color : #111;
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+	border-top: 1px solid #222;
+	border-left: 1px solid #222;
+	-moz-box-shadow: 0px 1px 3px #222;
+	-webkit-box-shadow: 0px 1px 3px #222;
+	box-shadow: 0px 1px 3px #222;
+}
+.lastactivity-link {
+	background-color : #000;
+}
+.subtabs a:hover,
+.subtabs a.youarehere {
+	background-color: #000;
+	color : #fff;
+}
+.user-about-me {
+	background-color: #111;
+	border-top: 1px solid #1F1F1F;
+	border-top: 1px solid #111;
+	border-bottom: 1px solid #111;
+}
+.module p {
+	color : #fff;
+}
+.review-bar-container .review-bar {
+	border: 1px solid #333;
+	background-color: rgba(0, 0, 0, 0.95);
+	-webkit-box-shadow: 1px 1px 1px rgba(55, 55, 55, 0.8);
+}
+#hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, a.cc-wiki-link, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
+  background-image: url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/sprites.png');
 }
 
 .wmd-button > span {
-    -webkit-box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 1);
-    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 1);
-    opacity: 0.5;
+  background-image: url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png');
 }
-
-.wmd-button:hover > span {
-    -webkit-box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 1);
-    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 1);
-    opacity: 0.8;
-}
-
-.grippie {
-    background-color: #111;
-    border: 1px solid #222;
-}
-
-.question-status {
-    background-color: #111;
-}
-
-code {
-    background-color: #111;
-}
-
-pre {
-    background-color: #111;
-    border-left: 5px solid #333;
-}
-
-.deleted-answer {
-    background-color: #281212;
-}
-
-.ad502-room {
-    background-color: #111;
-    border-bottom: 1px solid #333;
-    border-right: 1px solid #333;
-    border-top: 1px solid #222;
-    border-left: 1px solid #222;
-    -moz-box-shadow: 0px 1px 3px #222;
-    -webkit-box-shadow: 0px 1px 3px #222;
-    box-shadow: 0px 1px 3px #222;
-}
-
-.lastactivity-link {
-    background-color: #000;
-}
-
-.subtabs a:hover, .subtabs a.youarehere {
-    background-color: #000;
-    color: #fff;
-}
-
-.user-about-me {
-    background-color: #111;
-    border-top: 1px solid #111;
-    border-bottom: 1px solid #111;
-}
-
-.module p {
-    color: #fff;
-}
-
