@@ -76,6 +76,11 @@ pre {
 	background-color : #111;
 	border-left: 5px solid #333;
 }
+
+blockquote {
+	background-color : #111;
+	border-left: 5px solid #333;
+}
 .deleted-answer {
 	background-color: #281212;
 }
