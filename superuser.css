@@ -189,3 +189,35 @@ subheader {
   -webkit-box-shadow : 2px 2px 5px #4C1028;
   box-shadow         : 2px 2px 5px #4C1028;
 }
+
+/* Review */
+table.full-diff td {
+  border : none;
+}
+.suggested-edit .body-diffs .full-diff .skip {
+  background-color : #222;
+}
+.suggested-edit .body-diffs .full-diff .inserted {
+  background-color : #43443D;
+}
+.suggested-edit .body-diffs .full-diff .deleted {
+  background-color : #604646;
+}
+span.diff-add {
+  -moz-box-shadow    : 0 0 5px #D1E1AD;
+  -webkit-box-shadow : 0 0 5px #D1E1AD;
+  box-shadow         : 0 0 5px #D1E1AD;
+}
+span.diff-delete {
+  -moz-box-shadow    : 0 0 5px #E5BDB2;
+  -webkit-box-shadow : 0 0 5px #E5BDB2;
+  box-shadow         : 0 0 5px #E5BDB2;
+}
+.revision-comment {
+	background-color : #000;/*#21201D;*/
+	border : 1px solid #33322B;
+	color : #888;
+	moz-box-shadow     : 0 0 8px rgba(255, 255, 255, 0.4);
+	-webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4);
+	box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4);
+}
