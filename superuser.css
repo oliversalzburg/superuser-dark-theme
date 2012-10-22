@@ -170,6 +170,20 @@ subheader {
   color : #666;
 }
 .everyonelovesstackoverflow {
-  opacity : 0.5;
-  
+  opacity : 0.5; 
+}
+
+/* Popup (Close question, etc.) */
+.popup {
+  background-color : #000;
+  border : 10px solid #4C1028;
+}
+.action-list .action-selected {
+  background-color : #222;
+}
+.popup-close a {
+  background-color   : #4C1028;
+  -moz-box-shadow    : 2px 2px 5px #4C1028;
+  -webkit-box-shadow : 2px 2px 5px #4C1028;
+  box-shadow         : 2px 2px 5px #4C1028;
 }
