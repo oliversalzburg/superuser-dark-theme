@@ -1,7 +1,7 @@
 # Super User Dark Theme
 
 ## Main Page
-![](http://i.imgur.com/Jj3ri.png)
+![](http://i.imgur.com/JHQ9d.png)
 
 ## Tags
 ![](http://i.imgur.com/iEVqm.png)

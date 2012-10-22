@@ -195,8 +195,23 @@ tr.comment:hover {
   color            : #fff;
 }
 
+#question-header {
+  border-bottom: 1px solid #ccc;
+}
+#question-header h1 {
+  font-size: 120%;
+  line-height: 20px;
+
+  background-repeat: no-repeat;
+  padding-left: 30px;
+
+  background-position: -240px 0px;
+  background-image: url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png') !important;
+
+
+}
 #question-header a {
-  color : #fff;
+  color : #ccc;
 }
 
 .question-summary {
