@@ -1,10 +1,13 @@
 # Super User Dark Theme
 
 ## Main Page
-![](http://i.imgur.com/ndj2S.png)
+![](http://i.imgur.com/Jj3ri.png)
 
 ## Tags
 ![](http://i.imgur.com/iEVqm.png)
 
 ## Question
 ![](http://i.imgur.com/5t3HB.png)
+
+## Editor
+![](http://i.imgur.com/jSa8g.png)
