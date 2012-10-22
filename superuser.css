@@ -156,6 +156,10 @@ tr.comment:hover {
 #question-header a {
   color : #fff;
 }
+.question-summary {
+  border-bottom: 1px dotted #666;
+  
+}
 .review-diff-bar {
   background-color: #222;
 }
@@ -167,4 +171,5 @@ subheader {
 }
 .everyonelovesstackoverflow {
   opacity : 0.5;
+  
 }
