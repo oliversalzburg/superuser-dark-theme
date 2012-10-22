@@ -62,16 +62,6 @@ textarea {
 .wmd-button-bar {
 	background-color : #000;
 }
-.wmd-button > span {
-	-webkit-box-shadow : inset 0 0 10px 2px rgba(0, 0, 0, 1);
-	box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 1);
-	opacity: 0.5;
-}
-.wmd-button:hover > span {
-	-webkit-box-shadow : inset 0 0 10px 1px rgba(0, 0, 0, 1);
-	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 1);
-	opacity: 0.8;
-}
 .grippie {
 	background-color: #111;
 	border: 1px solid #222;
