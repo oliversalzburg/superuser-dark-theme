@@ -1,3 +1,16 @@
+#custom-header {
+  background-color: #222;
+}
+#hlinks a.mod-flag-indicator {
+  color : #000;
+}
+#hlinks a {
+  color : #888;
+}
+#hsearch .textbox {
+  border-top: 1px solid #333;
+  border-left: 1px solid #333;
+}
 body {
 	background-color : #000;
 	color : #888;
@@ -12,11 +25,15 @@ body {
 .tagged-interesting {
 	background-color: #2A2D2D;
 }
+.tagged-ignored {
+  background-color : transparent;
+}
 .module {
 	background-color : #000;
+	color : #888;
 }
 .new-post-activity, #new-answer-activity {
-	background-color : #111111;	
+	background-color : #222;	
 }
 #footer {
 	background-color : #000;
@@ -63,29 +80,29 @@ textarea {
 	background-color : #000;
 }
 .grippie {
-	background-color: #111;
+	background-color: #222;
 	border: 1px solid #222;
 }
 .question-status {
-	background-color : #111;
+	background-color : #222;
 }
 code {
-	background-color : #111;
+	background-color : #222;
 }
 pre {
-	background-color : #111;
+	background-color : #222;
 	border-left: 5px solid #333;
 }
 
 blockquote {
-	background-color : #111;
+	background-color : #222;
 	border-left: 5px solid #333;
 }
 .deleted-answer {
 	background-color: #281212;
 }
 .ad502-room {
-	background-color : #111;
+	background-color : #222;
 	border-bottom: 1px solid #333;
 	border-right: 1px solid #333;
 	border-top: 1px solid #222;
@@ -103,10 +120,10 @@ blockquote {
 	color : #fff;
 }
 .user-about-me {
-	background-color: #111;
+	background-color: #222;
 	border-top: 1px solid #1F1F1F;
-	border-top: 1px solid #111;
-	border-bottom: 1px solid #111;
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
 }
 .module p {
 	color : #fff;
@@ -130,9 +147,21 @@ tr.comment > td {
   border-bottom: dotted 1px #222;
 }
 tr.comment:hover {
-  background-color : #111;
+  background-color : #222;
 }
 .bounty {
-  background-color : #111;
+  background-color : #222;
   color : #fff;
+}
+#question-header a {
+  color : #fff;
+}
+.review-diff-bar {
+  background-color: #222;
+}
+subheader {
+  color: #888;
+}
+.reputation-score {
+  color : #666;
 }
