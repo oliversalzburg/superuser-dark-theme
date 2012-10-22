@@ -160,11 +160,11 @@ tr.comment:hover {
 }
 .question-summary {
   border-bottom: 1px dotted #666;
-  
 }
-.review-diff-bar {
-  background-color: #222;
+div#userinfo {
+  background-color:#222;
 }
+
 subheader {
   color: #888;
 }
@@ -173,6 +173,9 @@ subheader {
 }
 .everyonelovesstackoverflow {
   opacity : 0.5; 
+}
+.comments {
+  color : #777;
 }
 
 /* Popup (Close question, etc.) */
@@ -191,6 +194,9 @@ subheader {
 }
 
 /* Review */
+.review-diff-bar {
+  background-color: #222;
+}
 table.full-diff td {
   border : none;
 }
