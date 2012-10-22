@@ -126,3 +126,7 @@ blockquote {
 tr.comment:hover {
   background-color : #111;
 }
+.bounty {
+  background-color : #111;
+  color : #fff;
+}
