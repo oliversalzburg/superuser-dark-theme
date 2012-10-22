@@ -123,6 +123,12 @@ blockquote {
 .wmd-button > span {
   background-image: url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png');
 }
+.comments {
+  border-top : dotted 1px #555;
+}
+tr.comment > td {
+  border-bottom: dotted 1px #222;
+}
 tr.comment:hover {
   background-color : #111;
 }
