@@ -151,6 +151,12 @@ blockquote {
   border-top       : 1px solid #222;
   border-bottom    : 1px solid #222;
 }
+.user-show-new .user-header .user-header-left .gravatar .reputation a {
+  color : #eee;
+  -moz-text-shadow    : 0 0 5px #FFF;
+  -webkit-text-shadow : 0 0 5px #FFF;
+  text-shadow         : 0 0 5px #FFF;
+}
 
 .module p {
   color : #fff;
