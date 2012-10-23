@@ -121,6 +121,7 @@ blockquote {
 
 .deleted-answer {
   background-color : #281212;
+  opacity : 0.7;
 }
 
 .ad502-room {
@@ -188,6 +189,9 @@ tr.comment:hover {
 .bounty {
   background-color : #222;
   color            : #fff;
+}
+.bounty-indicator, .bounty-indicator-tab, .bounty-award {
+  color : #000;
 }
 
 #question-header {
