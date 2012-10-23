@@ -96,11 +96,6 @@ textarea {
 .owner {
   background-color : #282D2D;
 }
-
-.wmd-button-bar {
-  background-color : #000;
-}
-
 .grippie {
   background-color : #222;
   border           : 1px solid #222;
@@ -213,16 +208,18 @@ tr.comment:hover {
 #question-header a {
   color : #ccc;
 }
-
 .question-summary {
   border-bottom : 1px dotted #666;
+}
+.wmd-button-bar {
+  background-color : #000;
 }
 
 div#userinfo {
   background-color : #222;
 }
 
-subheader {
+.subheader {
   color : #888;
 }
 
@@ -268,12 +265,29 @@ table.full-diff td {
   background-color : #222;
 }
 
+#revisions .markdown-diff .full-diff .inserted,
 .suggested-edit .body-diffs .full-diff .inserted {
   background-color : #43443D;
 }
-
+#revisions .markdown-diff .full-diff .deleted,
 .suggested-edit .body-diffs .full-diff .deleted {
   background-color : #604646;
+}
+#revisions .diff-choices a {
+  border: none;
+  opacity : 0.5;
+}
+#revisions .diff-choices a.selected, 
+#revisions .diff-choices a.selected:hover {
+    border: none;
+    background-color : #222;
+    opacity : 1;
+}
+.revision td {
+  background-color: #352A2A;
+}
+.owner-revision td {
+  background-color: #273133
 }
 
 span.diff-add {
@@ -295,4 +309,15 @@ span.diff-delete {
   moz-box-shadow     : 0 0 8px rgba(255, 255, 255, 0.4);
   -webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4);
   box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+/* Editor Fix */
+#post-form .wmd-container,
+#post-form .wmd-input,
+#post-form .wmd-preview{
+  width: 720px;
+}
+#post-form .wmd-button-bar {
+  background-color : #000;
+  width: 728px
 }
