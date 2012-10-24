@@ -240,6 +240,8 @@ div#userinfo {
   opacity : 0.5;
   -webkit-transition: 1s ease-in;
   -moz-transition   : 1s ease-in;
+  /* Fix pesky line below image */
+  line-height : 10px;
 }
 .everyonelovesstackoverflow:hover {
   background-color : #FFF;
