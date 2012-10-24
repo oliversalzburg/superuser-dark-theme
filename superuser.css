@@ -53,6 +53,8 @@ body {
   background : #000;
   border     : 1px solid #000;
   color      : #888;
+  -webkit-transition: 0.10s ease-in;
+  -moz-transition   : 0.10s ease-in;
 }
 
 #tabs a.youarehere {
@@ -191,6 +193,10 @@ tr.comment > td {
   border-bottom : dotted 1px #222;
 }
 
+tr.comment {
+  -webkit-transition: 0.10s ease-in;
+  -moz-transition   : 0.10s ease-in;
+}
 tr.comment:hover {
   background-color : #222;
 }
@@ -241,6 +247,15 @@ div#userinfo {
 /* Ad block */
 .everyonelovesstackoverflow {
   opacity : 0.5;
+  -webkit-transition: 1s ease-in;
+  -moz-transition   : 1s ease-in;
+}
+.everyonelovesstackoverflow:hover {
+  background-color : #FFF;
+  opacity : 1;
+  moz-box-shadow     : 0 0 18px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow : 0 0 18px rgba(255, 255, 255, 0.8);
+  box-shadow         : 0 0 18px rgba(255, 255, 255, 0.8);
 }
 
 .comments {
@@ -293,10 +308,12 @@ table.full-diff td {
   opacity : 0.5;
 }
 #revisions .diff-choices a.selected, 
-#revisions .diff-choices a.selected:hover {
-    border: none;
-    background-color : #222;
-    opacity : 1;
+#revisions .diff-choices a.selected:hover {  
+  border: none;
+  background-color : #222;
+  opacity : 1;
+  -webkit-transition: 0.10s ease-in;
+  -moz-transition   : 0.10s ease-in;
 }
 .revision td {
   background-color: #352A2A;
