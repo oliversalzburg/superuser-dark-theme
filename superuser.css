@@ -295,7 +295,8 @@ div#userinfo {
 }
 
 .review-diff-bar {
-  background-color : #222;
+  background-color : #000;
+  border-bottom: 1px solid #333;
 }
 table.full-diff td {
   border : none;
@@ -347,17 +348,15 @@ span.diff-add {
   -webkit-box-shadow : 0 0 5px #D1E1AD;
   box-shadow         : 0 0 5px #D1E1AD;
 }
-
 span.diff-delete {
   -moz-box-shadow    : 0 0 5px #E5BDB2;
   -webkit-box-shadow : 0 0 5px #E5BDB2;
   box-shadow         : 0 0 5px #E5BDB2;
 }
-
 .revision-comment {
-  background-color   : #000; /*#21201D;*/
-  border             : 1px solid #33322B;
-  color              : #888;
+  background-color   : #222;
+  border             : 1px solid #333;
+  color              : #FFF;
   moz-box-shadow     : 0 0 8px rgba(255, 255, 255, 0.4);
   -webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4);
   box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4);
