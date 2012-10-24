@@ -169,10 +169,6 @@ blockquote {
   background-color : transparent;
 }
 
-.wmd-button > span {
-  background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png');
-}
-
 .comments {
   border-top : dotted 1px #555;
 }
@@ -216,8 +212,9 @@ tr.comment:hover {
 .question-summary {
   border-bottom : 1px dotted #666;
 }
-.wmd-button-bar {
-  background-color : #000;
+.answer {
+  /* Overrides the fade when opening a link */
+  background : #000;
 }
 
 div#userinfo {
@@ -374,6 +371,12 @@ span.diff-delete {
 /* More Editor */
 .form-item label {
   color : #666;
+}
+.wmd-button-bar {
+  background-color : #000;
+}
+.wmd-button > span {
+  background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png');
 }
 /* WMD Image selection dialog (same style as Popup) */
 .wmd-prompt-dialog {
