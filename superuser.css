@@ -61,7 +61,7 @@ body {
   background          : #000;
   border              : 1px solid #888;
   border-bottom-color : #000;
-  color               : #fff;
+  color               : #eee;
 }
 
 #tabs a:hover {
@@ -167,11 +167,6 @@ blockquote {
   color : #fff;
 }
 
-.review-bar-container .review-bar {
-  border             : 1px solid #333;
-  background-color   : rgba(0, 0, 0, 0.95);
-  -webkit-box-shadow : 1px 1px 1px rgba(55, 55, 55, 0.8);
-}
 
 #hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, a.cc-wiki-link, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
   background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/sprites.png');
@@ -280,6 +275,18 @@ div#userinfo {
 }
 
 /* Review */
+.review-instructions b {
+  color : #FFF;
+  -moz-text-shadow    : 0 0 1px #FFF;
+  -webkit-text-shadow : 0 0 1px #FFF;
+  text-shadow         : 0 0 1px #FFF;
+}
+.review-bar-container .review-bar {
+  border             : 1px solid #333;
+  background-color   : rgba(0, 0, 0, 0.95);
+  -webkit-box-shadow : 1px 1px 1px rgba(55, 55, 55, 0.8);
+}
+
 .review-diff-bar {
   background-color : #222;
 }
