@@ -118,7 +118,10 @@ blockquote {
   background-color : #222;
   border-left      : 5px solid #333;
 }
-
+.post-text hr {
+  background-color: #333;
+  color: #333;
+}
 .deleted-answer {
   background-color : #281212;
   opacity : 0.7;
@@ -212,8 +215,6 @@ tr.comment:hover {
 
   background-position: -240px 0px;
   background-image: url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png') !important;
-
-
 }
 #question-header a {
   color : #ccc;
@@ -237,6 +238,7 @@ div#userinfo {
   color : #666;
 }
 
+/* Ad block */
 .everyonelovesstackoverflow {
   opacity : 0.5;
 }
