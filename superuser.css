@@ -19,7 +19,10 @@ body {
   background-color : #000;
   color            : #888;
 }
-
+.module {
+  background-color : #000;
+  color            : #888;
+}
 .module.community-bulletin {
   background-color   : #21201D;
   border             : 1px solid #33322B;
@@ -27,18 +30,15 @@ body {
   -webkit-box-shadow : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset;
   box-shadow         : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset;
 }
+.newuser p {
+  color : #DDD;
+}
 
 .tagged-interesting {
   background-color : #222;
 }
-
 .tagged-ignored {
   background-color : transparent;
-}
-
-.module {
-  background-color : #000;
-  color            : #888;
 }
 
 .new-post-activity, #new-answer-activity {
@@ -163,11 +163,6 @@ blockquote {
   text-shadow         : 0 0 5px #FFF;
 }
 
-.module p {
-  color : #fff;
-}
-
-
 #hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, a.cc-wiki-link, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
   background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/sprites.png');
 }
@@ -275,12 +270,21 @@ div#userinfo {
 }
 
 /* Review */
-.review-instructions b {
+.review-instructions b,
+.review-instructions strong {
   color : #FFF;
   -moz-text-shadow    : 0 0 1px #FFF;
   -webkit-text-shadow : 0 0 1px #FFF;
   text-shadow         : 0 0 1px #FFF;
 }
+.review-actions input[type="button"] {
+ -webkit-transition: 0.10s ease-in;
+  -moz-transition   : 0.10s ease-in;
+}
+.review-actions input[type="button"]:hover {
+  border : 1px solid #fff;
+}
+
 .review-bar-container .review-bar {
   border             : 1px solid #333;
   background-color   : rgba(0, 0, 0, 0.95);
@@ -290,9 +294,15 @@ div#userinfo {
 .review-diff-bar {
   background-color : #222;
 }
-
 table.full-diff td {
   border : none;
+}
+.stats-mainbar .task-stat-table {
+  background-color : #111;
+}
+.stats-mainbar .task-stat-table td {
+  border : 5px solid #000;
+  background-color : #000;
 }
 
 .suggested-edit .body-diffs .full-diff .skip {
@@ -359,4 +369,23 @@ span.diff-delete {
 #post-form .wmd-button-bar {
   background-color : #000;
   width: 728px
+}
+.form-item label {
+  color : #666;
+}
+/* WMD Image selection dialog (same style as Popup) */
+.wmd-prompt-dialog {
+  background-color : #000;
+  border           : 10px solid #4C1028;
+}
+.tag-suggestions {
+  background-color : #000;
+}
+.tag-suggestions > div {
+  -webkit-transition: 0.10s ease-in;
+  -moz-transition   : 0.10s ease-in;
+}
+.tag-suggestions > div:hover,
+.tag-suggestions > div:hover .more-info {
+  background-color : #222;
 }
