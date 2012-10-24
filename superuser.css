@@ -74,11 +74,6 @@ body {
   background-color : #000;
   border           : 2px solid #05272D;
 }
-
-.delete-tag:hover {
-  opacity : 1.0;
-}
-
 .answered-accepted {
   background-color : #3A5408;
 }
@@ -87,6 +82,9 @@ input, select, button {
   background-color : #000;
   border           : 1px solid #333;
   color            : #888;
+}
+input[type="checkbox"] {
+  opacity : 0.6;
 }
 
 textarea {
@@ -395,6 +393,9 @@ span.diff-delete {
 }
 
 /* Moderator stuff */
+table.sorter {
+  border : none;
+}
 table.sorter tbody td {
   color: inherit;
   background-color: #111;
