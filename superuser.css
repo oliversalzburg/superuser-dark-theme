@@ -89,8 +89,9 @@ input[type="checkbox"] {
 
 textarea {
   background-color : #000;
-  border           : 1px solid #333;
-  color            : #888;
+  border           : 1px solid #666;
+  color            : #FFF;
+  opacity:0.5;
 }
 
 .owner {
@@ -110,8 +111,13 @@ code {
 }
 
 pre {
-  background-color : #222;
-  border-left      : 5px solid #333;
+  background-color : #444;
+  border-left      : 5px solid #666;
+  opacity:0.5;
+}
+pre > code {
+  background-color : #444;
+  color : #FFF;
 }
 
 blockquote {
