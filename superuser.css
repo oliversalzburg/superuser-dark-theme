@@ -78,6 +78,9 @@ body {
   background-color : #000;
   border           : 2px solid #05272D;
 }
+.post-text a {
+  color : #1086A4;
+}
 
 .answered-accepted {
   background-color : #3A5408;
