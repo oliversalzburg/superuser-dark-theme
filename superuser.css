@@ -393,3 +393,22 @@ span.diff-delete {
 .tag-suggestions > div:hover .more-info {
   background-color : #222;
 }
+
+/* Moderator stuff */
+table.sorter tbody td {
+  color: inherit;
+  background-color: #111;
+  -webkit-transition: 0.10s ease-in;
+  -moz-transition   : 0.10s ease-in;
+}
+table.sorter tbody tr.odd td {
+  background-color: #000;
+}
+table.sorter tbody tr:hover td {
+  background-color: #222;
+}
+table.sorter th,
+table.sorter tfoot td {
+  background-color : transparent;
+  border : none;
+}
