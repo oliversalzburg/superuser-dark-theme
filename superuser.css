@@ -292,7 +292,7 @@ div#userinfo {
 /* Popup (Close question, etc.) */
 .popup {
   background-color : #000;
-  border           : 10px solid #4C1028;
+  border           : 10px solid #19050D;
 }
 
 .action-list .action-selected {
@@ -300,10 +300,10 @@ div#userinfo {
 }
 
 .popup-close a {
-  background-color   : #4C1028;
-  -moz-box-shadow    : 2px 2px 5px #4C1028;
-  -webkit-box-shadow : 2px 2px 5px #4C1028;
-  box-shadow         : 2px 2px 5px #4C1028;
+  background-color   : #19050D;
+  -moz-box-shadow    : 2px 2px 5px #19050D;
+  -webkit-box-shadow : 2px 2px 5px #19050D;
+  box-shadow         : 2px 2px 5px #19050D;
 }
 
 /* Review */
@@ -441,7 +441,7 @@ span.diff-delete {
 /* WMD Image selection dialog (same style as Popup) */
 .wmd-prompt-dialog {
   background-color : #000;
-  border           : 10px solid #4C1028;
+  border           : 10px solid #19050D;
 }
 
 .tag-suggestions {
