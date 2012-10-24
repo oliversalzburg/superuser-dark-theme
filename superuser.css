@@ -285,6 +285,9 @@ table.full-diff td {
 .suggested-edit .body-diffs .full-diff .deleted {
   background-color : #604646;
 }
+#revisions .markdown-diff .full-diff .skip {
+  background-color : #222;
+}
 #revisions .diff-choices a {
   border: none;
   opacity : 0.5;
