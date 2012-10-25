@@ -144,6 +144,11 @@ blockquote {
   color            : #333;
 }
 
+.reviewable-answer,
+.answer {
+  /* Overrides the fade when opening a link */
+  background : #000;
+}
 .deleted-answer {
   background-color : #281212;
   opacity          : 0.7;
@@ -258,12 +263,6 @@ tr.comment:hover {
 
 .question-summary {
   border-bottom : 1px dotted #666;
-}
-
-.reviewable-answer,
-.answer {
-  /* Overrides the fade when opening a link */
-  background : #000;
 }
 
 div#userinfo {
