@@ -24,7 +24,9 @@ body {
   background-color : #000;
   color            : #888;
 }
-
+.module p { 
+  color : inherit;
+}
 .module.community-bulletin {
   background-color   : #21201D;
   border             : 1px solid #33322B;
@@ -190,6 +192,9 @@ blockquote {
   -webkit-text-shadow : 0 0 5px #FFF;
   text-shadow         : 0 0 5px #FFF;
 }
+.user-show-new .history-table > tbody > tr {
+  border-top : 1px solid #222;
+}
 
 .mod-flair {
   -moz-text-shadow    : 0 0 5px #1086A4;
@@ -207,6 +212,7 @@ blockquote {
 
 .comments {
   border-top : dotted 1px #555;
+  color : #777;
 }
 
 tr.comment > td {
@@ -254,6 +260,7 @@ tr.comment:hover {
   border-bottom : 1px dotted #666;
 }
 
+.reviewable-answer,
 .answer {
   /* Overrides the fade when opening a link */
   background : #000;
@@ -286,10 +293,6 @@ div#userinfo {
   -moz-box-shadow    : 0 0 18px rgba(255, 255, 255, 0.8);
   -webkit-box-shadow : 0 0 18px rgba(255, 255, 255, 0.8);
   box-shadow         : 0 0 18px rgba(255, 255, 255, 0.8);
-}
-
-.comments {
-  color : #777;
 }
 
 /* Popup (Close question, etc.) */
@@ -349,6 +352,10 @@ table.full-diff td {
 .stats-mainbar .task-stat-table td {
   border           : 5px solid #000;
   background-color : #000;
+}
+.review-stats-count-current-user,
+.review-stats-current-user {
+  background-color : #222;
 }
 
 .suggested-edit .body-diffs .full-diff .skip {
