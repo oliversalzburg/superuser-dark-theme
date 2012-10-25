@@ -1,0 +1,486 @@
+/**
+    Title: Super User Dark Theme
+    URL: http://stylebot.me/styles/1798
+    Author: http://stylebot.me/users/oliversalzburg
+    Adapted to FF Stylish theme by Sathya
+**/
+
+
+@-moz-document domain("superuser.com")  {
+
+#custom-header {
+  background-color : #222 !important ;
+}
+
+#hlinks a.mod-flag-indicator {
+  color : #000 !important;
+}
+
+#hlinks a {
+  color : #888 !important;
+}
+
+#hsearch .textbox {
+  border-top  : 1px solid #333 !important;
+  border-left : 1px solid #333 !important;
+}
+
+body {
+  background-color : #000 !important;
+  color            : #888 !important;
+}
+
+.module {
+  background-color : #000 !important;
+  color            : #888 !important;
+}
+
+.module.community-bulletin {
+  background-color   : #21201D !important;
+  border             : 1px solid #33322B !important;
+  -webkit-box-shadow : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
+  box-shadow         : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
+}
+
+.newuser p {
+  color : #DDD !important;
+}
+
+.tagged-interesting {
+  background-color : #222 !important;
+}
+
+.tagged-ignored {
+  background-color : transparent !important;
+}
+
+.new-post-activity, #new-answer-activity {
+  background-color : #222 !important;
+}
+
+#footer {
+  background-color : #000 !important;
+}
+
+#tabs a {
+  background         : #000 !important;
+  border             : 1px solid #000 !important;
+  color              : #888 !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+#tabs a.youarehere {
+  background          : #000 !important;
+  border              : 1px solid #888 !important;
+  border-bottom-color : #000 !important;
+  color               : #eee !important;
+}
+
+#tabs a:hover {
+  background          : black !important !important;
+  border              : 1px solid #888 !important;
+  border-bottom-color : #000 !important;
+}
+
+.post-tag, .post-text .post-tag, .wmd-preview a.post-tag {
+  background-color : #000 !important;
+  border           : 2px solid #05272D !important;
+}
+.post-text a {
+  color : #1086A4 !important;
+}
+
+.answered-accepted {
+  background-color : #3A5408 !important;
+}
+
+input, select, button {
+  background-color : #000 !important;
+  border           : 1px solid #333 !important;
+  color            : #888 !important;
+}
+
+input[type="checkbox"] {
+  opacity : 0.6 !important;
+}
+
+textarea {
+  background-color : #000 !important;
+  border           : 1px solid #666 !important;
+  color            : #FFF !important;
+  opacity          : 0.5 !important;
+}
+
+.owner {
+  background-color : #282D2D !important;
+}
+
+.grippie {
+  background-color : #222 !important;
+  border           : 1px solid #222 !important;
+}
+
+.question-status {
+  background-color : #222 !important;
+}
+
+code {
+  background-color : #222 !important;
+}
+
+pre {
+  background-color : #444 !important;
+  border-left      : 5px solid #666 !important;
+  color            : #FFF !important;
+  opacity          : 0.5 !important;
+}
+
+pre > code {
+  background-color : #444 !important;
+  color            : #FFF !important;
+}
+
+blockquote {
+  background-color : #222 !important;
+  border-left      : 5px solid #333 !important;
+}
+
+.post-text hr {
+  background-color : #333 !important;
+  color            : #333 !important;
+}
+
+.deleted-answer {
+  background-color : #281212 !important;
+  opacity          : 0.7 !important;
+}
+
+.ad502-room {
+  background-color   : #222 !important;
+  border-bottom      : 1px solid #333 !important;
+  border-right       : 1px solid #333 !important;
+  border-top         : 1px solid #222 !important;
+  border-left        : 1px solid #222 !important;
+  -webkit-box-shadow : 0px 1px 3px #222 !important;
+  box-shadow         : 0px 1px 3px #222 !important;
+}
+
+.lastactivity-link {
+  background-color : #000 !important;
+}
+
+.subtabs a:hover,
+.subtabs a.youarehere {
+  background-color : #000 !important;
+  color            : #fff !important;
+}
+
+.profile-popup {
+  background-color   : black !important;
+  border             : 10px solid #222 !important;
+  border-top         : 1px solid #222 !important;
+  -webkit-box-shadow : 0px 10px 15px #000 !important;
+  box-shadow         : 0px 10px 15px #000 !important;
+}
+
+.user-about-me {
+  background-color : #222 !important;
+  border-top       : 1px solid #1F1F1F !important;
+  border-top       : 1px solid #222 !important;
+  border-bottom    : 1px solid #222 !important;
+}
+
+.user-show-new .user-header .user-header-left .gravatar .reputation a {
+  color               : #eee !important;
+  -webkit-text-shadow : 0 0 5px #FFF !important;
+  text-shadow         : 0 0 5px #FFF !important;
+}
+
+.mod-flair {
+  text-shadow         : 0 0 5px #1086A4 !important;
+}
+
+#hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, a.cc-wiki-link, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
+  background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/sprites.png') !important;
+}
+
+.tag-editor {
+  background-color : transparent !important;
+}
+
+.comments {
+  border-top : dotted 1px #555 !important;
+}
+
+tr.comment > td {
+  border-bottom : dotted 1px #222 !important;
+}
+
+tr.comment {
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+tr.comment:hover {
+  background-color : #222 !important;
+}
+
+.bounty {
+  background-color : #222 !important;
+  color            : #fff !important;
+}
+
+.bounty-indicator, .bounty-indicator-tab, .bounty-award {
+  color : #000 !important;
+}
+
+#question-header {
+  border-bottom : 1px solid #ccc !important;
+}
+
+#question-header h1 {
+  font-size           : 120% !important;
+  line-height         : 20px !important;
+
+  background-repeat   : no-repeat !important;
+  padding-left        : 30px !important;
+
+  background-position : -240px 0px !important;
+  background-image    : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png') !important !important;
+}
+
+#question-header a {
+  color : #ccc !important;
+}
+
+.question-summary {
+  border-bottom : 1px dotted #666 !important;
+}
+
+.answer {
+  /* Overrides the fade when opening a link */
+  background : #000 !important;
+}
+
+div#userinfo {
+  background-color : #222 !important;
+}
+
+.subheader {
+  color : #888 !important;
+}
+
+.reputation-score {
+  color : #666 !important;
+}
+
+/* Ad block */
+.everyonelovesstackoverflow {
+  opacity            : 0.5 !important;
+  -webkit-transition : 1s ease-in !important;
+  -moz-transition    : 1s ease-in !important;
+  /* Fix pesky line below image */
+  line-height        : 10px !important;
+}
+
+.everyonelovesstackoverflow:hover {
+  background-color   : #FFF !important;
+  opacity            : 1 !important;
+  -webkit-box-shadow : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+  box-shadow         : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+}
+
+.comments {
+  color : #777 !important;
+}
+
+/* Popup (Close question, etc.) */
+.popup {
+  background-color : #000 !important;
+  border           : 10px solid #19050D !important;
+}
+
+.action-list .action-selected {
+  background-color : #222 !important;
+}
+
+.popup-close a {
+  background-color   : #19050D !important;
+  -webkit-box-shadow : 2px 2px 5px #19050D !important;
+  box-shadow         : 2px 2px 5px #19050D !important;
+}
+
+/* Review */
+.review-instructions b,
+.review-instructions strong {
+  color               : #FFF !important;
+  -webkit-text-shadow : 0 0 1px #FFF !important;
+}
+
+.review-actions input[type="button"] {
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+.review-actions input[type="button"]:hover {
+  border : 1px solid #fff !important;
+}
+
+.review-bar-container .review-bar {
+  border             : 1px solid #333 !important;
+  background-color   : rgba(0, 0, 0, 0.95) !important;
+  -webkit-box-shadow : 1px 1px 1px rgba(55, 55, 55, 0.8) !important;
+}
+
+.review-diff-bar {
+  background-color : #000 !important;
+  border-bottom    : 1px solid #333 !important;
+}
+
+table.full-diff td {
+  border : none !important;
+}
+
+.stats-mainbar .task-stat-table {
+  background-color : #111 !important;
+}
+
+.stats-mainbar .task-stat-table td {
+  border           : 5px solid #000 !important;
+  background-color : #000 !important;
+}
+
+.suggested-edit .body-diffs .full-diff .skip {
+  background-color : #222 !important;
+}
+
+#revisions .markdown-diff .full-diff .inserted,
+.suggested-edit .body-diffs .full-diff .inserted {
+  background-color : #43443D !important;
+}
+
+#revisions .markdown-diff .full-diff .deleted,
+.suggested-edit .body-diffs .full-diff .deleted {
+  background-color : #604646 !important;
+}
+
+#revisions .markdown-diff .full-diff .skip {
+  background-color : #222 !important;
+}
+
+#revisions .diff-choices a {
+  border  : none !important;
+  opacity : 0.5 !important;
+}
+
+#revisions .diff-choices a.selected,
+#revisions .diff-choices a.selected:hover {
+  border             : none !important;
+  background-color   : #222 !important;
+  opacity            : 1 !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+.revision td {
+  background-color : #352A2A !important;
+}
+
+.owner-revision td {
+  background-color : #273133
+}
+
+span.diff-add {
+  -webkit-box-shadow : 0 0 5px #D1E1AD !important;
+  box-shadow         : 0 0 5px #D1E1AD !important;
+}
+
+span.diff-delete {
+  -webkit-box-shadow : 0 0 5px #E5BDB2 !important;
+  box-shadow         : 0 0 5px #E5BDB2 !important;
+}
+
+.revision-comment {
+  background-color   : #222 !important;
+  border             : 1px solid #333 !important;
+  color              : #FFF !important;
+  -webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+  box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Editor width Fix */
+#post-form .wmd-container,
+#post-form .wmd-input,
+#post-form .wmd-preview {
+  width : 720px !important;
+}
+
+#post-form .wmd-button-bar {
+  background-color : #000 !important;
+  width            : 728px
+}
+
+.wmd-preview {
+  border : 2px dotted #888 !important;
+}
+
+/* More Editor */
+.form-item label {
+  color : #666 !important;
+}
+
+.wmd-button-bar {
+  background-color : #000 !important;
+}
+
+.wmd-button > span {
+  background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png') !important;
+}
+
+/* WMD Image selection dialog (same style as Popup) */
+.wmd-prompt-dialog {
+  background-color : #000 !important;
+  border           : 10px solid #19050D !important;
+}
+
+.tag-suggestions {
+  background-color : #000 !important;
+}
+
+.tag-suggestions > div {
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+.tag-suggestions > div:hover,
+.tag-suggestions > div:hover .more-info {
+  background-color : #222 !important;
+}
+
+/* Moderator stuff */
+table.sorter {
+  border : none !important;
+}
+
+table.sorter tbody td {
+  color              : inherit !important;
+  background-color   : #111 !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+table.sorter tbody tr.odd td {
+  background-color : #000 !important;
+}
+
+table.sorter tbody tr:hover td {
+  background-color : #222 !important;
+}
+
+table.sorter th,
+table.sorter tfoot td {
+  background-color : transparent !important;
+  border           : none !important;
+}
+}
