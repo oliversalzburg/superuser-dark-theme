@@ -277,6 +277,10 @@ div#userinfo {
   color : #666;
 }
 
+span.feed-icon {
+  background-color : #000;
+}
+
 /* Ad block */
 .everyonelovesstackoverflow {
   opacity            : 0.5;
