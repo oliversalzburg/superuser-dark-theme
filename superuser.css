@@ -83,6 +83,9 @@ body {
 .post-text a {
   color : #1086A4;
 }
+.post-text img {
+  background-color : #888;
+}
 
 .answered-accepted {
   background-color : #3A5408;
@@ -200,6 +203,9 @@ blockquote {
 .user-show-new .history-table > tbody > tr {
   border-top : 1px solid #222;
 }
+.user-show-new .answer-summary {
+  border-bottom: 1px solid #222;
+}
 
 .mod-flair {
   -moz-text-shadow    : 0 0 5px #1086A4;
@@ -279,6 +285,15 @@ div#userinfo {
 
 span.feed-icon {
   background-color : #000;
+}
+
+.welovestackoverflow {
+  color : #888;
+  border : none;
+  border-bottom : 3px solid #222;
+}
+.lsep {
+  color : #444;
 }
 
 /* Ad block */
