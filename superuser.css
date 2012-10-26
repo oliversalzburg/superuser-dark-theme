@@ -338,6 +338,9 @@ span.feed-icon {
   -webkit-text-shadow : 0 0 1px #FFF;
   text-shadow         : 0 0 1px #FFF;
 }
+.review-instructions-reason {
+  background-color : #222;
+}
 
 .review-actions input[type="button"] {
   -webkit-transition : 0.10s ease-in;
