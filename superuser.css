@@ -316,7 +316,7 @@ span.feed-icon {
 /* Popup (Close question, etc.) */
 .popup {
   background-color : #000;
-  border           : 10px solid #19050D;
+  border           : 10px solid #222;
 }
 
 .action-list .action-selected {
@@ -324,10 +324,10 @@ span.feed-icon {
 }
 
 .popup-close a {
-  background-color   : #19050D;
-  -moz-box-shadow    : 2px 2px 5px #19050D;
-  -webkit-box-shadow : 2px 2px 5px #19050D;
-  box-shadow         : 2px 2px 5px #19050D;
+  background-color   : #222;
+  -moz-box-shadow    : 2px 2px 5px #222;
+  -webkit-box-shadow : 2px 2px 5px #222;
+  box-shadow         : 2px 2px 5px #222;
 }
 
 /* Review */
@@ -472,7 +472,7 @@ span.diff-delete {
 /* WMD Image selection dialog (same style as Popup) */
 .wmd-prompt-dialog {
   background-color : #000;
-  border           : 10px solid #19050D;
+  border           : 10px solid #222;
 }
 
 .tag-suggestions {
