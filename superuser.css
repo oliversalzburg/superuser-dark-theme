@@ -447,9 +447,10 @@ span.diff-delete {
   width : 720px;
 }
 
+#post-form .post-editor,
 #post-form .wmd-button-bar {
   background-color : #000;
-  width            : 728px
+  width            : 728px;
 }
 
 .wmd-preview {
