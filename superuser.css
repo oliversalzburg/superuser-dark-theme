@@ -216,6 +216,9 @@ blockquote {
 #hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, a.cc-wiki-link, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
   background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/sprites.png');
 }
+.askquestion li {
+  margin-right : 0;
+}
 
 .tag-editor {
   background-color : transparent;
@@ -269,12 +272,15 @@ tr.comment:hover {
 
 .question-summary {
   border-bottom : 1px dotted #666;
+  width : 100%;
 }
 
 div#userinfo {
   background-color : #222;
 }
-
+#header #hmenus {
+  width : 700px;
+}
 .subheader {
   color : #888;
 }
