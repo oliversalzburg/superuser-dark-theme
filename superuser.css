@@ -222,6 +222,8 @@ blockquote {
 
 .actual-edit-overlay {
   background-color : #000;
+  color : #fff;
+  -webkit-text-fill-color : #fff;
 }
 .tag-editor {
   background-color : #000;
@@ -287,12 +289,35 @@ div#userinfo {
   color : #888;
 }
 
+#user-browser img {
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
 .reputation-score {
   color : #666;
 }
 
 span.feed-icon {
   background-color : #000;
+}
+
+/* Post Flag bar */
+#postflag-bar {
+  border-top: 2px solid #666;
+  background-color: #222;
+}
+#postflag-bar .nav-button {
+  background-color: #222;
+}
+#postflag-bar .nav-button:hover {
+  background-color: #666;
+}
+#postflag-bar .nav-button:hover a {
+  color : #FFF;
 }
 
 .welovestackoverflow {
