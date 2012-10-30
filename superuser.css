@@ -156,10 +156,11 @@ blockquote {
   color            : #333;
 }
 
+
 .reviewable-answer,
 .answer {
   /* Overrides the fade when opening a link */
-  background : #000;
+  background-color : #000;
 }
 .deleted-answer {
   background-color : #281212;
@@ -564,3 +565,15 @@ table.sorter tfoot td {
   background-color : transparent;
   border           : none;
 }
+
+/* BEGIN Left-align page for huge monitors */
+/*
+#content,
+#header {
+  margin : 0 0 0 10px;
+}
+.footerwrap {
+  margin : 0;
+}
+*/
+/* END Left-align page for huge monitors */
