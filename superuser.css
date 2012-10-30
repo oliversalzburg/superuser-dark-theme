@@ -86,6 +86,20 @@ body {
 .post-text img {
   background-color : #888;
 }
+/* BEGIN Make post menu (the text links) behave all weird like */
+.post-menu > a, 
+.edit-tags-wrapper > span > a {
+  text-align         : center;
+  -webkit-transition : 0.10s ease-in;
+  -moz-transition    : 0.10s ease-in;
+}
+.post-menu > a:hover, 
+.edit-tags-wrapper > span > a:hover {
+  background-color : #222;
+  padding-left     : 20px;
+  padding-right    : 20px;
+}
+/* END Make post menu (the text links) behave all weird like */
 
 .answered-accepted {
   background-color : #3A5408;
@@ -110,11 +124,6 @@ textarea {
 
 .owner {
   background-color : #282D2D;
-}
-
-.grippie {
-  background-color : #222;
-  border           : 1px solid #222;
 }
 
 .question-status {
@@ -473,26 +482,30 @@ span.diff-delete {
   box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4);
 }
 
-/* Editor width Fix */
+/* BEGIN Editor width Fix */
 #post-form .wmd-container,
 #post-form .wmd-input,
 #post-form .wmd-preview {
-  /*width : 720px;*/
-  width : 100%;
+  padding : 0;
+  width   : 100%;
 }
-
 #post-form .post-editor,
 #post-form .wmd-button-bar {
   background-color : #000;
-  /*width            : 728px;*/
-  width : 100%;
+  width            : 100%;
 }
+.grippie {
+  background-color : #222;
+  border           : 1px solid #222;
+  width            : 100%;
+}
+/* END Editor width Fix */
 
+/* More Editor */
 .wmd-preview {
   border : 2px dotted #888;
 }
 
-/* More Editor */
 .form-item label {
   color : #666;
 }
@@ -505,11 +518,12 @@ span.diff-delete {
   background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png');
 }
 
-/* WMD Image selection dialog (same style as Popup) */
+/* BEGIN WMD Image selection dialog (same style as Popup) */
 .wmd-prompt-dialog {
   background-color : #000;
   border           : 10px solid #222;
 }
+/* END WMD Image selection dialog (same style as Popup) */
 
 .tag-suggestions {
   background-color : #000;
