@@ -217,6 +217,18 @@ blockquote {
   border-bottom: 1px solid #222;
 }
 
+/* BEGIN User info Reputation tab */
+.user-show-new .user-rep-full .rep-recent-row {
+  background-color : #000;
+}
+.user-show-new .user-rep-full .rep-table-row > td {
+  border-bottom: dotted 1px #222;
+}
+.highcharts-container svg > rect {
+  fill : #000;
+}
+/* END User info Reputation tab */
+
 .mod-flair {
   -moz-text-shadow    : 0 0 5px #1086A4;
   -webkit-text-shadow : 0 0 5px #1086A4;
