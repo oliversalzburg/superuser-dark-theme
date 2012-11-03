@@ -87,12 +87,15 @@ body {
   background-color : #888;
 }
 /* BEGIN Make post menu (the text links) behave all weird like */
+/* Also applies to some other links of the same flavor */
+.comments-link,
 .post-menu > a, 
 .edit-tags-wrapper > span > a {
   text-align         : center;
   -webkit-transition : 0.10s ease-in;
   -moz-transition    : 0.10s ease-in;
 }
+.comments-link:hover,
 .post-menu > a:hover, 
 .edit-tags-wrapper > span > a:hover {
   background-color : #222;
@@ -251,6 +254,7 @@ blockquote {
   background-color : #000;
 }
 
+/* BEGIN Comments */
 .comments {
   border-top : dotted 1px #555;
   color : #777;
@@ -268,6 +272,12 @@ tr.comment {
 tr.comment:hover {
   background-color : #222;
 }
+/* Move controls in comments to the right */
+.comment-delete,
+.comment-edit {
+  float : right;
+}
+/* END Comments */
 
 .bounty {
   background-color : #222;
@@ -589,3 +599,12 @@ table.sorter tfoot td {
 }
 */
 /* END Left-align page for huge monitors */
+
+/* BEGIN Share box */
+.share-tip {
+  -moz-box-shadow: 2px 2px 4px #222;
+  -webkit-box-shadow: 2px 2px 4px #222;
+  box-shadow: 2px 2px 4px #222;
+  background-color: #222;
+}
+/* END Share box */
