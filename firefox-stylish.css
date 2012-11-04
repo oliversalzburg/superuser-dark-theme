@@ -121,10 +121,12 @@ body {
   background-color : #3A5408 !important;
 }
 
+/* BEGIN Forms elements */
 input, select, button {
   background-color : #000 !important;
   border           : 1px solid #333 !important;
   color            : #888 !important;
+  -moz-appearance: none !important;
 }
 
 input[type="checkbox"] {
@@ -136,7 +138,9 @@ textarea {
   border           : 1px solid #666 !important;
   color            : #FFF !important;
   opacity          : 0.5 !important;
+  -moz-appearance: none !important;
 }
+/* END Forms elements */
 
 .owner {
   background-color : #282D2D !important;
@@ -167,6 +171,7 @@ blockquote {
   border-left      : 5px solid #333 !important;
 }
 
+.wmd-preview hr,
 .post-text hr {
   background-color : #333 !important;
   color            : #333 !important;
