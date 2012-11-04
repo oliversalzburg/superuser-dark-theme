@@ -1,0 +1,630 @@
+@-moz-document domain("superuser.com")  { 
+#custom-header {
+  background-color : #222 !important;
+}
+
+#hlinks a.mod-flag-indicator {
+  color : #000 !important;
+}
+
+#hlinks a {
+  color : #888 !important;
+}
+
+#hsearch .textbox {
+  border-top  : 1px solid #333 !important;
+  border-left : 1px solid #333 !important;
+}
+
+body {
+  background-color : #000 !important;
+  color            : #888 !important;
+}
+
+.module {
+  background-color : #000 !important;
+  color            : #888 !important;
+}
+.module p { 
+  color : inherit !important;
+}
+.module.community-bulletin {
+  background-color   : #21201D !important;
+  border             : 1px solid #33322B !important;
+  -moz-box-shadow    : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
+  -webkit-box-shadow : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
+  box-shadow         : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
+}
+
+.newuser p {
+  color : #DDD !important;
+}
+
+.tagged-interesting {
+  background-color : #222 !important;
+}
+
+.tagged-ignored {
+  background-color : transparent !important;
+}
+
+.new-post-activity, #new-answer-activity {
+  background-color : #222 !important;
+}
+
+#footer {
+  background-color : #000 !important;
+}
+
+#tabs a {
+  background         : #000 !important;
+  border             : 1px solid #000 !important;
+  color              : #888 !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+#tabs a.youarehere {
+  background          : #000 !important;
+  border              : 1px solid #888 !important;
+  border-bottom-color : #000 !important;
+  color               : #eee !important;
+}
+
+#tabs a:hover {
+  background          : black !important;
+  border              : 1px solid #888 !important;
+  border-bottom-color : #000 !important;
+}
+
+/* BEGIN Post */
+.post-tag, .post-text .post-tag, .wmd-preview a.post-tag {
+  background-color : #000 !important;
+  border           : 2px solid #05272D !important;
+}
+.post-text a {
+  color : #1086A4 !important;
+}
+.post-text img {
+  background-color : #888 !important;
+  /* Fix images being pushed outside of the bounds of a post */
+  max-width : 100% !important;
+}
+/* END Post */
+
+/* BEGIN Make post menu (the text links) behave all weird like */
+/* Also applies to some other links of the same flavor */
+.comments-link,
+.post-menu > a, 
+.edit-tags-wrapper > span > a {
+  text-align         : center !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+.comments-link:hover,
+.post-menu > a:hover, 
+.edit-tags-wrapper > span > a:hover {
+  background-color : #222 !important;
+  padding-left     : 20px !important;
+  padding-right    : 20px !important;
+}
+/* END Make post menu (the text links) behave all weird like */
+
+.answered-accepted {
+  background-color : #3A5408 !important;
+}
+
+input, select, button {
+  background-color : #000 !important;
+  border           : 1px solid #333 !important;
+  color            : #888 !important;
+}
+
+input[type="checkbox"] {
+  opacity : 0.6 !important;
+}
+
+textarea {
+  background-color : #000 !important;
+  border           : 1px solid #666 !important;
+  color            : #FFF !important;
+  opacity          : 0.5 !important;
+}
+
+.owner {
+  background-color : #282D2D !important;
+}
+
+.question-status {
+  background-color : #222 !important;
+}
+
+code {
+  background-color : #222 !important;
+}
+
+pre {
+  background-color : #444 !important;
+  border-left      : 5px solid #666 !important;
+  color            : #FFF !important;
+  opacity          : 0.5 !important;
+}
+
+pre > code {
+  background-color : #444 !important;
+  color            : #FFF !important;
+}
+
+blockquote {
+  background-color : #222 !important;
+  border-left      : 5px solid #333 !important;
+}
+
+.post-text hr {
+  background-color : #333 !important;
+  color            : #333 !important;
+}
+
+
+.reviewable-answer,
+.answer {
+  /* Overrides the fade when opening a link */
+  background-color : #000 !important;
+}
+.deleted-answer {
+  background-color : #281212 !important;
+  opacity          : 0.7 !important;
+}
+
+.ad502-room {
+  background-color   : #222 !important;
+  border-bottom      : 1px solid #333 !important;
+  border-right       : 1px solid #333 !important;
+  border-top         : 1px solid #222 !important;
+  border-left        : 1px solid #222 !important;
+  -moz-box-shadow    : 0px 1px 3px #222 !important;
+  -webkit-box-shadow : 0px 1px 3px #222 !important;
+  box-shadow         : 0px 1px 3px #222 !important;
+}
+
+.lastactivity-link {
+  background-color : #000 !important;
+}
+
+/* BEGIN Page number */
+.page-numbers {
+  border-color: #222 !important;
+}
+.page-numbers:hover {
+  border-color: #666 !important;
+}
+/* END Page number */
+
+.subtabs a:hover,
+.subtabs a.youarehere {
+  background-color : #000 !important;
+  color            : #fff !important;
+}
+
+.profile-popup {
+  background-color   : black !important;
+  border             : 10px solid #222 !important;
+  border-top         : 1px solid #222 !important;
+  -moz-box-shadow    : 0px 10px 15px #000 !important;
+  -webkit-box-shadow : 0px 10px 15px #000 !important;
+  box-shadow         : 0px 10px 15px #000 !important;
+}
+
+.user-about-me {
+  background-color : #222 !important;
+  border-top       : 1px solid #1F1F1F !important;
+  border-top       : 1px solid #222 !important;
+  border-bottom    : 1px solid #222 !important;
+}
+
+.user-show-new .user-header .user-header-left .gravatar .reputation a {
+  color               : #eee !important;
+  -moz-text-shadow    : 0 0 5px #FFF !important;
+  -webkit-text-shadow : 0 0 5px #FFF !important;
+  text-shadow         : 0 0 5px #FFF !important;
+}
+.user-show-new .history-table > tbody > tr {
+  border-top : 1px solid #222 !important;
+}
+.user-show-new .answer-summary {
+  border-bottom: 1px solid #222 !important;
+}
+
+/* BEGIN User info Reputation tab */
+.user-show-new .user-rep-full .rep-recent-row {
+  background-color : #000 !important;
+}
+.user-show-new .user-rep-full .rep-table-row > td {
+  border-bottom: dotted 1px #222 !important;
+}
+.highcharts-container svg > rect {
+  fill : #000 !important;
+}
+/* END User info Reputation tab */
+
+.mod-flair {
+  -moz-text-shadow    : 0 0 5px #1086A4 !important;
+  -webkit-text-shadow : 0 0 5px #1086A4 !important;
+  text-shadow         : 0 0 5px #1086A4 !important;
+}
+
+#hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, a.cc-wiki-link, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
+  background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/sprites.png') !important;
+}
+.askquestion li {
+  margin-right : 0 !important;
+}
+
+.actual-edit-overlay {
+  background-color : #000 !important;
+  color : #fff !important;
+  -webkit-text-fill-color : #fff !important;
+}
+.tag-editor {
+  background-color : #000 !important;
+}
+
+/* BEGIN Comments */
+.comments {
+  border-top : dotted 1px #555 !important;
+  color : #777 !important;
+}
+
+tr.comment > td {
+  border-bottom : dotted 1px #222 !important;
+}
+
+tr.comment {
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+tr.comment:hover {
+  background-color : #222 !important;
+}
+/* Move controls in comments to the right */
+.comment-delete,
+.comment-edit {
+  float : right !important;
+}
+/* END Comments */
+
+.bounty {
+  background-color : #222 !important;
+  color            : #fff !important;
+}
+
+.bounty-indicator, .bounty-indicator-tab, .bounty-award {
+  color : #000 !important;
+}
+
+#question-header {
+  border-bottom : 1px solid #ccc !important;
+}
+
+#question-header h1 {
+  font-size           : 120% !important;
+  line-height         : 20px !important;
+
+  background-repeat   : no-repeat !important;
+  padding-left        : 30px !important;
+
+  background-position : -240px 0px !important;
+  background-image    : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png')  !important;
+}
+
+#question-header a {
+  color : #ccc !important;
+}
+
+.question-summary {
+  border-bottom : 1px dotted #666 !important;
+}
+
+div#userinfo {
+  background-color : #222 !important;
+}
+#header #hmenus {
+  width : 700px !important;
+}
+.subheader {
+  color : #888 !important;
+}
+
+#user-browser img {
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%) !important;
+  background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%) !important;
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%) !important;
+  background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%) !important;
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%) !important;
+}
+
+.reputation-score {
+  color : #666 !important;
+}
+
+span.feed-icon {
+  background-color : #000 !important;
+}
+
+/* Post Flag bar */
+#postflag-bar {
+  border-top: 2px solid #666 !important;
+  background-color: #222 !important;
+}
+#postflag-bar .nav-button {
+  background-color: #222 !important;
+}
+#postflag-bar .nav-button:hover {
+  background-color: #666 !important;
+}
+#postflag-bar .nav-button:hover a {
+  color : #FFF !important;
+}
+
+.welovestackoverflow {
+  color : #888 !important;
+  border : none !important;
+  border-bottom : 3px solid #222 !important;
+}
+.lsep {
+  color : #444 !important;
+}
+
+/* Ad block */
+.everyonelovesstackoverflow {
+  opacity            : 0.5 !important;
+  -webkit-transition : 1s ease-in !important;
+  -moz-transition    : 1s ease-in !important;
+  /* Fix pesky line below image */
+  line-height        : 10px !important;
+}
+
+.everyonelovesstackoverflow:hover {
+  background-color   : #FFF !important;
+  opacity            : 1 !important;
+  -moz-box-shadow    : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+  -webkit-box-shadow : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+  box-shadow         : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Popup (Close question, etc.) */
+.popup {
+  background-color : #000 !important;
+  border           : 10px solid #222 !important;
+}
+
+.action-list .action-selected {
+  background-color : #222 !important;
+}
+
+.popup-close a {
+  background-color   : #222 !important;
+  -moz-box-shadow    : 2px 2px 5px #222 !important;
+  -webkit-box-shadow : 2px 2px 5px #222 !important;
+  box-shadow         : 2px 2px 5px #222 !important;
+}
+
+/* Review */
+.review-instructions b,
+.review-instructions strong {
+  color               : #FFF !important;
+  -moz-text-shadow    : 0 0 1px #FFF !important;
+  -webkit-text-shadow : 0 0 1px #FFF !important;
+  text-shadow         : 0 0 1px #FFF !important;
+}
+.review-instructions-reason {
+  background-color : #222 !important;
+}
+
+.review-actions input[type="button"] {
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+.review-actions input[type="button"]:hover {
+  border : 1px solid #fff !important;
+}
+
+.review-bar-container .review-bar {
+  border             : 1px solid #333 !important;
+  background-color   : rgba(0, 0, 0, 0.95) !important;
+  -webkit-box-shadow : 1px 1px 1px rgba(55, 55, 55, 0.8) !important;
+}
+
+.review-diff-bar {
+  background-color : #000 !important;
+  border-bottom    : 1px solid #333 !important;
+}
+
+table.full-diff td {
+  border : none !important;
+}
+
+.stats-mainbar .task-stat-table {
+  background-color : #111 !important;
+}
+
+.stats-mainbar .task-stat-table td {
+  border           : 5px solid #000 !important;
+  background-color : #000 !important;
+}
+.review-stats-count-current-user,
+.review-stats-current-user {
+  background-color : #222 !important;
+}
+
+.suggested-edit .body-diffs .full-diff .skip {
+  background-color : #222 !important;
+}
+
+#revisions .markdown-diff .full-diff .inserted,
+.suggested-edit .body-diffs .full-diff .inserted {
+  background-color : #43443D !important;
+}
+
+#revisions .markdown-diff .full-diff .deleted,
+.suggested-edit .body-diffs .full-diff .deleted {
+  background-color : #604646 !important;
+}
+
+#revisions .markdown-diff .full-diff .skip {
+  background-color : #222 !important;
+}
+
+#revisions .diff-choices a {
+  border  : none !important;
+  opacity : 0.5 !important;
+}
+
+#revisions .diff-choices a.selected,
+#revisions .diff-choices a.selected:hover {
+  border             : none !important;
+  background-color   : #222 !important;
+  opacity            : 1 !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+.revision td {
+  background-color : #352A2A !important;
+}
+
+.owner-revision td {
+  background-color : #273133
+}
+
+span.diff-add {
+  -moz-box-shadow    : 0 0 5px #D1E1AD !important;
+  -webkit-box-shadow : 0 0 5px #D1E1AD !important;
+  box-shadow         : 0 0 5px #D1E1AD !important;
+}
+
+span.diff-delete {
+  -moz-box-shadow    : 0 0 5px #E5BDB2 !important;
+  -webkit-box-shadow : 0 0 5px #E5BDB2 !important;
+  box-shadow         : 0 0 5px #E5BDB2 !important;
+}
+
+.revision-comment {
+  background-color   : #222 !important;
+  border             : 1px solid #333 !important;
+  color              : #FFF !important;
+  -moz-box-shadow    : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+  -webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+  box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+}
+
+/* BEGIN Editor width Fix */
+#post-form .wmd-container,
+#post-form .wmd-input,
+#post-form .wmd-preview {
+  padding : 0 !important;
+  width   : 100% !important;
+}
+#post-form .post-editor,
+#post-form .wmd-button-bar {
+  background-color : #000 !important;
+  width            : 100% !important;
+}
+.grippie {
+  background-color : #222 !important;
+  border           : 1px solid #222 !important;
+  width            : 100% !important;
+}
+/* END Editor width Fix */
+
+/* More Editor */
+.wmd-preview {
+  border : 2px dotted #888 !important;
+}
+
+.form-item label {
+  color : #666 !important;
+}
+
+.wmd-button-bar {
+  background-color : #000 !important;
+}
+
+.wmd-button > span {
+  background-image : url('https://raw.github.com/oliversalzburg/superuser-dark-theme/master/wmd-buttons.png') !important;
+}
+
+/* BEGIN WMD Image selection dialog (same style as Popup) */
+.wmd-prompt-dialog {
+  background-color : #000 !important;
+  border           : 10px solid #222 !important;
+}
+/* END WMD Image selection dialog (same style as Popup) */
+
+.tag-suggestions {
+  background-color : #000 !important;
+}
+
+.tag-suggestions > div {
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+.tag-suggestions > div:hover,
+.tag-suggestions > div:hover .more-info {
+  background-color : #222 !important;
+}
+
+/* BEGIN Moderator stuff */
+table.sorter {
+  border : none !important;
+}
+
+table.sorter tbody td {
+  color              : inherit !important;
+  background-color   : #111 !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+table.sorter tbody tr.odd td {
+  background-color : #000 !important;
+}
+
+table.sorter tbody tr:hover td {
+  background-color : #222 !important;
+}
+
+table.sorter th,
+table.sorter tfoot td {
+  background-color : transparent !important;
+  border           : none !important;
+}
+
+.flagged-post {
+  border-bottom: solid 1px #222 !important;
+}
+/* END Moderator stuff */
+
+/* BEGIN Left-align page for huge monitors */
+/*
+#content,
+#header {
+  margin : 0 0 0 10px !important;
+}
+.footerwrap {
+  margin : 0 !important;
+}
+*/
+/* END Left-align page for huge monitors */
+
+/* BEGIN Share box */
+.share-tip {
+  -moz-box-shadow: 2px 2px 4px #222 !important;
+  -webkit-box-shadow: 2px 2px 4px #222 !important;
+  box-shadow: 2px 2px 4px #222 !important;
+  background-color: #222 !important;
+}
+/* END Share box */} 
