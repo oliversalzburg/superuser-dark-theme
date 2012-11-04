@@ -76,6 +76,7 @@ body {
   border-bottom-color : #000;
 }
 
+/* BEGIN Post */
 .post-tag, .post-text .post-tag, .wmd-preview a.post-tag {
   background-color : #000;
   border           : 2px solid #05272D;
@@ -85,7 +86,11 @@ body {
 }
 .post-text img {
   background-color : #888;
+  /* Fix images being pushed outside of the bounds of a post */
+  max-width : 100%;
 }
+/* END Post */
+
 /* BEGIN Make post menu (the text links) behave all weird like */
 /* Also applies to some other links of the same flavor */
 .comments-link,
@@ -184,6 +189,15 @@ blockquote {
 .lastactivity-link {
   background-color : #000;
 }
+
+/* BEGIN Page number */
+.page-numbers {
+  border-color: #222;
+}
+.page-numbers:hover {
+  border-color: #666;
+}
+/* END Page number */
 
 .subtabs a:hover,
 .subtabs a.youarehere {
@@ -562,7 +576,7 @@ span.diff-delete {
   background-color : #222;
 }
 
-/* Moderator stuff */
+/* BEGIN Moderator stuff */
 table.sorter {
   border : none;
 }
@@ -587,6 +601,11 @@ table.sorter tfoot td {
   background-color : transparent;
   border           : none;
 }
+
+.flagged-post {
+  border-bottom: solid 1px #222;
+}
+/* END Moderator stuff */
 
 /* BEGIN Left-align page for huge monitors */
 /*
