@@ -54,9 +54,14 @@ body {
   background-color : #222 !important;
 }
 
+/* BEGIN Footer */
 #footer {
   background-color : #000 !important;
 }
+#footer-menu {
+  text-align : center;
+}
+/* END Footer */
 
 #tabs a {
   background         : #000 !important;
