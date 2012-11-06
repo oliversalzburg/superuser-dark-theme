@@ -1,6 +1,8 @@
 @-moz-document domain("superuser.com")  { 
+/* BEGIN Header */
 #custom-header {
   background-color : #222 !important;
+  background-image : url("https://raw.github.com/subtlepatterns/SubtlePatterns/master/cartographer.png") !important;
 }
 
 #hlinks a.mod-flag-indicator {
@@ -15,6 +17,8 @@
   border-top  : 1px solid #333 !important;
   border-left : 1px solid #333 !important;
 }
+
+/* END Header */
 
 body {
   background-color : #000 !important;
@@ -43,7 +47,8 @@ body {
 }
 
 .tagged-interesting {
-  background-color : #222 !important;
+  background : #222 !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,34,34,1)), color-stop(35%,rgba(34,34,34,1)), color-stop(100%,rgba(17,17,17,1)));
 }
 
 .tagged-ignored {
@@ -158,7 +163,8 @@ textarea {
 /* END Forms elements */
 
 .owner {
-  background-color : #282D2D !important;
+  background-color : #222 !important;
+  background-image : url("https://github.com/subtlepatterns/SubtlePatterns/raw/master/skewed_print.png");
 }
 
 .question-status {
@@ -218,6 +224,10 @@ blockquote {
   background-color : #000 !important;
 }
 
+.page-description {
+  color : #666;
+}
+
 /* BEGIN Page number & Interval tabs */
 .subtabs a,
 .pager a .page-numbers {
@@ -247,6 +257,7 @@ blockquote {
 
 /* END Page number & Interval tabs */
 
+/* BEGIN Profile popup */
 .profile-popup {
   background-color   : black !important;
   border             : 10px solid #222 !important;
@@ -255,6 +266,17 @@ blockquote {
   -webkit-box-shadow : 0px 10px 15px #000 !important;
   box-shadow         : 0px 10px 15px #000 !important;
 }
+
+.profile-popup .profile-stats table.profile-recent-summary thead tr,
+.profile-popup .profile-gravatar {
+  border-bottom : 2px solid #222 !important;
+}
+
+.profile-popup .profile-stats table {
+  color : #666 !important;
+}
+
+/* END Profile popup */
 
 .user-about-me {
   background-color : #222 !important;
