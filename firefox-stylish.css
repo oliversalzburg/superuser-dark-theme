@@ -52,6 +52,7 @@ body {
 
 .new-post-activity, #new-answer-activity {
   background-color : #222 !important;
+  width: 730px !important;
 }
 
 /* BEGIN Notice above footer */
@@ -449,7 +450,7 @@ span.feed-icon {
   box-shadow         : 2px 2px 5px #222 !important;
 }
 
-/* Review */
+/* BEGIN Review */
 .review-instructions b,
 .review-instructions strong {
   color               : #FFF !important;
@@ -537,7 +538,11 @@ table.full-diff td {
 }
 
 .owner-revision td {
-  background-color : #273133
+  background-color : #273133  !important;
+}
+
+.vote-revision td {
+  background-color : #222 !important;
 }
 
 span.diff-add {
@@ -560,6 +565,7 @@ span.diff-delete {
   -webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4) !important;
   box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
 }
+/* END Review */
 
 /* BEGIN Editor width Fix */
 #post-form .wmd-container,
