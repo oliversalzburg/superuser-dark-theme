@@ -51,21 +51,24 @@ body {
 
 .new-post-activity, #new-answer-activity {
   background-color : #222 !important;
-  width: 730px !important;
+  width            : 730px !important;
 }
 
 /* BEGIN Notice above footer */
 .bottom-notice {
-  text-align: center;
+  text-align : center;
 }
+
 /* END Notice above footer */
 /* BEGIN Footer */
 #footer {
   background-color : #000 !important;
 }
+
 #footer-menu {
   text-align : center;
 }
+
 /* END Footer */
 
 #tabs a {
@@ -136,7 +139,7 @@ input, select, button {
   background-color : #000 !important;
   border           : 1px solid #333 !important;
   color            : #888 !important;
-  -moz-appearance: none !important;
+  -moz-appearance  : none !important;
 }
 
 input[type="checkbox"] {
@@ -148,8 +151,9 @@ textarea {
   border           : 1px solid #666 !important;
   color            : #FFF !important;
   opacity          : 0.5 !important;
-  -moz-appearance: none !important;
+  -moz-appearance  : none !important;
 }
+
 /* END Forms elements */
 
 .owner {
@@ -213,22 +217,34 @@ blockquote {
   background-color : #000 !important;
 }
 
-/* BEGIN Page number */
-.page-numbers {
+/* BEGIN Page number & Interval tabs */
+.subtabs a,
+.pager a .page-numbers {
   border-color : #222 !important;
 }
 
-.page-numbers:hover {
-  border-color : #666 !important;
-}
-
-/* END Page number */
-
 .subtabs a:hover,
-.subtabs a.youarehere {
+.pager a:hover .page-numbers {
   background-color : #000 !important;
+  border           : 1px solid #1086A4 !important;
   color            : #fff !important;
 }
+
+.pager a:hover .page-numbers.next,
+.pager a:hover .page-numbers.prev {
+  border : none !important;
+}
+
+.page-numbers.current,
+.subtabs a.youarehere {
+  background-color : #1086A4 !important;
+  border           : 1px solid #1086A4 !important;
+  color            : white !important;
+  cursor           : default !important;
+  font-weight      : bold !important;
+}
+
+/* END Page number & Interval tabs */
 
 .profile-popup {
   background-color   : black !important;
@@ -538,7 +554,7 @@ table.full-diff td {
 }
 
 .owner-revision td {
-  background-color : #273133  !important;
+  background-color : #273133 !important;
 }
 
 .vote-revision td {
@@ -565,6 +581,7 @@ span.diff-delete {
   -webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4) !important;
   box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
 }
+
 /* END Review */
 
 /* BEGIN Editor width Fix */
