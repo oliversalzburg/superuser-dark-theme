@@ -372,6 +372,7 @@ div#userinfo {
   color : #888 !important;
 }
 
+.user-gravatar32 img,
 #user-browser img {
   background : -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
   background : -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
