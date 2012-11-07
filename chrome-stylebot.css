@@ -23,6 +23,9 @@ body {
   background-color : #000 !important;
   color            : #888 !important;
 }
+.content-page {
+  color : #888 !important;
+}
 
 .module {
   background-color : #000 !important;
