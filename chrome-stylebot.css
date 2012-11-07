@@ -98,9 +98,16 @@ body {
 }
 
 /* BEGIN Post */
-.post-tag, .post-text .post-tag, .wmd-preview a.post-tag {
+.post-tag,
+.post-text .post-tag,
+.wmd-preview a.post-tag {
   background-color : #000 !important;
   border           : 2px solid #05272D !important;
+}
+.post-tag:hover,
+.post-text .post-tag:hover,
+.wmd-preview a.post-tag:hover {
+  border-radius: 0 !important;
 }
 
 .post-text a {
@@ -274,8 +281,31 @@ blockquote {
 .profile-popup .profile-stats table {
   color : #666 !important;
 }
-
 /* END Profile popup */
+
+/* BEGIN User and tag popup */
+#tag-menu,
+#user-menu {
+  background-color: #222 !important;
+
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  border: none !important;
+
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#tag-menu {
+  background-color: #000 !important;
+  border: 2px solid #05272D !important;
+}
+
+#user-menu .reputation-score {
+  color: #E3E3E3 !important;
+}
+/* END User and tag popup */
 
 .user-about-me {
   background-color : #222 !important;
