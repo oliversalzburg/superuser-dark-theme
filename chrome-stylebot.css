@@ -240,7 +240,9 @@ blockquote {
 /* BEGIN Page number & Interval tabs */
 .subtabs a,
 .pager a .page-numbers {
-  border-color : #222 !important;
+  border : 1px solid #222 !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
 }
 
 .subtabs a:hover,
@@ -250,9 +252,11 @@ blockquote {
   color            : #fff !important;
 }
 
+.pager a .page-numbers.next,
+.pager a .page-numbers.prev
 .pager a:hover .page-numbers.next,
 .pager a:hover .page-numbers.prev {
-  border : none !important;
+  border : 1px solid transparent !important;
 }
 
 .page-numbers.current,
@@ -439,6 +443,7 @@ div#userinfo {
 }
 
 .subheader {
+  border-bottom: 1px solid #444 !important;
   color : #888 !important;
 }
 
@@ -647,8 +652,8 @@ span.diff-delete {
   width   : 100% !important;
 }
 
-#post-form .post-editor,
-#post-form .wmd-button-bar {
+.post-editor,
+.wmd-button-bar {
   background-color : #000 !important;
   width            : 100% !important;
 }
@@ -656,7 +661,9 @@ span.diff-delete {
 .grippie {
   background-color : #222 !important;
   border           : 1px solid #222 !important;
-  width            : 100% !important;
+  /*width            : 100% !important;*/
+  width            : auto !important;
+  margin-right: 0 !important;
 }
 
 /* END Editor width Fix */
