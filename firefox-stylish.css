@@ -85,6 +85,8 @@ body {
   background         : #000 !important;
   border             : 1px solid #000 !important;
   color              : #888 !important;
+  margin             : 6px 8px 0 0 !important;
+  padding            : 2px 11px 0 11px !important;
   -webkit-transition : 0.10s ease-in !important;
   -moz-transition    : 0.10s ease-in !important;
 }
@@ -94,12 +96,14 @@ body {
   border              : 1px solid #888 !important;
   border-bottom-color : #000 !important;
   color               : #eee !important;
+  margin-top          : 1px !important;
 }
 
 #tabs a:hover {
   background          : black !important;
   border              : 1px solid #888 !important;
   border-bottom-color : #000 !important;
+  margin-top          : 7px !important;
 }
 
 /* BEGIN Post */
@@ -128,6 +132,7 @@ body {
   /* Fix images being pushed outside of the bounds of a post */
   max-width          : 100% !important;
 }
+
 /* END Post */
 
 /* BEGIN Make post menu (the text links) behave all weird like */
@@ -648,6 +653,10 @@ span.diff-delete {
   box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
 }
 
+tr.revision-comment {
+  display : table-row !important;
+}
+
 /* END Review */
 
 /* BEGIN Editor width Fix */
@@ -743,12 +752,12 @@ table.sorter tfoot td {
   border-bottom : solid 1px #222 !important;
 }
 
-.mod-page #content li {
+.mod-page #content .content-page > ul > li {
   float           : left;
   list-style-type : none;
 }
 
-.mod-page #content li a {
+.mod-page #content li > a {
   display          : inline-block;
   padding          : 5px 10px;
   border           : 3px solid #222;
@@ -757,7 +766,7 @@ table.sorter tfoot td {
   background-color : #222;
 }
 
-.mod-page #content li a:hover {
+.mod-page #content li > a:hover {
   background-color : #444;
   border-color     : #444;
   color            : #fff;
