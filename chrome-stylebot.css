@@ -646,6 +646,9 @@ span.diff-delete {
   -webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4) !important;
   box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
 }
+tr.revision-comment {
+  display: table-row !important;
+}
 
 /* END Review */
 
@@ -747,7 +750,7 @@ table.sorter tfoot td {
   list-style-type : none;
 }
 
-.mod-page #content li a {
+.mod-page #content li > a {
   display          : inline-block;
   padding          : 5px 10px;
   border           : 3px solid #222;
@@ -756,7 +759,7 @@ table.sorter tfoot td {
   background-color : #222;
 }
 
-.mod-page #content li a:hover {
+.mod-page #content li > a:hover {
   background-color : #444;
   border-color     : #444;
   color            : #fff;
