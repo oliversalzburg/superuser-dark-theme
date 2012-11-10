@@ -24,6 +24,7 @@ body {
   background-color : #000 !important;
   color            : #888 !important;
 }
+
 .content-page {
   color : #888 !important;
 }
@@ -51,7 +52,7 @@ body {
 
 .tagged-interesting {
   background : #222 !important;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,34,34,1)), color-stop(35%,rgba(34,34,34,1)), color-stop(100%,rgba(17,17,17,1)));
+  background : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 34, 34, 1)), color-stop(35%, rgba(34, 34, 34, 1)), color-stop(100%, rgba(17, 17, 17, 1)));
 }
 
 .tagged-ignored {
@@ -108,10 +109,11 @@ body {
   background-color : #000 !important;
   border           : 2px solid #05272D !important;
 }
+
 .post-tag:hover,
 .post-text .post-tag:hover,
 .wmd-preview a.post-tag:hover {
-  border-radius: 0 !important;
+  border-radius : 0 !important;
 }
 
 .post-text a {
@@ -119,11 +121,13 @@ body {
 }
 
 .post-text img {
-  background-color : #888 !important;
+  /* Fix transparent backgrounds - makes dropshadows on screenshots look better */
+  background-color   : #888 !important;
+  -webkit-box-shadow : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
+  box-shadow         : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
   /* Fix images being pushed outside of the bounds of a post */
-  max-width        : 100% !important;
+  max-width          : 100% !important;
 }
-
 /* END Post */
 
 /* BEGIN Make post menu (the text links) behave all weird like */
@@ -241,7 +245,7 @@ blockquote {
 /* BEGIN Page number & Interval tabs */
 .subtabs a,
 .pager a .page-numbers {
-  border : 1px solid #222 !important;
+  border             : 1px solid #222 !important;
   -webkit-transition : 0.10s ease-in !important;
   -moz-transition    : 0.10s ease-in !important;
 }
@@ -289,30 +293,32 @@ blockquote {
 .profile-popup .profile-stats table {
   color : #666 !important;
 }
+
 /* END Profile popup */
 
 /* BEGIN User and tag popup */
 #tag-menu,
 #user-menu {
-  background-color: #222 !important;
+  background-color   : #222 !important;
 
-  -moz-border-radius: 0 !important;
-  border-radius: 0 !important;
-  border: none !important;
+  -moz-border-radius : 0 !important;
+  border-radius      : 0 !important;
+  border             : none !important;
 
-  -moz-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+  -moz-box-shadow    : none !important;
+  -webkit-box-shadow : none !important;
+  box-shadow         : none !important;
 }
 
 #tag-menu {
-  background-color: #000 !important;
-  border: 2px solid #05272D !important;
+  background-color : #000 !important;
+  border           : 2px solid #05272D !important;
 }
 
 #user-menu .reputation-score {
-  color: #E3E3E3 !important;
+  color : #E3E3E3 !important;
 }
+
 /* END User and tag popup */
 
 .user-about-me {
@@ -444,17 +450,15 @@ div#userinfo {
 }
 
 .subheader {
-  border-bottom: 1px solid #444 !important;
-  color : #888 !important;
+  border-bottom : 1px solid #444 !important;
+  color         : #888 !important;
 }
 
 .user-gravatar32 img,
 #user-browser img {
-  background : -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
-  background : -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
-  background : -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
-  background : radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
-  background : -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;
+  background-color   : #888 !important;
+  -webkit-box-shadow : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
+  box-shadow         : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
 }
 
 .reputation-score {
@@ -638,6 +642,7 @@ span.diff-delete {
   background-color   : #222 !important;
   border             : 1px solid #333 !important;
   color              : #FFF !important;
+  display            : inline-block !important;
   -moz-box-shadow    : 0 0 8px rgba(255, 255, 255, 0.4) !important;
   -webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4) !important;
   box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
@@ -664,7 +669,7 @@ span.diff-delete {
   border           : 1px solid #222 !important;
   /*width            : 100% !important;*/
   width            : auto !important;
-  margin-right: 0 !important;
+  margin-right     : 0 !important;
 }
 
 /* END Editor width Fix */
@@ -736,6 +741,31 @@ table.sorter tfoot td {
 
 .flagged-post {
   border-bottom : solid 1px #222 !important;
+}
+
+.mod-page #content li {
+  float           : left;
+  list-style-type : none;
+}
+
+.mod-page #content li a {
+  display          : inline-block;
+  padding          : 5px 10px;
+  border           : 3px solid #222;
+  border-radius    : 3px;
+  margin           : 5px;
+  background-color : #222;
+}
+
+.mod-page #content li a:hover {
+  background-color : #444;
+  border-color     : #444;
+  color            : #fff;
+  text-decoration  : none;
+}
+
+.mod-page #content h3 {
+  clear : left;
 }
 
 /* END Moderator stuff */
