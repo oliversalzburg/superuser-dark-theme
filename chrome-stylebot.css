@@ -461,6 +461,9 @@ div#userinfo {
   border-bottom : 1px solid #888 !important;
   color         : #888 !important;
 }
+.subheader a {
+  color: #888;
+}
 
 .user-gravatar32 img,
 #user-browser img {
@@ -553,6 +556,10 @@ span.feed-icon {
 
 .timeline .event-multiplier {
   color : #666;
+}
+
+.timeline .td-revised {
+  color: #D00;
 }
 
 /* END Timeline */
