@@ -106,6 +106,10 @@ body {
   margin-top          : 7px !important;
 }
 
+#tabs a.youarehere:hover {
+  margin-top : 1px !important;
+}
+
 /* BEGIN Post */
 .post-tag,
 .post-text .post-tag,
@@ -455,7 +459,7 @@ div#userinfo {
 }
 
 .subheader {
-  border-bottom : 1px solid #444 !important;
+  border-bottom : 1px solid #888 !important;
   color         : #888 !important;
 }
 
@@ -535,6 +539,24 @@ span.feed-icon {
   -webkit-box-shadow : 2px 2px 5px #222 !important;
   box-shadow         : 2px 2px 5px #222 !important;
 }
+
+/* BEGIN Timeline */
+.timeline .tr-question,
+.timeline .tr-answer,
+.timeline .tr-revised,
+.timeline .timeline-day-header {
+  background : #222;
+}
+
+.timeline .qacell {
+  background-color : #222;
+}
+
+.timeline .event-multiplier {
+  color : #666;
+}
+
+/* END Timeline */
 
 /* BEGIN Review */
 .review-instructions b,
@@ -775,6 +797,10 @@ table.sorter tfoot td {
 
 .mod-page #content h3 {
   clear : left;
+}
+
+tr.msg {
+  border-top : 1px solid #444 !important;
 }
 
 /* END Moderator stuff */
