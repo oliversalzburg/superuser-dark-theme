@@ -153,8 +153,7 @@ body {
 .post-menu > a:hover,
 .edit-tags-wrapper > span > a:hover {
   background-color : #222 !important;
-  padding-left     : 20px !important;
-  padding-right    : 20px !important;
+  border-bottom: 1px solid #1087A4;
 }
 
 /* END Make post menu (the text links) behave all weird like */
@@ -547,6 +546,7 @@ span.feed-icon {
 .timeline .tr-question,
 .timeline .tr-answer,
 .timeline .tr-revised,
+.timeline .tr-accepted,
 .timeline .timeline-day-header {
   background : #222;
 }
