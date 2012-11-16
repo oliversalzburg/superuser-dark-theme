@@ -80,6 +80,7 @@ body {
 
 /* END Footer */
 
+/* BEGIN Tabs */
 #tabs a {
   background         : #000 !important;
   border             : 1px solid #000 !important;
@@ -108,6 +109,10 @@ body {
 #tabs a.youarehere:hover {
   margin-top : 1px !important;
 }
+#tabs .bounty-indicator-tab {
+  line-height: 20px !important;
+}
+/* END Tabs */
 
 /* BEGIN Post */
 .post-tag,
@@ -546,10 +551,12 @@ span.feed-icon {
 .timeline .tr-answer,
 .timeline .tr-revised,
 .timeline .tr-accepted,
+.timeline .tr-state,
 .timeline .timeline-day-header {
   background : #222;
 }
 
+.timeline .td-state,
 .timeline .qacell {
   background-color : #222;
 }
