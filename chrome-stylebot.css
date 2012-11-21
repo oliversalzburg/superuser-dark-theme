@@ -185,7 +185,9 @@ textarea {
   opacity          : 0.5 !important;
   -moz-appearance  : none !important;
 }
-
+textarea.actual-edit-overlay {
+  opacity : 0 !important;
+}
 /* END Forms elements */
 
 .owner {
@@ -227,7 +229,7 @@ blockquote {
 .reviewable-answer,
 .answer {
   /* Overrides the fade when opening a link */
-  background-color : #000 !important;
+  background-color : transparent;
 }
 
 .deleted-answer {
