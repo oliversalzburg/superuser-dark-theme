@@ -8,6 +8,7 @@
 
 ## Question
 ![](https://raw.github.com/oliversalzburg/superuser-dark-theme/master/screenshots/question.png)
+![](https://raw.github.com/oliversalzburg/superuser-dark-theme/master/screenshots/question-post.png)
 
 ## Editor
 ![](http://i.imgur.com/U2pgF.png)
