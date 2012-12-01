@@ -778,6 +778,12 @@ table.sorter tbody td {
   -webkit-transition : 0.10s ease-in !important;
   -moz-transition    : 0.10s ease-in !important;
 }
+table.sorter tbody td.hot {
+  color: #dc3071 !important;
+}
+table.sorter tbody td.supernova {
+  color: #ff0d68 !important;
+}
 
 table.sorter tbody tr.odd td {
   background-color : #000 !important;
