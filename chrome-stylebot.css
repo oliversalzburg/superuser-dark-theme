@@ -263,7 +263,7 @@ blockquote {
 }
 
 .page-description {
-  color : #666;
+  color : #666 !important;
 }
 
 /* BEGIN Page number & Interval tabs */
