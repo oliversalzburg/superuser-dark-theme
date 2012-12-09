@@ -110,9 +110,11 @@ body {
 #tabs a.youarehere:hover {
   margin-top : 1px !important;
 }
+
 #tabs .bounty-indicator-tab {
-  line-height: 20px !important;
+  line-height : 20px !important;
 }
+
 /* END Tabs */
 
 /* BEGIN Post */
@@ -158,7 +160,7 @@ body {
 .post-menu > a:hover,
 .edit-tags-wrapper > span > a:hover {
   background-color : #222 !important;
-  border-bottom: 1px solid #1087A4;
+  border-bottom    : 1px solid #1087A4;
 }
 
 /* END Make post menu (the text links) behave all weird like */
@@ -186,9 +188,11 @@ textarea {
   opacity          : 0.5 !important;
   -moz-appearance  : none !important;
 }
+
 textarea.actual-edit-overlay {
   opacity : 0 !important;
 }
+
 /* END Forms elements */
 
 .owner {
@@ -239,7 +243,7 @@ blockquote {
 .question-hyperlink.deleted-answer,
 .question.deleted-answer,
 .question-summary.deleted-answer,
-.rep-breakdown-row.deleted-answer{
+.rep-breakdown-row.deleted-answer {
   background-color : #281212 !important;
   opacity          : 0.7 !important;
 }
@@ -363,20 +367,20 @@ blockquote {
 }
 
 .user-show-new .history-table > tbody > tr.deleted-answer {
-  background-color: #281212 !important;
+  background-color : #281212 !important;
 }
 
 .user-tab-favorites table > tbody > tr.highlight-row,
 .user-show-new .history-table > tbody > tr.highlight-row {
-  background-color: transparent !important;
+  background-color : transparent !important;
 }
 
 .user-show-new .history-table > tbody > tr td .reviewed-action {
-  background-color: #222 !important;
+  background-color : #222 !important;
 }
 
 .user-show-new .history-table > tbody > tr td .date_brick {
-  background-color: #222 !important;
+  background-color : #222 !important;
 }
 
 .user-show-new .answer-summary {
@@ -384,7 +388,7 @@ blockquote {
 }
 
 #user-tab-responses table > tbody > tr .comments {
-  border: none !important;
+  border : none !important;
 }
 
 /* BEGIN User info Reputation tab */
@@ -498,8 +502,9 @@ div#userinfo {
   border-bottom : 1px solid #888 !important;
   color         : #888 !important;
 }
+
 .subheader a {
-  color: #888;
+  color : #888;
 }
 
 .user-gravatar32 img,
@@ -600,7 +605,7 @@ span.feed-icon {
 }
 
 .timeline .td-revised {
-  color: #D00;
+  color : #D00;
 }
 
 /* END Timeline */
@@ -802,11 +807,13 @@ table.sorter tbody td {
   -webkit-transition : 0.10s ease-in !important;
   -moz-transition    : 0.10s ease-in !important;
 }
+
 table.sorter tbody td.hot {
-  color: #dc3071 !important;
+  color : #dc3071 !important;
 }
+
 table.sorter tbody td.supernova {
-  color: #ff0d68 !important;
+  color : #ff0d68 !important;
 }
 
 table.sorter tbody tr.odd td {
@@ -828,7 +835,7 @@ table.sorter tfoot td {
 }
 
 table.flagged-posts .relativetime.old {
-  color: #666 !important;
+  color : #666 !important;
 }
 
 .mod-page #content .content-page > ul > li {
@@ -882,4 +889,51 @@ tr.msg {
   background-color   : #222 !important;
 }
 
-/* END Share box */} 
+/* END Share box */
+
+/* BEGIN Login page */
+.login-page #openid_highlight {
+  border           : 2px dashed #444 !important;
+  background-color : #111 !important;
+}
+
+.login-page .openid_large_btn {
+  margin             : 6px !important;
+  border             : 2px solid #444 !important;
+
+  box-shadow         : none !important;
+  -moz-box-shadow    : none !important;
+  -webkit-box-shadow : none !important;
+
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+.login-page .openid_large_btn:hover {
+  margin             : 6px !important;
+  box-shadow         : 0px 0px 15px 5px #444 !important;
+  -moz-box-shadow    : 0px 0px 15px 5px #444 !important;
+  -webkit-box-shadow : 0px 0px 15px 5px #444 !important;
+}
+
+.login-page .openid_small_btn {
+  border             : 2px solid #444 !important;
+  margin             : 4px !important;
+  box-shadow         : none !important;
+  -moz-box-shadow    : none !important;
+  -webkit-box-shadow : none !important;
+}
+
+.login-page .openid_small_btn:hover {
+  margin             : 4px !important;
+  box-shadow         : 0px 0px 5px 3px #444 !important;
+  -moz-box-shadow    : 0px 0px 5px 3px #444 !important;
+  -webkit-box-shadow : 0px 0px 5px 3px #444 !important;
+}
+
+#openid_btns a {
+  background-color : #000;
+  background-image : url("http://raw.github.com/oliversalzburg/superuser-dark-theme/master/img/openid-logos.png") !important;
+}
+
+/* END Login page */} 
