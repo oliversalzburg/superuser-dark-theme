@@ -797,6 +797,10 @@ tr.revision-comment {
 }
 
 /* BEGIN Moderator stuff */
+.migrated {
+  background-image: url("http://raw.github.com/oliversalzburg/superuser-dark-theme/master/img/fatarrows.png") !important;
+}
+
 table.sorter {
   border : none !important;
 }
