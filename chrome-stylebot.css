@@ -872,6 +872,16 @@ tr.msg {
 
 /* END Moderator stuff */
 
+/* BEGIN System messages */
+.sys-message-past, .sys-message .message-content, .sys-message-new {
+  background-color: #222 !important;
+}
+
+.sys-message-past .message-content {
+  background-color: #000 !important;
+}
+/* END System messages */
+
 /* BEGIN Left-align page for huge monitors */
 /*
 #content,
