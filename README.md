@@ -1,5 +1,7 @@
 # Super User Dark Theme
 
+> Be sure to check out the complementary [Dark Theme for StackExchange chat](https://github.com/oliversalzburg/se-chat-dark-theme) if you're into that kind of stuff.
+
 ## Main Page
 ![](https://raw.github.com/oliversalzburg/superuser-dark-theme/master/screenshots/frontpage-active.png)
 
