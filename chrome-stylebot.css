@@ -613,9 +613,9 @@ span.feed-icon {
 .review-instructions b,
 .review-instructions strong {
   color               : #FFF !important;
-  -moz-text-shadow    : 0 0 1px #FFF !important;
-  -webkit-text-shadow : 0 0 1px #FFF !important;
-  text-shadow         : 0 0 1px #FFF !important;
+  -moz-text-shadow    : 0 0 1px #888 !important;
+  -webkit-text-shadow : 0 0 1px #888 !important;
+  text-shadow         : 0 0 1px #888 !important;
 }
 
 .review-instructions-reason {
@@ -678,13 +678,15 @@ table.full-diff td {
   background-color : #222 !important;
 }
 
-#revisions .diff-choices a {
+/* .diff-choices also applies for suggested edits */
+.diff-choices a {
   border  : none !important;
   opacity : 0.5 !important;
 }
 
-#revisions .diff-choices a.selected,
-#revisions .diff-choices a.selected:hover {
+.diff-choices a.selected,
+.diff-choices a:hover,
+.diff-choices a.selected:hover {
   border             : none !important;
   background-color   : #222 !important;
   opacity            : 1 !important;
