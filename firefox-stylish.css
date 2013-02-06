@@ -177,6 +177,17 @@ input, select, button {
   -moz-appearance  : none !important;
 }
 
+input[type="button"] {
+  background-color : #222 !important;
+  box-shadow : 0 2px 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(66, 66, 66, 0.4) inset !important;
+}
+
+input[type="button"]:hover {
+  background-color: #444 !important;
+  border-color: #444 !important;
+  color: white !important;
+}
+
 input[type="checkbox"] {
   opacity : 0.6 !important;
 }
