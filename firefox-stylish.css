@@ -105,7 +105,7 @@ body {
 
 #tabs a:hover {
   background          : black !important;
-  border              : 1px solid #888 !important;
+  border              : 1px solid #333 !important;
   border-bottom-color : #000 !important;
   margin-top          : 7px !important;
 }
@@ -125,7 +125,7 @@ body {
 .post-text .post-tag,
 .wmd-preview a.post-tag {
   background-color : #000 !important;
-  border           : 2px solid #05272D !important;
+  border           : 1px solid #05272D !important;
 }
 
 .post-tag:hover,
