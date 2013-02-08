@@ -46,13 +46,17 @@ body {
   box-shadow         : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
 }
 
+.question-hyperlink {
+  font-weight:normal;
+}
+
 .newuser p {
   color : #DDD !important;
 }
 
 .tagged-interesting {
   background : #222 !important;
-  background : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 34, 34, 1)), color-stop(35%, rgba(34, 34, 34, 1)), color-stop(100%, rgba(17, 17, 17, 1)));
+  /*background : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 34, 34, 1)), color-stop(35%, rgba(34, 34, 34, 1)), color-stop(100%, rgba(17, 17, 17, 1)));*/
 }
 
 .tagged-ignored {
@@ -481,7 +485,7 @@ tr.comment:hover {
 }
 
 #question-header {
-  border-bottom : 1px solid #ccc !important;
+  border-bottom : 1px solid #333 !important;
 }
 
 #question-header h1 {
@@ -512,7 +516,7 @@ div#userinfo {
 }
 
 .subheader {
-  border-bottom : 1px solid #888 !important;
+  border-bottom : 1px solid #333 !important;
   color         : #888 !important;
 }
 
