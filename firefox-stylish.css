@@ -39,11 +39,18 @@ body {
 }
 
 .module.community-bulletin {
-  background-color   : #21201D !important;
-  border             : 1px solid #33322B !important;
-  -moz-box-shadow    : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
-  -webkit-box-shadow : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
-  box-shadow         : 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #000000 inset !important;
+  background-color   : transparent !important;
+  border             : none !important;
+  -moz-box-shadow    : none !important;
+  -webkit-box-shadow : none !important;
+  box-shadow         : none !important;
+  text-shadow: 1px 0px 3px #1086A4 !important;
+}
+
+.module.community-bulletin .bulletin-item-content a {
+  border-left : 3px solid #1086A4 !important;
+  display: block;
+  padding-left:5px !important;
 }
 
 .question-hyperlink {
