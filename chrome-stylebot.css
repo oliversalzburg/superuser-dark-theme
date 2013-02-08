@@ -54,8 +54,7 @@ body {
 }
 
 .tagged-interesting {
-  background : #222 !important;
-  /*background : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(34, 34, 34, 1)), color-stop(35%, rgba(34, 34, 34, 1)), color-stop(100%, rgba(17, 17, 17, 1)));*/
+  background : #181818 !important;
 }
 
 .tagged-ignored {
@@ -97,7 +96,7 @@ body {
 
 #tabs a.youarehere {
   background          : #000 !important;
-  border              : 1px solid #888 !important;
+  border              : 1px solid #333 !important;
   border-bottom-color : #000 !important;
   color               : #eee !important;
   margin-top          : 1px !important;
