@@ -190,12 +190,14 @@ input[type="button"],
 input[type="submit"] {
   background-color : #222 !important;
   box-shadow : 0 2px 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(66, 66, 66, 0.4) inset !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
 }
 
 input[type="button"]:hover,
 input[type="submit"]:hover {
   background-color: #444 !important;
-  border-color: #444 !important;
+  border : 1px solid #888 !important;
   color: white !important;
 }
 
@@ -520,6 +522,10 @@ div#userinfo {
   width : 700px !important;
 }
 
+.mainnavs li a {
+  padding : 6px 16px !important;
+}
+
 .subheader {
   border-bottom : 1px solid #333 !important;
   color         : #888 !important;
@@ -643,15 +649,6 @@ span.feed-icon {
 
 .review-instructions-reason {
   background-color : #222 !important;
-}
-
-.review-actions input[type="button"] {
-  -webkit-transition : 0.10s ease-in !important;
-  -moz-transition    : 0.10s ease-in !important;
-}
-
-.review-actions input[type="button"]:hover {
-  border : 1px solid #fff !important;
 }
 
 .review-bar-container .review-bar {
