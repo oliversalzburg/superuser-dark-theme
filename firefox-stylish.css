@@ -174,29 +174,32 @@ body {
 .post-issue .post-issue-display {
   background-color : transparent !important;
   border           : none !important;
-  border-bottom    : 1px solid #444;
+  /*border-bottom    : 1px solid #444;*/
   border-radius    : 0 !important;
   opacity          : 1 !important;
   position         : inherit !important;
 }
 
 .post-issue .post-issue-display a {
-  background-image : url("http://raw.github.com/oliversalzburg/superuser-dark-theme/master/img/sprites.png") !important;
+  background-color: #222 !important;
+  background-image : url("http://raw.github.com/oliversalzburg/superuser-dark-theme/master/img/sprites.png")!important;
   display          : inline-block !important;
-  padding          : 0 10px 0 20px !important;
+  float            : right !important;
+  padding          : 5px 10px 5px 25px !important;
   opacity          : 0.5 !important;
 }
 
 .post-issue .post-issue-display a:hover {
   opacity : 1 !important;
+  text-decoration: none !important;
 }
 
 .post-issue .post-issue-display a[href$='show-flags'] {
-  background-position : 0px -715px !important;
+  background-position : 5px -710px !important;
 }
 
 .post-issue .post-issue-display a[href$='comments'] {
-  background-position : 0px -665px !important;
+  background-position : 5px -660px !important;
 }
 
 .post-tag,
@@ -294,6 +297,7 @@ textarea.actual-edit-overlay {
 
 /* END Forms elements */
 
+/* BEGIN Answer */
 .owner {
   background-color : #222 !important;
   background-image : url("http://raw.github.com/oliversalzburg/superuser-dark-theme/master/img/skewed_print.png");
@@ -346,6 +350,12 @@ blockquote {
   background-color : #281212 !important;
   opacity          : 0.7 !important;
 }
+
+.answer {
+  padding-top : 6px !important;
+}
+
+/* END Answer */
 
 .ad502-room {
   background-color   : #222 !important;
