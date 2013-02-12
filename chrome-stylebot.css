@@ -190,11 +190,11 @@ body {
   opacity : 1 !important;
 }
 
-.post-issue .post-issue-display a:first-child {
+.post-issue .post-issue-display a[href$='show-flags'] {
   background-position : 0px -715px !important;
 }
 
-.post-issue .post-issue-display a:last-child {
+.post-issue .post-issue-display a[href$='comments'] {
   background-position : 0px -665px !important;
 }
 
