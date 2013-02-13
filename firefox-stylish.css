@@ -29,9 +29,19 @@ body {
   color : #888 !important;
 }
 
+/* BEGIN Modules */
 .module {
   background-color : #000 !important;
   color            : #888 !important;
+  padding          : 0 !important;
+}
+
+.module table {
+  width : 100% !important;
+}
+
+.module table .vt {
+  text-align : right !important;
 }
 
 .module p {
@@ -53,16 +63,30 @@ body {
   padding-left : 5px !important;
 }
 
-/* BEGIN "Tagged" box on question page */
+#interestingTag,
+#ignoredTag {
+  width: 100% !important;
+}
+
+/* END Modules */
+
+/* BEGIN Tag lists */
+#recent-tags-list a:hover + .item-multiplier,
+.tagged a:hover + .item-multiplier {
+  float : none !important;
+}
+
+#recent-tags-list .item-multiplier,
 .tagged .item-multiplier {
   float : right !important;
 }
 
+#recent-tags-list .item-multiplier,
 .tagged .item-multiplier-count {
   font-weight : bold !important;
 }
 
-/* END "Tagged" box on question page */
+/* END Tag lists */
 
 /* BEGIN Quick Info box on question page */
 #qinfo {
@@ -181,8 +205,8 @@ body {
 }
 
 .post-issue .post-issue-display a {
-  background-color: #222 !important;
-  background-image : url("http://raw.github.com/oliversalzburg/superuser-dark-theme/master/img/sprites.png")!important;
+  background-color : #222 !important;
+  background-image : url("http://raw.github.com/oliversalzburg/superuser-dark-theme/master/img/sprites.png") !important;
   display          : inline-block !important;
   float            : right !important;
   padding          : 5px 10px 5px 25px !important;
@@ -190,8 +214,8 @@ body {
 }
 
 .post-issue .post-issue-display a:hover {
-  opacity : 1 !important;
-  text-decoration: none !important;
+  opacity         : 1 !important;
+  text-decoration : none !important;
 }
 
 .post-issue .post-issue-display a[href$='show-flags'] {
