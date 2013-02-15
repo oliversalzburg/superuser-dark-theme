@@ -87,36 +87,6 @@ body {
 
 /* END Tag lists */
 
-#recent-badges a.badge {
-  width : 100% !important;
-}
-
-#recent-badges table a:not(.badge) {
-  position            : absolute !important;
-  text-shadow         : -110px 7px 1px #000 !important;
-  color               : transparent !important;
-
-  margin              : 0 0 0 -11px !important;
-  padding             : 3px;
-
-  background-position : -197px 4px;
-  background-image    : url("http://raw.github.com/oliversalzburg/superuser-dark-theme/master/img/wmd-buttons.png") !important;
-
-  width               : 0px !important;
-  -webkit-transition  : 0.10s ease-in !important;
-  -moz-transition     : 0.10s ease-in !important;
-}
-
-#recent-badges a.badge:hover + a:not(.badge) {
-  width       : 20px !important;
-  text-shadow : -110px 5px 1px #fff !important;
-}
-
-#recent-badges table a:not(.badge):hover {
-  width       : 20px !important;
-  text-shadow : 25px 7px #fff !important;
-}
-
 /* BEGIN Quick Info box on question page */
 #qinfo {
   width : 100%;
@@ -511,18 +481,20 @@ blockquote {
 
 /* BEGIN Flag indicator */
 .mod-flag-indicator.supernovabg {
-  border: 1px solid #BD0A4D !important;
-  color : #000 !important;
+  border : 1px solid #BD0A4D !important;
+  color  : #000 !important;
 }
 
 .mod-flag-indicator.hotbg {
-  border: 1px solid #B8285F !important;
-  color : #000 !important;
+  border : 1px solid #B8285F !important;
+  color  : #000 !important;
 }
+
 .mod-flag-indicator:hover {
-  border: 1px solid #f00 !important;
-  text-decoration: none !important;
+  border          : 1px solid #f00 !important;
+  text-decoration : none !important;
 }
+
 /* END Flag indicator */
 
 /* BEGIN User profile stuff */
@@ -794,6 +766,20 @@ span.feed-icon {
 /* END Timeline */
 
 /* BEGIN Review */
+.dashboard-item {
+  border-bottom : 1px dotted #222 !important;
+}
+
+.dashboard-item .dashboard-activity .dashboard-user {
+  opacity            : 0.5 !important;
+  -webkit-transition : 0.1s ease-in !important;
+  -moz-transition    : 0.1s ease-in !important;
+}
+
+.dashboard-item:hover .dashboard-activity .dashboard-user {
+  opacity : 1 !important;
+}
+
 .review-instructions b,
 .review-instructions strong {
   color               : #FFF !important;
