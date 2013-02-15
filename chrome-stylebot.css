@@ -85,6 +85,10 @@ body {
   font-weight : bold !important;
 }
 
+.tag-cell {
+  border-bottom: 1px dotted #222 !important;
+}
+
 /* END Tag lists */
 
 /* BEGIN Quick Info box on question page */
@@ -193,6 +197,7 @@ body {
   margin-bottom : 10px !important;
   position      : inherit !important;
   width         : 100% !important;
+  visibility: visible !important;
 }
 
 .post-issue .post-issue-display {
@@ -224,6 +229,12 @@ body {
 
 .post-issue .post-issue-display a[href$='comments'] {
   background-position : 5px -660px !important;
+}
+
+/* Overwrite responsive styles */
+.post-issue .post-issue-display::after {
+  content: "" !important;
+  margin: 0 !important;
 }
 
 .post-tag,
