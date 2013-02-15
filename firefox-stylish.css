@@ -1001,6 +1001,9 @@ table.sorter tfoot td {
   border-bottom : solid 1px #222 !important;
 }
 
+table.flagged-posts tr.messageDivider > td {
+  border-top : 1px solid #222 !important;
+}
 table.flagged-posts .relativetime.old {
   color : #666 !important;
 }
