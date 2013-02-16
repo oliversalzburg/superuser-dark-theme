@@ -86,7 +86,7 @@ body {
 }
 
 .tag-cell {
-  border-bottom: 1px dotted #222 !important;
+  border-bottom : 1px dotted #222 !important;
 }
 
 /* END Tag lists */
@@ -197,7 +197,7 @@ body {
   margin-bottom : 10px !important;
   position      : inherit !important;
   width         : 100% !important;
-  visibility: visible !important;
+  visibility    : visible !important;
 }
 
 .post-issue .post-issue-display {
@@ -233,8 +233,8 @@ body {
 
 /* Overwrite responsive styles */
 .post-issue .post-issue-display::after {
-  content: "" !important;
-  margin: 0 !important;
+  content : "" !important;
+  margin  : 0 !important;
 }
 
 .post-tag,
@@ -392,16 +392,27 @@ blockquote {
 
 /* END Answer */
 
+/* BEGIN Chat Room Panel */
 .ad502-room {
-  background-color   : #222 !important;
-  border-bottom      : 1px solid #333 !important;
-  border-right       : 1px solid #333 !important;
-  border-top         : 1px solid #222 !important;
-  border-left        : 1px solid #222 !important;
-  -moz-box-shadow    : 0px 1px 3px #222 !important;
-  -webkit-box-shadow : 0px 1px 3px #222 !important;
-  box-shadow         : 0px 1px 3px #222 !important;
+  background-color   : #111 !important;
+  border             : none !important;
+  border-radius      : 0 !important;
+  -moz-box-shadow    : none !important;
+  -webkit-box-shadow : none !important;
+  box-shadow         : none !important;
 }
+
+.ad502-room a img {
+  opacity            : 0.3 !important;
+  -webkit-transition : 0.10s ease-in !important;
+  -moz-transition    : 0.10s ease-in !important;
+}
+
+.ad502-room:hover a img {
+  opacity : 1 !important;
+}
+
+/* END Chat Room Panel */
 
 .lastactivity-link {
   background-color : #000 !important;
@@ -1014,6 +1025,7 @@ table.sorter tfoot td {
 table.flagged-posts tr.messageDivider > td {
   border-top : 1px solid #222 !important;
 }
+
 table.flagged-posts .relativetime.old {
   color : #666 !important;
 }
