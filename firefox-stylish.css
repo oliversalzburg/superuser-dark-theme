@@ -762,6 +762,21 @@ span.feed-icon {
   box-shadow         : 2px 2px 5px #222 !important;
 }
 
+.close-as-duplicate-pane .original-display .question,
+.close-as-duplicate-pane .original-display .answer {
+  width: auto !important;
+}
+.close-as-duplicate-pane .original-display .preview {
+  border: 1px solid #222 !important;
+}
+.close-as-duplicate-pane .original-display .list-originals .list .item {
+  border-bottom: 1px solid #222 !important;
+}
+.close-as-duplicate-pane .original-display .list-originals .list .item.hover,
+.close-as-duplicate-pane .original-display .list-originals .list .item .stats {
+  background-color: #111 !important;
+}
+
 /* BEGIN Timeline */
 .timeline .tr-question,
 .timeline .tr-answer,
