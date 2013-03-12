@@ -1115,6 +1115,11 @@ tr.msg {
   background-color : #111 !important;
 }
 
+.preferred-login {
+  background-color : #222 !important;
+}
+
+.preferred-login,
 .login-page .openid_large_btn {
   margin             : 6px !important;
   border             : 2px solid #444 !important;
@@ -1127,6 +1132,7 @@ tr.msg {
   -moz-transition    : 0.10s ease-in !important;
 }
 
+.preferred-login:hover,
 .login-page .openid_large_btn:hover {
   margin             : 6px !important;
   box-shadow         : 0px 0px 15px 5px #444 !important;
