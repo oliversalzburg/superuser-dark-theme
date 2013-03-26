@@ -137,7 +137,8 @@ body {
 }
 
 #footer-menu {
-  text-align : center;
+  color      : #333 !important;
+  text-align : center !important;
 }
 
 /* END Footer */
@@ -690,7 +691,7 @@ div#userinfo {
 /* BEGIN Gravatars */
 
 .gravatar-wrapper-32 {
-  background-color: transparent !important;
+  background-color : transparent !important;
 }
 
 .user-gravatar32 img,
