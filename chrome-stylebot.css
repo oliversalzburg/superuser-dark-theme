@@ -104,6 +104,7 @@ body {
 
 .question-hyperlink {
   font-weight : normal !important;
+  font-family : Arial, Liberation Sans, DejaVu Sans, sans-serif !important;
 }
 
 .newuser p {
@@ -685,12 +686,22 @@ div#userinfo {
   color : #888;
 }
 
+/* BEGIN Gravatars */
+
+.gravatar-wrapper-32 {
+  background-color: transparent !important;
+}
+
 .user-gravatar32 img,
+.user-gravatar32 .anonymous-gravatar,
 #user-browser img {
   background-color   : #888 !important;
   -webkit-box-shadow : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
   box-shadow         : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
+  opacity            : 0.5 !important;
 }
+
+/* END Gravatars */
 
 .reputation-score {
   color : #666 !important;
@@ -764,17 +775,20 @@ span.feed-icon {
 
 .close-as-duplicate-pane .original-display .question,
 .close-as-duplicate-pane .original-display .answer {
-  width: auto !important;
+  width : auto !important;
 }
+
 .close-as-duplicate-pane .original-display .preview {
-  border: 1px solid #222 !important;
+  border : 1px solid #222 !important;
 }
+
 .close-as-duplicate-pane .original-display .list-originals .list .item {
-  border-bottom: 1px solid #222 !important;
+  border-bottom : 1px solid #222 !important;
 }
+
 .close-as-duplicate-pane .original-display .list-originals .list .item.hover,
 .close-as-duplicate-pane .original-display .list-originals .list .item .stats {
-  background-color: #111 !important;
+  background-color : #111 !important;
 }
 
 /* BEGIN Timeline */
