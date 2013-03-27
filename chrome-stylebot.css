@@ -69,6 +69,20 @@ body {
 
 /* END Modules */
 
+/* BEGIN Question Sidebar Related + Linked */
+.show-votes .sidebar-linked .answer-votes,
+.show-votes .sidebar-related .answer-votes {
+  background-color : #111 !important;
+  color            : #BBB !important;
+}
+
+.show-votes .sidebar-linked .answer-votes.answered-accepted,
+.show-votes .sidebar-related .answer-votes.answered-accepted {
+  background-color : #3A5408 !important;
+}
+
+/* END Question Sidebar Related + Linked */
+
 /* BEGIN Tag lists */
 #recent-tags-list a:hover + .item-multiplier,
 .tagged a:hover + .item-multiplier {
