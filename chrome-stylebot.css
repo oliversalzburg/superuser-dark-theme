@@ -707,6 +707,10 @@ div#userinfo {
   background-color : transparent !important;
 }
 
+.gravatar-wrapper-48 {
+  background-color : transparent !important;
+}
+
 .user-gravatar32 img,
 .user-gravatar32 .anonymous-gravatar,
 #user-browser img {
