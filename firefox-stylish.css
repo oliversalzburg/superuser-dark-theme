@@ -91,7 +91,8 @@ body {
 }
 
 #recent-tags-list .item-multiplier,
-.tagged .item-multiplier {
+.tagged .item-multiplier,
+#related-tags .item-multiplier {
   float : right !important;
 }
 
