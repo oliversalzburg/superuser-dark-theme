@@ -1033,6 +1033,7 @@ tr.revision-comment {
   -moz-transition    : 0.10s ease-in !important;
 }
 
+.tag-suggestions > div:focus,
 .tag-suggestions > div:hover,
 .tag-suggestions > div:hover .more-info {
   background-color : #222 !important;
