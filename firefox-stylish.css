@@ -1207,15 +1207,38 @@ tr.msg {
 
 /* END Login page */
 
+/* BEGIN About */
+.about-page .new-about-content-page h2.about-title {
+  color : #ddd !important;
+}
+
+.qa-block {
+  background-color : transparent !important;
+  border           : 1px solid transparent !important;
+}
+
+.new-about-content-page .content-block {
+  background-color : transparent !important;
+  border           : 1px solid transparent !important;
+}
+
+.about-page .new-about-content-page .user-info-rep {
+  background-color : transparent !important;
+  border           : 1px solid transparent !important;
+}
+
+/* END About */
+
 /* BEGIN Help Center */
 #herobox {
   background-color : transparent !important;
-  border : 1px solid transparent !important;
+  border           : 1px solid transparent !important;
 }
 
 #herobox #hero-content {
   background-color : transparent !important;
-  background-image: none !important;
-  border : 3px solid transparent !important;
+  background-image : none !important;
+  border           : 3px solid transparent !important;
 }
+
 /* END Help Center*} 
