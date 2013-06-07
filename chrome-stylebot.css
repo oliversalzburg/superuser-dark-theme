@@ -1205,3 +1205,16 @@ tr.msg {
 }
 
 /* END Login page */
+
+/* BEGIN Help Center */
+#herobox {
+  background-color : transparent !important;
+  border : 1px solid transparent !important;
+}
+
+#herobox #hero-content {
+  background-color : transparent !important;
+  background-image: none !important;
+  border : 3px solid transparent !important;
+}
+/* END Help Center*
