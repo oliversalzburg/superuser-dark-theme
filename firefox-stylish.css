@@ -249,6 +249,10 @@ body {
   background-position : 5px -660px !important;
 }
 
+.post-issue .post-issue-display a[href*='timeline'] {
+  background-image : none;
+}
+
 /* Overwrite responsive styles */
 .post-issue .post-issue-display::after {
   content : "" !important;
