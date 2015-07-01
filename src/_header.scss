@@ -1,0 +1,18 @@
+.topbar {
+	background-color : #222 !important;
+	// cartographer sublte patten
+	background-image : url("http://i.stack.imgur.com/uV1TZ.png") !important;
+
+	.topbar-links a {
+		color : #888 !important;
+		&.mod-flag-indicator {
+			color : #000 !important;
+		}
+	}
+
+	#search input {
+		border-top  : 1px solid #333 !important;
+		border-left : 1px solid #333 !important;
+	}
+}
+

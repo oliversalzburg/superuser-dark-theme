@@ -1,0 +1,59 @@
+// Modules are the boxes on the right hand side of the layout.
+// Like:
+//   - Featured on Meta
+//   - Hot Meta Posts
+//   - Hot Network Questions
+
+#sidebar {
+	.module {
+		background-color : #000 !important;
+		color            : #888 !important;
+		padding          : 0 !important;
+
+		// Like the "asked, viewed, active" table on the top
+		table {
+			width : 100% !important;
+
+			// The data in the second column
+			.vt {
+				text-align : right !important;
+			}
+		}
+
+		p {
+			color : inherit !important;
+		}
+
+		&.community-bulletin {
+			background-color   : transparent !important;
+			border             : none !important;
+			-moz-box-shadow    : none !important;
+			-webkit-box-shadow : none !important;
+			box-shadow         : none !important;
+			text-shadow        : 1px 0 3px #1086a4 !important;
+
+			.bulletin-item-content a {
+				border-left  : 3px solid #1086a4 !important;
+				display      : block;
+				padding-left : 5px !important;
+			}
+		}
+
+		&#interesting-tags,
+		&#ignoredTags {
+			width : 100% !important;
+		}
+	}
+
+	// The vote boxes for the "linked" and "related" questions
+	&.show-votes {
+		.sidebar-linked .answer-votes,
+		.sidebar-related .answer-votes {
+			background-color : #111 !important;
+			color            : #bbb !important;
+			&.answered-accepted {
+				background-color : #3a5408 !important;
+			}
+		}
+	}
+}

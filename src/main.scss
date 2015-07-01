@@ -1,0 +1,13 @@
+@import "header";
+@import "modules";
+
+
+body {
+	background-color : #000 !important;
+	color            : #888 !important;
+
+	#content {
+		background-color : transparent;
+		color            : #888 !important;
+	}
+}
