@@ -55,3 +55,6 @@ body {
   body #content {
     background-color: transparent;
     color: #888 !important; }
+    body #content .question-hyperlink {
+      font-weight: normal !important;
+      font-family: Arial, Liberation Sans, DejaVu Sans, sans-serif !important; }
