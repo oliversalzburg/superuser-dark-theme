@@ -1,0 +1,40 @@
+.topbar {
+  background-color: #222 !important;
+  background-image: url("http://i.stack.imgur.com/uV1TZ.png") !important; }
+  .topbar .topbar-links a {
+    color: #888 !important; }
+    .topbar .topbar-links a.mod-flag-indicator {
+      color: #000 !important; }
+  .topbar #search input {
+    border-top: 1px solid #333 !important;
+    border-left: 1px solid #333 !important; }
+
+.module {
+  background-color: #000 !important;
+  color: #888 !important;
+  padding: 0 !important; }
+  .module table {
+    width: 100% !important; }
+    .module table .vt {
+      text-align: right !important; }
+  .module p {
+    color: inherit !important; }
+  .module.community-bulletin {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: 1px 0 3px #1086a4 !important; }
+    .module.community-bulletin .bulletin-item-content a {
+      border-left: 3px solid #1086a4 !important;
+      display: block;
+      padding-left: 5px !important; }
+  .module#interesting-tags,
+  .module#ignoredTags {
+    width: 100% !important; }
+
+body {
+  background-color: #000 !important;
+  color: #888 !important; }
+  body #content {
+    background-color: transparent;
+    color: #888 !important; }
