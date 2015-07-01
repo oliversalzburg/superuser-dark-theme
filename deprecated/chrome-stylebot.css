@@ -1,0 +1,1248 @@
+/* BEGIN Header */
+#custom-header {
+	background-color : #222 !important;
+	background-image : url("http://i.stack.imgur.com/uV1TZ.png") !important; /* cartographer */
+}
+
+#hlinks a.mod-flag-indicator {
+	color : #000 !important;
+}
+
+#hlinks a {
+	color : #888 !important;
+}
+
+#hsearch .textbox {
+	border-top  : 1px solid #333 !important;
+	border-left : 1px solid #333 !important;
+}
+
+/* END Header */
+
+body {
+	background-color : #000 !important;
+	color            : #888 !important;
+}
+
+#content {
+	background-color : transparent;
+	color            : #888 !important;
+}
+
+/* BEGIN Modules */
+.module {
+	background-color : #000 !important;
+	color            : #888 !important;
+	padding          : 0 !important;
+}
+
+.module table {
+	width : 100% !important;
+}
+
+.module table .vt {
+	text-align : right !important;
+}
+
+.module p {
+	color : inherit !important;
+}
+
+.module.community-bulletin {
+	background-color   : transparent !important;
+	border             : none !important;
+	-moz-box-shadow    : none !important;
+	-webkit-box-shadow : none !important;
+	box-shadow         : none !important;
+	text-shadow        : 1px 0px 3px #1086a4 !important;
+}
+
+.module.community-bulletin .bulletin-item-content a {
+	border-left  : 3px solid #1086a4 !important;
+	display      : block;
+	padding-left : 5px !important;
+}
+
+#interestingTag,
+#ignoredTag {
+	width : 100% !important;
+}
+
+/* END Modules */
+
+/* BEGIN Question Sidebar Related + Linked */
+.show-votes .sidebar-linked .answer-votes,
+.show-votes .sidebar-related .answer-votes {
+	background-color : #111 !important;
+	color            : #bbb !important;
+}
+
+.show-votes .sidebar-linked .answer-votes.answered-accepted,
+.show-votes .sidebar-related .answer-votes.answered-accepted {
+	background-color : #3a5408 !important;
+}
+
+/* END Question Sidebar Related + Linked */
+
+/* BEGIN Tag lists */
+#recent-tags-list a:hover + .item-multiplier,
+.tagged a:hover + .item-multiplier {
+	float : none !important;
+}
+
+#recent-tags-list .item-multiplier,
+.tagged .item-multiplier,
+#related-tags .item-multiplier {
+	float : right !important;
+}
+
+#recent-tags-list .item-multiplier,
+.tagged .item-multiplier-count {
+	font-weight : bold !important;
+}
+
+.tag-cell {
+	border-bottom : 1px dotted #222 !important;
+}
+
+/* END Tag lists */
+
+/* BEGIN Quick Info box on question page */
+#qinfo {
+	width : 100%;
+}
+
+#qinfo td + td {
+	text-align : right !important;
+}
+
+/* END Quick Info box on question page */
+
+.question-hyperlink {
+	font-weight : normal !important;
+	font-family : Arial, Liberation Sans, DejaVu Sans, sans-serif !important;
+}
+
+.newuser p {
+	color : #ddd !important;
+}
+
+.tagged-interesting {
+	background : #181818 !important;
+}
+
+.tagged-ignored {
+	background-color : transparent !important;
+}
+
+.new-post-activity, #new-answer-activity {
+	background-color : #222 !important;
+	width            : 730px !important;
+}
+
+/* BEGIN Notice above footer */
+.bottom-notice {
+	text-align : center;
+}
+
+/* END Notice above footer */
+/* BEGIN Footer */
+#footer {
+	background-color : #000 !important;
+}
+
+#footer-menu {
+	color      : #333 !important;
+	text-align : center !important;
+}
+
+/* END Footer */
+
+/* BEGIN Tabs */
+#tabs a {
+	background         : #000 !important;
+	border             : 1px solid #000 !important;
+	color              : #888 !important;
+	margin             : 6px 8px 0 0 !important;
+	padding            : 2px 11px 0 11px !important;
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+#tabs a.youarehere {
+	background          : #000 !important;
+	border              : 1px solid #333 !important;
+	border-bottom-color : #000 !important;
+	color               : #eee !important;
+	margin-top          : 1px !important;
+}
+
+#tabs a:hover {
+	background          : black !important;
+	border              : 1px solid #333 !important;
+	border-bottom-color : #000 !important;
+	margin-top          : 7px !important;
+}
+
+#tabs a.youarehere:hover {
+	margin-top : 1px !important;
+}
+
+#tabs .bounty-indicator-tab {
+	line-height : 20px !important;
+}
+
+/* END Tabs */
+
+/* BEGIN Delete tag button */
+.tag-editor .delete-tag,
+#interestingTags .delete-tag,
+#ignoredTags .delete-tag {
+	margin-top : 5px !important;
+}
+
+/* We also fix a 2-pixel padding issue on the tags here */
+/* This is introduced by the delete button above */
+#interestingTags .post-tag,
+#ignoredTags .delete-tag {
+	padding : 3px !important;
+}
+
+/* END Delete tag button */
+
+/* BEGIN Post */
+.post-issue {
+	margin-bottom : 10px !important;
+	position      : inherit !important;
+	width         : 100% !important;
+	visibility    : visible !important;
+}
+
+.post-issue .post-issue-display {
+	background-color : transparent !important;
+	border           : none !important;
+	/*border-bottom    : 1px solid #444;*/
+	border-radius    : 0 !important;
+	opacity          : 1 !important;
+	position         : inherit !important;
+}
+
+.post-issue .post-issue-display a {
+	background-color : #222 !important;
+	background-image : url("http://i.imgur.com/fbpNn24.png") !important; /* sprites */
+	display          : inline-block !important;
+	float            : right !important;
+	padding          : 5px 10px 5px 25px !important;
+	opacity          : 0.5 !important;
+}
+
+.post-issue .post-issue-display a:hover {
+	opacity         : 1 !important;
+	text-decoration : none !important;
+}
+
+.post-issue .post-issue-display a[href$='show-flags'] {
+	background-position : 5px -710px !important;
+}
+
+.post-issue .post-issue-display a[href$='comments'] {
+	background-position : 5px -660px !important;
+}
+
+.post-issue .post-issue-display a[href*='timeline'] {
+	background-image : none;
+}
+
+/* Overwrite responsive styles */
+.post-issue .post-issue-display::after {
+	content : "" !important;
+	margin  : 0 !important;
+}
+
+.post-tag,
+.post-text .post-tag,
+.wmd-preview a.post-tag {
+	background-color : #000 !important;
+	border           : 1px solid #05272d !important;
+	font-size        : 80% !important;
+	padding          : 3px 5px 3px 5px !important;
+	text-transform   : uppercase !important;
+}
+
+.post-tag:hover,
+.post-text .post-tag:hover,
+.wmd-preview a.post-tag:hover {
+	border-radius : 0 !important;
+	border        : 1px solid #14a7c6 !important;
+}
+
+.post-text a {
+	color : #1086a4 !important;
+}
+
+.post-text img {
+	/* Fix transparent backgrounds - makes dropshadows on screenshots look better */
+	background-color   : #888 !important;
+	-webkit-box-shadow : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
+	box-shadow         : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
+	/* Fix images being pushed outside of the bounds of a post */
+	max-width          : 100% !important;
+}
+
+/* END Post */
+
+/* BEGIN Make post menu (the text links) behave all weird like */
+/* Also applies to some other links of the same flavor */
+.comments-link,
+.post-menu > a,
+.edit-tags-wrapper > span > a {
+	text-align         : center !important;
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+.comments-link:hover,
+.post-menu > a:hover,
+.edit-tags-wrapper > span > a:hover {
+	background-color : #222 !important;
+	border-bottom    : 1px solid #1087a4;
+}
+
+/* END Make post menu (the text links) behave all weird like */
+
+.answered-accepted {
+	background-color : #3a5408 !important;
+}
+
+/* BEGIN Forms elements */
+input, select, button {
+	background-color : #000 !important;
+	border           : 1px solid #333 !important;
+	color            : #888 !important;
+	-moz-appearance  : none !important;
+}
+
+input[type="button"],
+input[type="submit"] {
+	background-color   : #222 !important;
+	box-shadow         : 0 2px 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(66, 66, 66, 0.4) inset !important;
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+	background-color : #444 !important;
+	border           : 1px solid #888 !important;
+	color            : white !important;
+}
+
+input[type="checkbox"] {
+	opacity : 0.6 !important;
+}
+
+textarea {
+	background-color : #000 !important;
+	border           : 1px solid #666 !important;
+	color            : #fff !important;
+	opacity          : 0.5 !important;
+	-moz-appearance  : none !important;
+}
+
+textarea.actual-edit-overlay {
+	opacity : 0 !important;
+}
+
+/* END Forms elements */
+
+/* BEGIN Answer */
+.owner {
+	background-color : #222 !important;
+	background-image : url("http://i.stack.imgur.com/6Bmrf.png"); /* skewed_print */
+}
+
+.question-status {
+	background-color : #222 !important;
+}
+
+code {
+	background-color : #222 !important;
+}
+
+pre {
+	background-color : #444 !important;
+	border-left      : 5px solid #666 !important;
+	color            : #fff !important;
+	opacity          : 0.5 !important;
+}
+
+pre > code {
+	background-color : #444 !important;
+	color            : #fff !important;
+}
+
+blockquote {
+	background-color : #222 !important;
+	border-left      : 5px solid #333 !important;
+}
+
+.wmd-preview hr,
+.post-text hr {
+	background-color : #333 !important;
+	color            : #333 !important;
+}
+
+.reviewable-answer,
+.answer {
+	/* Overrides the fade when opening a link */
+	background-color : transparent !important;
+}
+
+.answer-hyperlink.deleted-answer,
+.answer-link.deleted-answer,
+.answer.deleted-answer,
+.question-hyperlink.deleted-answer,
+.question.deleted-answer,
+.question-summary.deleted-answer,
+.rep-breakdown-row.deleted-answer {
+	background-color : #281212 !important;
+	opacity          : 0.7 !important;
+}
+
+.answer {
+	padding-top : 6px !important;
+}
+
+/* END Answer */
+
+/* BEGIN Chat Room Panel */
+.ad502-room {
+	background-color   : #111 !important;
+	border             : none !important;
+	border-radius      : 0 !important;
+	-moz-box-shadow    : none !important;
+	-webkit-box-shadow : none !important;
+	box-shadow         : none !important;
+}
+
+.ad502-room a img {
+	opacity            : 0.3 !important;
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+.ad502-room:hover a img {
+	opacity : 1 !important;
+}
+
+/* END Chat Room Panel */
+
+.lastactivity-link {
+	background-color : #000 !important;
+}
+
+.page-description {
+	color : #666 !important;
+}
+
+/* BEGIN Page number & Interval tabs */
+.subtabs a,
+.pager a .page-numbers {
+	border             : 1px solid #222 !important;
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+.subtabs a:hover,
+.pager a:hover .page-numbers {
+	background-color : #000 !important;
+	border           : 1px solid #1086a4 !important;
+	color            : #fff !important;
+}
+
+.pager a .page-numbers.next,
+.pager a .page-numbers.prev,
+.pager a:hover .page-numbers.next,
+.pager a:hover .page-numbers.prev {
+	border : 1px solid transparent !important;
+}
+
+.page-numbers.current,
+.subtabs a.youarehere {
+	background-color : #1086a4 !important;
+	border           : 1px solid #1086a4 !important;
+	color            : white !important;
+	cursor           : default !important;
+	font-weight      : bold !important;
+}
+
+/* END Page number & Interval tabs */
+
+/* BEGIN Profile popup */
+.profile-popup {
+	background-color   : black !important;
+	border             : 10px solid #222 !important;
+	border-top         : 1px solid #222 !important;
+	-moz-box-shadow    : 0px 10px 15px #000 !important;
+	-webkit-box-shadow : 0px 10px 15px #000 !important;
+	box-shadow         : 0px 10px 15px #000 !important;
+}
+
+.profile-popup .profile-stats table.profile-recent-summary thead tr,
+.profile-popup .profile-gravatar {
+	border-bottom : 2px solid #222 !important;
+}
+
+.profile-popup .profile-stats table {
+	color : #666 !important;
+}
+
+/* END Profile popup */
+
+/* BEGIN User and tag popup */
+#tag-menu,
+#user-menu {
+	background-color   : #222 !important;
+
+	-moz-border-radius : 0 !important;
+	border-radius      : 0 !important;
+	border             : none !important;
+
+	-moz-box-shadow    : none !important;
+	-webkit-box-shadow : none !important;
+	box-shadow         : none !important;
+}
+
+#tag-menu {
+	background-color : #000 !important;
+	border           : 2px solid #05272d !important;
+}
+
+#user-menu .reputation-score {
+	color : #e3e3e3 !important;
+}
+
+/* END User and tag popup */
+
+/* BEGIN Flag indicator */
+.mod-flag-indicator.supernovabg {
+	border : 1px solid #bd0a4d !important;
+	color  : #000 !important;
+}
+
+.mod-flag-indicator.hotbg {
+	border : 1px solid #b8285f !important;
+	color  : #000 !important;
+}
+
+.mod-flag-indicator:hover {
+	border          : 1px solid #f00 !important;
+	text-decoration : none !important;
+}
+
+/* END Flag indicator */
+
+/* BEGIN User profile stuff */
+
+.user-about-me {
+	background-color : #222 !important;
+	border-top       : 1px solid #1f1f1f !important;
+	border-top       : 1px solid #222 !important;
+	border-bottom    : 1px solid #222 !important;
+}
+
+.user-show-new .user-header .user-header-left .gravatar .reputation a {
+	color               : #eee !important;
+	-moz-text-shadow    : 0 0 5px #fff !important;
+	-webkit-text-shadow : 0 0 5px #fff !important;
+	text-shadow         : 0 0 5px #fff !important;
+}
+
+.user-show-new .history-table > tbody > tr {
+	border-top : 1px solid #222 !important;
+}
+
+.user-show-new .history-table > tbody > tr.deleted-answer {
+	background-color : #281212 !important;
+}
+
+.user-tab-favorites table > tbody > tr.highlight-row,
+.user-show-new .history-table > tbody > tr.highlight-row {
+	background-color : transparent !important;
+}
+
+.user-show-new .history-table > tbody > tr td .reviewed-action {
+	background-color : #222 !important;
+}
+
+.user-show-new .history-table > tbody > tr td .date_brick {
+	background-color : #222 !important;
+}
+
+.user-show-new .answer-summary {
+	border-bottom : 1px solid #222 !important;
+}
+
+#user-tab-responses table > tbody > tr .comments {
+	border : none !important;
+}
+
+/* BEGIN User info Reputation tab */
+.user-show-new .user-rep-full .rep-recent-row {
+	background-color : #000 !important;
+}
+
+.user-show-new .user-rep-full .rep-table-row > td {
+	border-bottom : dotted 1px #222 !important;
+}
+
+.highcharts-container svg > rect {
+	fill : #000 !important;
+}
+
+/* END User info Reputation tab */
+/* END User profile stuff */
+
+.mod-flair {
+	-moz-text-shadow    : 0 0 5px #1086a4 !important;
+	-webkit-text-shadow : 0 0 5px #1086a4 !important;
+	text-shadow         : 0 0 5px #1086a4 !important;
+}
+
+#hlogo a, .envelope-on, .envelope-off, .vote-up-off, .vote-up-on, .vote-down-off, .vote-down-on, .star-on, .star-off, .comment-up-off, .comment-up-on, .comment-flag, .edited-yes, a.cc-wiki-link, .feed-icon, .statsarrow, .vote-accepted-off, .vote-accepted-on, .vote-accepted-bounty, .badge-earned-check, .delete-tag, .grippie, .expander-arrow-hide, .expander-arrow-show, .expander-arrow-small-hide, .expander-arrow-small-show, .anonymous-gravatar, .badge1, .badge2, .badge3, .add-interesting-tag-on, .add-interesting-tag-off, .fb-share, .twitter-share, .gp-share {
+	background-image : url("http://i.imgur.com/fbpNn24.png") !important; /* sprites */
+}
+
+.askquestion li {
+	margin-right : 0 !important;
+}
+
+.actual-edit-overlay {
+	background-color        : #000 !important;
+	color                   : #fff !important;
+	-webkit-text-fill-color : #fff !important;
+}
+
+.tag-editor {
+	background-color : #000 !important;
+}
+
+/* BEGIN Comments */
+.comments {
+	border-top : dotted 1px #555 !important;
+	color      : #777 !important;
+}
+
+tr.comment > td {
+	border-bottom : dotted 1px #222 !important;
+}
+
+tr.comment {
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+tr.comment:hover {
+	background-color : #222 !important;
+}
+
+/* Move controls in comments to the right */
+.comment-delete,
+.comment-edit {
+	float : right !important;
+}
+
+/* END Comments */
+
+.bounty {
+	background-color : #222 !important;
+	color            : #fff !important;
+}
+
+.bounty-indicator, .bounty-indicator-tab, .bounty-award {
+	color : #000 !important;
+}
+
+#question-header {
+	border-bottom : 1px solid #333 !important;
+}
+
+#question-header h1 {
+	font-size           : 120% !important;
+	line-height         : 20px !important;
+
+	background-repeat   : no-repeat !important;
+	padding-left        : 30px !important;
+
+	background-position : -240px 0px !important;
+	background-image    : url("http://i.stack.imgur.com/HqdIJ.png") !important; /* wmd-buttons */
+}
+
+#question-header a {
+	color : #eee !important;
+}
+
+.question-summary {
+	border-bottom : 1px dotted #282828 !important;
+}
+
+div#userinfo {
+	background-color : #222 !important;
+}
+
+#header #hmenus {
+	width : 700px !important;
+}
+
+.mainnavs li a {
+	padding : 6px 16px !important;
+}
+
+.subheader {
+	border-bottom : 1px solid #333 !important;
+	color         : #888 !important;
+}
+
+.subheader a {
+	color : #888;
+}
+
+/* BEGIN Gravatars */
+
+.gravatar-wrapper-32 {
+	background-color : transparent !important;
+}
+
+.gravatar-wrapper-48 {
+	background-color : transparent !important;
+}
+
+.user-gravatar32 img,
+.user-gravatar32 .anonymous-gravatar,
+#user-browser img {
+	background-color   : #888 !important;
+	-webkit-box-shadow : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
+	box-shadow         : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
+	opacity            : 0.5 !important;
+}
+
+/* END Gravatars */
+
+.reputation-score {
+	color : #666 !important;
+}
+
+span.feed-icon {
+	background-color : #000 !important;
+}
+
+/* Post Flag bar */
+#postflag-bar {
+	border-top       : 2px solid #666 !important;
+	background-color : #222 !important;
+}
+
+#postflag-bar .nav-button {
+	background-color : #222 !important;
+}
+
+#postflag-bar .nav-button:hover {
+	background-color : #666 !important;
+}
+
+#postflag-bar .nav-button:hover a {
+	color : #fff !important;
+}
+
+.welovestackoverflow {
+	color         : #888 !important;
+	border        : none !important;
+	border-bottom : 3px solid #222 !important;
+}
+
+.lsep {
+	color : #444 !important;
+}
+
+/* Ad block */
+.everyonelovesstackoverflow {
+	opacity            : 0.5 !important;
+	-webkit-transition : 1s ease-in !important;
+	-moz-transition    : 1s ease-in !important;
+	/* Fix pesky line below image */
+	line-height        : 10px !important;
+}
+
+.everyonelovesstackoverflow:hover {
+	background-color   : #fff !important;
+	opacity            : 1 !important;
+	-moz-box-shadow    : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+	-webkit-box-shadow : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+	box-shadow         : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Popup (Close question, etc.) */
+.popup {
+	background-color : #000 !important;
+	border           : 10px solid #222 !important;
+}
+
+.action-list .action-selected {
+	background-color : #222 !important;
+}
+
+.popup-close a {
+	background-color   : #222 !important;
+	-moz-box-shadow    : 2px 2px 5px #222 !important;
+	-webkit-box-shadow : 2px 2px 5px #222 !important;
+	box-shadow         : 2px 2px 5px #222 !important;
+}
+
+.close-as-duplicate-pane .original-display .question,
+.close-as-duplicate-pane .original-display .answer {
+	width : auto !important;
+}
+
+.close-as-duplicate-pane .original-display .preview {
+	border : 1px solid #222 !important;
+}
+
+.close-as-duplicate-pane .original-display .list-originals .list .item {
+	border-bottom : 1px solid #222 !important;
+}
+
+.close-as-duplicate-pane .original-display .list-originals .list .item.hover,
+.close-as-duplicate-pane .original-display .list-originals .list .item .stats {
+	background-color : #111 !important;
+}
+
+/* BEGIN Timeline */
+.timeline .tr-question,
+.timeline .tr-answer,
+.timeline .tr-revised,
+.timeline .tr-accepted,
+.timeline .tr-unaccepted,
+.timeline .tr-state,
+.timeline .timeline-day-header {
+	background : #222;
+}
+
+.timeline .td-state,
+.timeline .qacell {
+	background-color : #222;
+}
+
+.timeline .event-multiplier {
+	color : #666;
+}
+
+.timeline .td-revised {
+	color : #d00;
+}
+
+/* END Timeline */
+
+/* BEGIN Review */
+.dashboard-item {
+	border-bottom : 1px dotted #222 !important;
+}
+
+.dashboard-item .dashboard-activity .dashboard-user {
+	opacity            : 0.5 !important;
+	-webkit-transition : 0.1s ease-in !important;
+	-moz-transition    : 0.1s ease-in !important;
+}
+
+.dashboard-item:hover .dashboard-activity .dashboard-user {
+	opacity : 1 !important;
+}
+
+.review-instructions b,
+.review-instructions strong {
+	color               : #fff !important;
+	-moz-text-shadow    : 0 0 1px #888 !important;
+	-webkit-text-shadow : 0 0 1px #888 !important;
+	text-shadow         : 0 0 1px #888 !important;
+}
+
+.review-instructions-reason {
+	background-color : #222 !important;
+}
+
+.review-bar-container .review-bar {
+	border             : 1px solid #333 !important;
+	background-color   : rgba(0, 0, 0, 0.95) !important;
+	-webkit-box-shadow : 1px 1px 1px rgba(55, 55, 55, 0.8) !important;
+}
+
+.review-diff-bar {
+	background-color : #000 !important;
+	border-bottom    : 1px solid #333 !important;
+}
+
+table.full-diff td {
+	border : none !important;
+}
+
+.stats-mainbar .task-stat-table {
+	background-color : #111 !important;
+}
+
+.stats-mainbar .task-stat-table td {
+	border           : 5px solid #000 !important;
+	background-color : #000 !important;
+}
+
+.review-stats-count-current-user,
+.review-stats-current-user {
+	background-color : #222 !important;
+}
+
+.suggested-edit .body-diffs .full-diff .skip {
+	background-color : #222 !important;
+}
+
+#revisions .markdown-diff .full-diff .inserted,
+.suggested-edit .body-diffs .full-diff .inserted {
+	background-color : #43443d !important;
+}
+
+#revisions .markdown-diff .full-diff .deleted,
+.suggested-edit .body-diffs .full-diff .deleted {
+	background-color : #604646 !important;
+}
+
+#revisions .markdown-diff .full-diff .skip {
+	background-color : #222 !important;
+}
+
+/* .diff-choices also applies for suggested edits */
+.diff-choices a {
+	border  : none !important;
+	opacity : 0.5 !important;
+}
+
+.diff-choices a.selected,
+.diff-choices a:hover,
+.diff-choices a.selected:hover {
+	border             : none !important;
+	background-color   : #222 !important;
+	opacity            : 1 !important;
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+.revision td {
+	background-color : #352a2a !important;
+}
+
+.owner-revision td {
+	background-color : #273133 !important;
+}
+
+.vote-revision td {
+	background-color : #222 !important;
+}
+
+span.diff-add {
+	-moz-box-shadow    : 0 0 5px #d1e1ad !important;
+	-webkit-box-shadow : 0 0 5px #d1e1ad !important;
+	box-shadow         : 0 0 5px #d1e1ad !important;
+}
+
+span.diff-delete {
+	-moz-box-shadow    : 0 0 5px #e5bdb2 !important;
+	-webkit-box-shadow : 0 0 5px #e5bdb2 !important;
+	box-shadow         : 0 0 5px #e5bdb2 !important;
+}
+
+.revision-comment {
+	background-color   : #222 !important;
+	border             : 1px solid #333 !important;
+	color              : #fff !important;
+	display            : inline-block !important;
+	-moz-box-shadow    : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+	-webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+	box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+}
+
+tr.revision-comment {
+	display : table-row !important;
+}
+
+.review-filter-popup {
+	background-color   : #222 !important;
+	border             : 1px solid #333 !important;
+	-moz-box-shadow    : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+	-webkit-box-shadow : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+	box-shadow         : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+}
+
+/* END Review */
+
+/* BEGIN Editor width Fix */
+#post-form .wmd-container,
+#post-form .wmd-input,
+#post-form .wmd-preview {
+	padding : 0 !important;
+	width   : 100% !important;
+}
+
+.post-editor,
+.wmd-button-bar {
+	background-color : #000 !important;
+	width            : 100% !important;
+}
+
+.grippie {
+	background-color : #222 !important;
+	border           : 1px solid #222 !important;
+	/*width            : 100% !important;*/
+	width            : auto !important;
+	margin-right     : 0 !important;
+}
+
+/* END Editor width Fix */
+
+/* More Editor */
+.wmd-preview {
+	border : 2px dotted #888 !important;
+}
+
+.form-item label {
+	color : #666 !important;
+}
+
+.wmd-button-bar {
+	background-color : #000 !important;
+}
+
+.wmd-button > span {
+	background-image : url("http://i.stack.imgur.com/HqdIJ.png") !important; /* wmd-buttons */
+}
+
+/* BEGIN WMD Image selection dialog (same style as Popup) */
+.wmd-prompt-dialog {
+	background-color : #000 !important;
+	border           : 10px solid #222 !important;
+}
+
+/* END WMD Image selection dialog (same style as Popup) */
+
+.tag-suggestions {
+	background-color : #000 !important;
+}
+
+.tag-suggestions > div {
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+.tag-suggestions > div:focus,
+.tag-suggestions > div:hover,
+.tag-suggestions > div:hover .more-info {
+	background-color : #222 !important;
+}
+
+/* BEGIN Moderator stuff */
+.migrated {
+	background-image : url("http://i.stack.imgur.com/bIOJc.png") !important; /* fatarrows */
+}
+
+table.sorter {
+	border : none !important;
+}
+
+table.sorter tbody td {
+	color              : inherit !important;
+	background-color   : #111 !important;
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+table.sorter tbody td.hot {
+	color : #dc3071 !important;
+}
+
+table.sorter tbody td.supernova {
+	color : #ff0d68 !important;
+}
+
+table.sorter tbody tr.odd td {
+	background-color : #000 !important;
+}
+
+table.sorter tbody tr:hover td {
+	background-color : #222 !important;
+}
+
+table.sorter th,
+table.sorter tfoot td {
+	background-color : transparent !important;
+	border           : none !important;
+}
+
+.flagged-post {
+	border-bottom : solid 1px #222 !important;
+}
+
+table.flagged-posts tr.messageDivider > td {
+	border-top : 1px solid #222 !important;
+}
+
+table.flagged-posts .relativetime.old {
+	color : #666 !important;
+}
+
+.mod-page #content .content-page > ul > li {
+	float           : left;
+	list-style-type : none;
+}
+
+.mod-page #content li > a {
+	display          : inline-block;
+	padding          : 5px 10px;
+	border           : 3px solid #222;
+	border-radius    : 3px;
+	margin           : 5px;
+	background-color : #222;
+}
+
+.mod-page #content li > a:hover {
+	background-color : #444;
+	border-color     : #444;
+	color            : #fff;
+	text-decoration  : none;
+}
+
+.mod-page #content h3 {
+	clear : left;
+}
+
+tr.msg {
+	border-top : 1px solid #444 !important;
+}
+
+/* END Moderator stuff */
+
+/* BEGIN System messages */
+.sys-message-past, .sys-message .message-content, .sys-message-new {
+	background-color : #222 !important;
+}
+
+.sys-message-past .message-content {
+	background-color : #000 !important;
+}
+
+/* END System messages */
+
+/* BEGIN Left-align page for huge monitors */
+/*
+#content,
+#header {
+  margin : 0 0 0 10px !important;
+}
+.footerwrap {
+  margin : 0 !important;
+}
+*/
+/* END Left-align page for huge monitors */
+
+/* BEGIN Share box */
+.share-tip {
+	-moz-box-shadow    : 2px 2px 4px #222 !important;
+	-webkit-box-shadow : 2px 2px 4px #222 !important;
+	box-shadow         : 2px 2px 4px #222 !important;
+	background-color   : #222 !important;
+}
+
+/* END Share box */
+
+/* BEGIN Login page */
+.login-page #openid_highlight {
+	border           : 2px dashed #444 !important;
+	background-color : #111 !important;
+}
+
+.preferred-login {
+	background-color : #222 !important;
+}
+
+.preferred-login,
+.login-page .openid_large_btn {
+	margin             : 6px !important;
+	border             : 2px solid #444 !important;
+
+	box-shadow         : none !important;
+	-moz-box-shadow    : none !important;
+	-webkit-box-shadow : none !important;
+
+	-webkit-transition : 0.10s ease-in !important;
+	-moz-transition    : 0.10s ease-in !important;
+}
+
+.preferred-login:hover,
+.login-page .openid_large_btn:hover {
+	margin             : 6px !important;
+	box-shadow         : 0px 0px 15px 5px #444 !important;
+	-moz-box-shadow    : 0px 0px 15px 5px #444 !important;
+	-webkit-box-shadow : 0px 0px 15px 5px #444 !important;
+}
+
+.login-page .openid_small_btn {
+	border             : 2px solid #444 !important;
+	margin             : 4px !important;
+	box-shadow         : none !important;
+	-moz-box-shadow    : none !important;
+	-webkit-box-shadow : none !important;
+}
+
+.login-page .openid_small_btn:hover {
+	margin             : 4px !important;
+	box-shadow         : 0px 0px 5px 3px #444 !important;
+	-moz-box-shadow    : 0px 0px 5px 3px #444 !important;
+	-webkit-box-shadow : 0px 0px 5px 3px #444 !important;
+}
+
+#openid_btns a {
+	background-color : #000;
+	background-image : url("http://i.stack.imgur.com/q7kl9.png") !important; /* openid-logos */
+}
+
+/* END Login page */
+
+/* BEGIN About */
+.about-page .new-about-content-page h2.about-title {
+	color : #ddd !important;
+}
+
+.qa-block {
+	background-color : transparent !important;
+	border           : 1px solid transparent !important;
+}
+
+.new-about-content-page .content-block {
+	background-color : transparent !important;
+	border           : 1px solid transparent !important;
+}
+
+.about-page .new-about-content-page .user-info-rep {
+	background-color : transparent !important;
+	border           : 1px solid transparent !important;
+}
+
+/* END About */
+
+/* BEGIN Help Center */
+#herobox {
+	background-color : transparent !important;
+	border           : 1px solid transparent !important;
+}
+
+#herobox #hero-content {
+	background-color : transparent !important;
+	background-image : none !important;
+	border           : 3px solid transparent !important;
+}
+
+/* END Help Center*
