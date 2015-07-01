@@ -11,11 +11,17 @@
 		padding          : 0 !important;
 
 		// Like the "asked, viewed, active" table on the top
-		table {
+		table#qinfo {
 			width : 100% !important;
 
 			// The data in the second column
+			/*
 			.vt {
+				text-align : right !important;
+			}
+			*/
+
+			td + td {
 				text-align : right !important;
 			}
 		}
@@ -42,6 +48,13 @@
 		&#interesting-tags,
 		&#ignoredTags {
 			width : 100% !important;
+		}
+
+		&#related-tags .item-multiplier {
+			float : right !important;
+			.item-multiplier-count {
+				font-weight : bold !important;
+			}
 		}
 	}
 

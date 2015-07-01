@@ -1,4 +1,4 @@
-#sidebar .module table,#sidebar .module#ignoredTags,#sidebar .module#interesting-tags{width:100%!important}.topbar{background-color:#222!important;background-image:url(http://i.stack.imgur.com/uV1TZ.png)!important}.topbar .topbar-links a{color:#888!important}.topbar .topbar-links a.mod-flag-indicator{color:#000!important}.topbar #search input{border-top:1px solid #333!important;border-left:1px solid #333!important}#sidebar .module{background-color:#000!important;color:#888!important;padding:0!important}#sidebar .module table .vt{text-align:right!important}#sidebar .module p{color:inherit!important}#sidebar .module.community-bulletin{background-color:transparent!important;border:none!important;box-shadow:none!important;text-shadow:1px 0 3px #1086a4!important}#sidebar .module.community-bulletin .bulletin-item-content a{border-left:3px solid #1086a4!important;display:block;padding-left:5px!important}#sidebar.show-votes .sidebar-linked .answer-votes,#sidebar.show-votes .sidebar-related .answer-votes{background-color:#111!important;color:#bbb!important}body,body #content{color:#888!important}#sidebar.show-votes .sidebar-linked .answer-votes.answered-accepted,#sidebar.show-votes .sidebar-related .answer-votes.answered-accepted{background-color:#3a5408!important}body{background-color:#000!important}body #content{background-color:transparent}
+#sidebar .module table#qinfo,#sidebar .module#ignoredTags,#sidebar .module#interesting-tags{width:100%!important}.topbar{background-color:#222!important;background-image:url(http://i.stack.imgur.com/uV1TZ.png)!important}.topbar .topbar-links a{color:#888!important}.topbar .topbar-links a.mod-flag-indicator{color:#000!important}.topbar #search input{border-top:1px solid #333!important;border-left:1px solid #333!important}#sidebar .module{background-color:#000!important;color:#888!important;padding:0!important}#sidebar .module table#qinfo td+td{text-align:right!important}#sidebar .module p{color:inherit!important}#sidebar .module.community-bulletin{background-color:transparent!important;border:none!important;box-shadow:none!important;text-shadow:1px 0 3px #1086a4!important}#sidebar .module.community-bulletin .bulletin-item-content a{border-left:3px solid #1086a4!important;display:block;padding-left:5px!important}#sidebar .module#related-tags .item-multiplier{float:right!important}#sidebar .module#related-tags .item-multiplier .item-multiplier-count{font-weight:700!important}#sidebar.show-votes .sidebar-linked .answer-votes,#sidebar.show-votes .sidebar-related .answer-votes{background-color:#111!important;color:#bbb!important}body,body #content{color:#888!important}#sidebar.show-votes .sidebar-linked .answer-votes.answered-accepted,#sidebar.show-votes .sidebar-related .answer-votes.answered-accepted{background-color:#3a5408!important}body{background-color:#000!important}body #content{background-color:transparent}
 
 /* BEGIN Tag lists */
 #recent-tags-list a:hover + .item-multiplier,
@@ -20,19 +20,8 @@
 .tag-cell {
 	border-bottom : 1px dotted #222 !important;
 }
-
 /* END Tag lists */
 
-/* BEGIN Quick Info box on question page */
-#qinfo {
-	width : 100%;
-}
-
-#qinfo td + td {
-	text-align : right !important;
-}
-
-/* END Quick Info box on question page */
 
 .question-hyperlink {
 	font-weight : normal !important;
