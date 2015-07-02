@@ -31,12 +31,10 @@
 		}
 
 		&.community-bulletin {
-			background-color   : transparent !important;
-			border             : none !important;
-			-moz-box-shadow    : none !important;
-			-webkit-box-shadow : none !important;
-			box-shadow         : none !important;
-			text-shadow        : 1px 0 3px #1086a4 !important;
+			background-color : transparent !important;
+			border           : none !important;
+			box-shadow       : none !important;
+			text-shadow      : 1px 0 3px #1086a4 !important;
 
 			.bulletin-item-content a {
 				border-left  : 3px solid #1086a4 !important;
