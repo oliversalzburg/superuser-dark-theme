@@ -9,6 +9,25 @@
     border-top: 1px solid #333 !important;
     border-left: 1px solid #333 !important; }
 
+#tabs a {
+  background: #000 !important;
+  border: 1px solid #333 !important;
+  color: #888 !important;
+  margin: 1px 8px 0 0 !important;
+  padding: 10px 16px !important;
+  -webkit-transition: 0.10s ease-in !important;
+          transition: 0.10s ease-in !important; }
+  #tabs a.youarehere {
+    border: 1px solid #333 !important;
+    border-bottom-color: #000 !important;
+    color: #eee !important; }
+  #tabs a.bounty-indicator-tab {
+    line-height: 20px !important; }
+  #tabs a:hover {
+    border: 1px solid #333 !important;
+    background: #000 !important;
+    border-bottom-color: #000 !important; }
+
 #sidebar .module {
   background-color: #000 !important;
   color: #888 !important;
@@ -48,6 +67,15 @@
   #sidebar.show-votes .sidebar-linked .answer-votes.answered-accepted,
   #sidebar.show-votes .sidebar-related .answer-votes.answered-accepted {
     background-color: #3a5408 !important; }
+
+.bottom-notice {
+  text-align: center; }
+
+#footer {
+  background-color: #000 !important; }
+  #footer #footer-menu {
+    color: #333 !important;
+    text-align: center !important; }
 
 body {
   background-color: #000 !important;

@@ -1,0 +1,25 @@
+// The tabs above the question list: "active, featured, hot, week, month" and similar tabs
+#tabs a {
+	background : #000 !important;
+	border     : 1px solid #333 !important;
+	color      : #888 !important;
+	margin     : 1px 8px 0 0 !important;
+	padding    : 10px 16px !important;
+	transition : 0.10s ease-in !important;
+
+	&.youarehere {
+		border              : 1px solid #333 !important;
+		border-bottom-color : #000 !important;
+		color               : #eee !important;
+	}
+
+	&.bounty-indicator-tab {
+		line-height : 20px !important;
+	}
+
+	&:hover {
+		border              : 1px solid #333 !important;
+		background          : #000 !important;
+		border-bottom-color : #000 !important;
+	}
+}

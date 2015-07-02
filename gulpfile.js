@@ -14,12 +14,12 @@ gulp.task( "clean:css", function() {
 		.pipe( vinylPaths( del ) );
 } );
 
-var debug=require("gulp-debug");
+var debug = require( "gulp-debug" );
 
 function buildCss() {
 	return gulp
 		.src( "main.scss", { cwd : "src" } )
-		.pipe(debug())
+		.pipe( debug() )
 		.pipe( sass() )
 		.pipe( cached( "dist" ) )
 		// If enabled, add vendor prefixes to the CSS output.
