@@ -48,11 +48,17 @@
 			width : 100% !important;
 		}
 
-		&#related-tags .item-multiplier {
-			float : right !important;
+		// These are the counts of how often a certain tag is related or recent.
+		// Float these counts to the right and pull them back on hover over the tag.
+		.item-multiplier {
+			float      : right !important;
 			.item-multiplier-count {
 				font-weight : bold !important;
 			}
+		}
+
+		a:hover + .item-multiplier {
+			float : none !important;
 		}
 	}
 

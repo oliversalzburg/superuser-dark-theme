@@ -55,10 +55,14 @@
   #sidebar .module#interesting-tags,
   #sidebar .module#ignoredTags {
     width: 100% !important; }
-  #sidebar .module#related-tags .item-multiplier {
+  #sidebar .module .item-multiplier {
+    -webkit-transition: 0.5s;
+            transition: 0.5s;
     float: right !important; }
-    #sidebar .module#related-tags .item-multiplier .item-multiplier-count {
+    #sidebar .module .item-multiplier .item-multiplier-count {
       font-weight: bold !important; }
+  #sidebar .module a:hover + .item-multiplier {
+    float: none !important; }
 
 #sidebar.show-votes .sidebar-linked .answer-votes,
 #sidebar.show-votes .sidebar-related .answer-votes {
@@ -129,6 +133,36 @@
   .edit-tags-wrapper > span > a:hover {
     background-color: #222 !important;
     border-bottom: 1px solid #1087a4; }
+
+input, select, button {
+  background-color: #000 !important;
+  border: 1px solid #333 !important;
+  color: #888 !important;
+  -moz-appearance: none !important; }
+
+input[type="button"],
+input[type="submit"] {
+  background-color: #222 !important;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(66, 66, 66, 0.4) inset !important;
+  -webkit-transition: 0.10s ease-in !important;
+          transition: 0.10s ease-in !important; }
+  input[type="button"]:hover,
+  input[type="submit"]:hover {
+    background-color: #444 !important;
+    border: 1px solid #888 !important;
+    color: white !important; }
+
+input[type="checkbox"] {
+  opacity: 0.6 !important; }
+
+textarea {
+  background-color: #000 !important;
+  border: 1px solid #666 !important;
+  color: #fff !important;
+  opacity: 0.5 !important;
+  -moz-appearance: none !important; }
+  textarea.actual-edit-overlay {
+    opacity: 0 !important; }
 
 .bottom-notice {
   text-align: center; }
