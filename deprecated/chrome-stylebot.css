@@ -1,4 +1,4 @@
-#sidebar .module table#qinfo,#sidebar .module#ignoredTags,#sidebar .module#interesting-tags{width:100%!important}.topbar{background-color:#222!important;background-image:url(http://i.stack.imgur.com/uV1TZ.png)!important}#tabs a,#tabs a:hover{background:#000!important}.topbar .topbar-links a{color:#888!important}.topbar .topbar-links a.mod-flag-indicator{color:#000!important}.topbar #search input{border-top:1px solid #333!important;border-left:1px solid #333!important}#tabs a{border:1px solid #333!important;color:#888!important;margin:1px 8px 0 0!important;padding:10px 16px!important;-webkit-transition:.1s ease-in!important;transition:.1s ease-in!important}#tabs a.youarehere{border:1px solid #333!important;border-bottom-color:#000!important;color:#eee!important}#tabs a.bounty-indicator-tab{line-height:20px!important}#tabs a:hover{border:1px solid #333!important;border-bottom-color:#000!important}#sidebar .module{background-color:#000!important;color:#888!important;padding:0!important}#sidebar .module table#qinfo td+td{text-align:right!important}#sidebar .module p{color:inherit!important}#sidebar .module.community-bulletin{background-color:transparent!important;border:none!important;box-shadow:none!important;text-shadow:1px 0 3px #1086a4!important}#sidebar .module.community-bulletin .bulletin-item-content a{border-left:3px solid #1086a4!important;display:block;padding-left:5px!important}#sidebar .module#related-tags .item-multiplier{float:right!important}#sidebar .module#related-tags .item-multiplier .item-multiplier-count{font-weight:700!important}#sidebar.show-votes .sidebar-linked .answer-votes,#sidebar.show-votes .sidebar-related .answer-votes{background-color:#111!important;color:#bbb!important}#sidebar.show-votes .sidebar-linked .answer-votes.answered-accepted,#sidebar.show-votes .sidebar-related .answer-votes.answered-accepted{background-color:#3a5408!important}#footer,body{background-color:#000!important}.bottom-notice{text-align:center}#footer #footer-menu{color:#333!important;text-align:center!important}body,body #content{color:#888!important}body #content{background-color:transparent}body #content .question-hyperlink{font-weight:400!important;font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif!important}
+#sidebar .module table#qinfo,#sidebar .module#ignoredTags,#sidebar .module#interesting-tags,.post-issue{width:100%!important}.topbar{background-color:#222!important;background-image:url(http://i.stack.imgur.com/uV1TZ.png)!important}#tabs a,#tabs a:hover{background:#000!important}.topbar .topbar-links a{color:#888!important}.topbar .topbar-links a.mod-flag-indicator{color:#000!important}.topbar #search input{border-top:1px solid #333!important;border-left:1px solid #333!important}#tabs a{border:1px solid #333!important;color:#888!important;margin:1px 8px 0 0!important;padding:10px 16px!important;-webkit-transition:.1s ease-in!important;transition:.1s ease-in!important}#tabs a.youarehere{border:1px solid #333!important;border-bottom-color:#000!important;color:#eee!important}#tabs a.bounty-indicator-tab{line-height:20px!important}#tabs a:hover{border:1px solid #333!important;border-bottom-color:#000!important}#sidebar .module{background-color:#000!important;color:#888!important;padding:0!important}#sidebar .module table#qinfo td+td{text-align:right!important}#sidebar .module p{color:inherit!important}#sidebar .module.community-bulletin{background-color:transparent!important;border:none!important;box-shadow:none!important;text-shadow:1px 0 3px #1086a4!important}#sidebar .module.community-bulletin .bulletin-item-content a{border-left:3px solid #1086a4!important;display:block;padding-left:5px!important}#sidebar .module#related-tags .item-multiplier{float:right!important}#sidebar .module#related-tags .item-multiplier .item-multiplier-count{font-weight:700!important}#sidebar.show-votes .sidebar-linked .answer-votes,#sidebar.show-votes .sidebar-related .answer-votes{background-color:#111!important;color:#bbb!important}#sidebar.show-votes .sidebar-linked .answer-votes.answered-accepted,#sidebar.show-votes .sidebar-related .answer-votes.answered-accepted{background-color:#3a5408!important}.post-issue{margin-bottom:35px!important;position:inherit!important;visibility:visible!important}.post-issue .post-issue-display{background-color:transparent!important;border:none!important;border-radius:0!important;opacity:1!important;position:inherit!important;padding:0 5px 2px}.post-issue .post-issue-display a{background-color:#222!important;display:inline-block!important;float:right!important;padding:5px 10px!important;opacity:.5!important}.post-issue .post-issue-display a:hover{opacity:1!important;text-decoration:none!important}.post-issue .post-issue-display:after{content:""!important;margin:0!important}.post-tag,.post-text .post-tag,.wmd-preview a.post-tag{background-color:#000!important;border:1px solid #05272d!important;border-radius:0!important;font-size:80%!important;padding:3px 5px!important;text-transform:uppercase!important}.post-tag:hover,.post-text .post-tag:hover,.wmd-preview a.post-tag:hover{border:1px solid #14a7c6!important}.post-text a{color:#1086a4!important}.post-text img{background-color:#888!important;box-shadow:inset 0 0 10px #000!important;max-width:100%!important}#footer,body{background-color:#000!important}.bottom-notice{text-align:center}#footer #footer-menu{color:#333!important;text-align:center!important}body,body #content{color:#888!important}body #content{background-color:transparent}body #content .question-hyperlink{font-weight:400!important;font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif!important}
 
 /* BEGIN Tag lists */
 #recent-tags-list a:hover + .item-multiplier,
@@ -55,87 +55,6 @@
 }
 
 /* END Delete tag button */
-
-/* BEGIN Post */
-.post-issue {
-	margin-bottom : 10px !important;
-	position      : inherit !important;
-	width         : 100% !important;
-	visibility    : visible !important;
-}
-
-.post-issue .post-issue-display {
-	background-color : transparent !important;
-	border           : none !important;
-	/*border-bottom    : 1px solid #444;*/
-	border-radius    : 0 !important;
-	opacity          : 1 !important;
-	position         : inherit !important;
-}
-
-.post-issue .post-issue-display a {
-	background-color : #222 !important;
-	background-image : url("http://i.imgur.com/fbpNn24.png") !important; /* sprites */
-	display          : inline-block !important;
-	float            : right !important;
-	padding          : 5px 10px 5px 25px !important;
-	opacity          : 0.5 !important;
-}
-
-.post-issue .post-issue-display a:hover {
-	opacity         : 1 !important;
-	text-decoration : none !important;
-}
-
-.post-issue .post-issue-display a[href$='show-flags'] {
-	background-position : 5px -710px !important;
-}
-
-.post-issue .post-issue-display a[href$='comments'] {
-	background-position : 5px -660px !important;
-}
-
-.post-issue .post-issue-display a[href*='timeline'] {
-	background-image : none;
-}
-
-/* Overwrite responsive styles */
-.post-issue .post-issue-display::after {
-	content : "" !important;
-	margin  : 0 !important;
-}
-
-.post-tag,
-.post-text .post-tag,
-.wmd-preview a.post-tag {
-	background-color : #000 !important;
-	border           : 1px solid #05272d !important;
-	font-size        : 80% !important;
-	padding          : 3px 5px 3px 5px !important;
-	text-transform   : uppercase !important;
-}
-
-.post-tag:hover,
-.post-text .post-tag:hover,
-.wmd-preview a.post-tag:hover {
-	border-radius : 0 !important;
-	border        : 1px solid #14a7c6 !important;
-}
-
-.post-text a {
-	color : #1086a4 !important;
-}
-
-.post-text img {
-	/* Fix transparent backgrounds - makes dropshadows on screenshots look better */
-	background-color   : #888 !important;
-	-webkit-box-shadow : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
-	box-shadow         : inset 0px 0px 10px rgba(0, 0, 0, 1) !important;
-	/* Fix images being pushed outside of the bounds of a post */
-	max-width          : 100% !important;
-}
-
-/* END Post */
 
 /* BEGIN Make post menu (the text links) behave all weird like */
 /* Also applies to some other links of the same flavor */
