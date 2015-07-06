@@ -66,3 +66,16 @@
 		max-width        : 100% !important;
 	}
 }
+
+// Links like: mod, share, edit, close, delete, flag, edit tags, add a comment
+.comments-link,
+.post-menu > a,
+.edit-tags-wrapper > span > a {
+	text-align : center !important;
+	transition : 0.10s ease-in !important;
+
+	&:hover {
+		background-color : #222 !important;
+		border-bottom    : 1px solid #1087a4;
+	}
+}

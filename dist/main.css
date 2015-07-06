@@ -118,6 +118,18 @@
   /* Fix images being pushed outside of the bounds of a post */
   max-width: 100% !important; }
 
+.comments-link,
+.post-menu > a,
+.edit-tags-wrapper > span > a {
+  text-align: center !important;
+  -webkit-transition: 0.10s ease-in !important;
+          transition: 0.10s ease-in !important; }
+  .comments-link:hover,
+  .post-menu > a:hover,
+  .edit-tags-wrapper > span > a:hover {
+    background-color: #222 !important;
+    border-bottom: 1px solid #1087a4; }
+
 .bottom-notice {
   text-align: center; }
 
