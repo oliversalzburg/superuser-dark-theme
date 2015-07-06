@@ -1,0 +1,20 @@
+.reviewable-answer,
+.answer {
+	/* Overrides the fade when opening a link */
+	background-color : transparent !important;
+}
+
+.answer-hyperlink.deleted-answer,
+.answer-link.deleted-answer,
+.answer.deleted-answer,
+.question-hyperlink.deleted-answer,
+.question.deleted-answer,
+.question-summary.deleted-answer,
+.rep-breakdown-row.deleted-answer {
+	background-color : #281212 !important;
+	opacity          : 0.7 !important;
+}
+
+.answer {
+	padding-top : 6px !important;
+}

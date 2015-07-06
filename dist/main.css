@@ -1,3 +1,14 @@
+.item-multiplier {
+  float: right !important; }
+  .item-multiplier .item-multiplier-count {
+    font-weight: bold !important; }
+
+a:hover + .item-multiplier {
+  float: none !important; }
+
+.tag-cell {
+  border-bottom: 1px dotted #222 !important; }
+
 .topbar {
   background-color: #222 !important;
   background-image: url("http://i.stack.imgur.com/uV1TZ.png") !important; }
@@ -56,8 +67,6 @@
   #sidebar .module#ignoredTags {
     width: 100% !important; }
   #sidebar .module .item-multiplier {
-    -webkit-transition: 0.5s;
-            transition: 0.5s;
     float: right !important; }
     #sidebar .module .item-multiplier .item-multiplier-count {
       font-weight: bold !important; }
@@ -71,6 +80,32 @@
   #sidebar.show-votes .sidebar-linked .answer-votes.answered-accepted,
   #sidebar.show-votes .sidebar-related .answer-votes.answered-accepted {
     background-color: #3a5408 !important; }
+
+.owner {
+  background-color: #222 !important;
+  background-image: url("http://i.stack.imgur.com/6Bmrf.png");
+  /* skewed_print */ }
+
+.question-status {
+  background-color: #222 !important; }
+
+.reviewable-answer,
+.answer {
+  /* Overrides the fade when opening a link */
+  background-color: transparent !important; }
+
+.answer-hyperlink.deleted-answer,
+.answer-link.deleted-answer,
+.answer.deleted-answer,
+.question-hyperlink.deleted-answer,
+.question.deleted-answer,
+.question-summary.deleted-answer,
+.rep-breakdown-row.deleted-answer {
+  background-color: #281212 !important;
+  opacity: 0.7 !important; }
+
+.answer {
+  padding-top: 6px !important; }
 
 .post-issue {
   margin-bottom: 35px !important;
@@ -133,6 +168,28 @@
   .edit-tags-wrapper > span > a:hover {
     background-color: #222 !important;
     border-bottom: 1px solid #1087a4; }
+
+code {
+  background-color: #222 !important; }
+
+pre {
+  background-color: #444 !important;
+  border-left: 5px solid #666 !important;
+  color: #fff !important;
+  opacity: 0.5 !important; }
+
+pre > code {
+  background-color: #444 !important;
+  color: #fff !important; }
+
+blockquote {
+  background-color: #222 !important;
+  border-left: 5px solid #333 !important; }
+
+.wmd-preview hr,
+.post-text hr {
+  background-color: #333 !important;
+  color: #333 !important; }
 
 input, select, button {
   background-color: #000 !important;

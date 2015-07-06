@@ -1,0 +1,31 @@
+// Just a regular old tag button
+@mixin tag() {
+	background-color : #000 !important;
+	border           : 1px solid #05272d !important;
+	border-radius    : 0 !important;
+	font-size        : 80% !important;
+	padding          : 3px 5px 3px 5px !important;
+	text-transform   : uppercase !important;
+
+	&:hover {
+		border : 1px solid #14a7c6 !important;
+	}
+}
+
+// These are the counts of how often a certain tag is related or recent.
+// Float these counts to the right and pull them back on hover over the tag.
+.item-multiplier {
+	float : right !important;
+	.item-multiplier-count {
+		font-weight : bold !important;
+	}
+}
+
+a:hover + .item-multiplier {
+	float : none !important;
+}
+
+// The cells on the Tags page
+.tag-cell {
+	border-bottom : 1px dotted #222 !important;
+}

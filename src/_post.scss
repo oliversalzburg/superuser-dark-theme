@@ -1,7 +1,9 @@
+@import "question";
+@import "answer";
+
 // The links above a post to:
 // - Display the timeline
 // - Display deleted comments
-
 .post-issue {
 	margin-bottom : 35px !important;
 	position      : inherit !important;
@@ -41,16 +43,7 @@
 .post-tag,
 .post-text .post-tag,
 .wmd-preview a.post-tag {
-	background-color : #000 !important;
-	border           : 1px solid #05272d !important;
-	border-radius    : 0 !important;
-	font-size        : 80% !important;
-	padding          : 3px 5px 3px 5px !important;
-	text-transform   : uppercase !important;
-
-	&:hover {
-		border : 1px solid #14a7c6 !important;
-	}
+	@include tag();
 }
 
 .post-text {
@@ -78,4 +71,31 @@
 		background-color : #222 !important;
 		border-bottom    : 1px solid #1087a4;
 	}
+}
+
+code {
+	background-color : #222 !important;
+}
+
+pre {
+	background-color : #444 !important;
+	border-left      : 5px solid #666 !important;
+	color            : #fff !important;
+	opacity          : 0.5 !important;
+}
+
+pre > code {
+	background-color : #444 !important;
+	color            : #fff !important;
+}
+
+blockquote {
+	background-color : #222 !important;
+	border-left      : 5px solid #333 !important;
+}
+
+.wmd-preview hr,
+.post-text hr {
+	background-color : #333 !important;
+	color            : #333 !important;
 }
