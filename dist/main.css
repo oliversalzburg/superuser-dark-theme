@@ -107,6 +107,20 @@ a:hover + .item-multiplier {
 .answer {
   padding-top: 6px !important; }
 
+.comments {
+  border-top: dotted 1px #555 !important;
+  color: #777 !important; }
+  .comments tr.comment {
+    -webkit-transition: 0.10s ease-in !important;
+    -moz-transition: 0.10s ease-in !important; }
+    .comments tr.comment:hover {
+      background-color: #222 !important; }
+    .comments tr.comment > td {
+      border-bottom: dotted 1px #222 !important; }
+    .comments tr.comment .comment-delete,
+    .comments tr.comment .comment-edit {
+      float: right !important; }
+
 .post-issue {
   margin-bottom: 35px !important;
   position: inherit !important;

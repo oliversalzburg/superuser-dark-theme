@@ -1,0 +1,24 @@
+// Comment threads below posts.
+.comments {
+	border-top : dotted 1px #555 !important;
+	color      : #777 !important;
+
+	tr.comment {
+		-webkit-transition : 0.10s ease-in !important;
+		-moz-transition    : 0.10s ease-in !important;
+
+		&:hover {
+			background-color : #222 !important;
+		}
+
+		> td {
+			border-bottom : dotted 1px #222 !important;
+		}
+
+		// Move controls in comments to the right
+		.comment-delete,
+		.comment-edit {
+			float : right !important;
+		}
+	}
+}
