@@ -327,6 +327,33 @@ textarea {
   background-color: transparent !important;
   border: 1px solid transparent !important; }
 
+.login-page .preferred-login {
+  background-color: #222 !important;
+  margin: 6px !important;
+  border: 2px solid #444 !important;
+  box-shadow: none !important;
+  -webkit-transition: 0.10s ease-in !important;
+          transition: 0.10s ease-in !important; }
+  .login-page .preferred-login:hover {
+    margin: 6px !important;
+    box-shadow: 0 0 15px 5px #444 !important; }
+
+.login-page .openid_small_btn {
+  opacity: 0.5;
+  border: 2px solid #444 !important;
+  margin: 4px !important;
+  box-shadow: none !important;
+  -webkit-transition: 0.10s ease-in !important;
+          transition: 0.10s ease-in !important; }
+  .login-page .openid_small_btn:hover {
+    opacity: 1;
+    margin: 4px !important;
+    box-shadow: 0 0 5px 3px #444 !important; }
+
+.login-page #openid_btns a {
+  background-color: #000;
+  background-image: url("http://i.stack.imgur.com/q7kl9.png") !important; }
+
 body {
   background-color: #000 !important;
   color: #888 !important; }

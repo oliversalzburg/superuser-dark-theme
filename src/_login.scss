@@ -1,0 +1,39 @@
+// The page where you log in.
+.login-page {
+	// One of the major login options: google, facebook, stack exchange.
+	.preferred-login {
+		background-color : #222 !important;
+
+		margin           : 6px !important;
+		border           : 2px solid #444 !important;
+
+		box-shadow       : none !important;
+		transition       : 0.10s ease-in !important;
+
+		&:hover {
+			margin     : 6px !important;
+			box-shadow : 0 0 15px 5px #444 !important;
+		}
+	}
+
+	.openid_small_btn {
+		opacity    : 0.5;
+		border     : 2px solid #444 !important;
+		margin     : 4px !important;
+		box-shadow : none !important;
+		transition : 0.10s ease-in !important;
+
+		&:hover {
+			opacity    : 1;
+			margin     : 4px !important;
+			box-shadow : 0 0 5px 3px #444 !important;
+
+		}
+	}
+
+	#openid_btns a {
+		background-color : #000;
+		// openid-logos
+		background-image : url("http://i.stack.imgur.com/q7kl9.png") !important;
+	}
+}
