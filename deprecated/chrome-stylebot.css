@@ -590,16 +590,6 @@ tr.msg {
 */
 /* END Left-align page for huge monitors */
 
-/* BEGIN Share box */
-.share-tip {
-	-moz-box-shadow    : 2px 2px 4px #222 !important;
-	-webkit-box-shadow : 2px 2px 4px #222 !important;
-	box-shadow         : 2px 2px 4px #222 !important;
-	background-color   : #222 !important;
-}
-
-/* END Share box */
-
 /* BEGIN Help Center */
 #herobox {
 	background-color : transparent !important;

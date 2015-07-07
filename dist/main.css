@@ -179,7 +179,6 @@ a:hover + .item-multiplier {
   .post-issue .post-issue-display {
     background-color: transparent !important;
     border: none !important;
-    /*border-bottom    : 1px solid #444;*/
     border-radius: 0 !important;
     opacity: 1 !important;
     position: inherit !important;
@@ -254,6 +253,10 @@ blockquote {
 .post-text hr {
   background-color: #333 !important;
   color: #333 !important; }
+
+.share-tip {
+  box-shadow: 2px 2px 4px #222 !important;
+  background-color: #222 !important; }
 
 #post-form .wmd-container,
 #post-form .wmd-input,
