@@ -1,0 +1,34 @@
+// These are the styles for the subtabs like: week, month, quarter, year all
+// and the page number when content spans multiple pages.
+.subtabs a,
+.pager a .page-numbers {
+	border          : 1px solid #222 !important;
+	transition      : 0.10s ease-in !important;
+	text-decoration : none !important;
+}
+
+.subtabs a:hover,
+.pager a:hover .page-numbers {
+	background-color : #000 !important;
+	border           : 1px solid #1086a4 !important;
+	color            : #fff !important;
+}
+
+// Hide the border on next and prev links, only the numbers should have borders.
+.pager a .page-numbers,
+.pager a:hover .page-numbers {
+	.next,
+	.prev {
+		border : 1px solid transparent !important;
+	}
+}
+
+// Highlight for the button that matches our current location.
+.page-numbers.current,
+.subtabs a.youarehere {
+	background-color : #1086a4 !important;
+	border           : 1px solid #1086a4 !important;
+	color            : white !important;
+	cursor           : default !important;
+	font-weight      : bold !important;
+}
