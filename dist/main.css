@@ -9,6 +9,15 @@ a:hover + .item-multiplier {
 .tag-cell {
   border-bottom: 1px dotted #222 !important; }
 
+.tag-editor .delete-tag,
+#interestingTags .delete-tag,
+#ignoredTags .delete-tag {
+  margin-top: 5px !important; }
+
+#interestingTags .post-tag,
+#ignoredTags .delete-tag {
+  padding: 3px !important; }
+
 .topbar {
   background-color: #222 !important;
   background-image: url("http://i.stack.imgur.com/uV1TZ.png") !important; }
@@ -246,6 +255,46 @@ blockquote {
   background-color: #333 !important;
   color: #333 !important; }
 
+#post-form .wmd-container,
+#post-form .wmd-input,
+#post-form .wmd-preview,
+#post-form .post-editor,
+#post-form .wmd-button-bar,
+#post-form .tag-editor {
+  padding: 0 !important;
+  width: 100% !important;
+  background-color: #000 !important; }
+
+#post-form .post-editor {
+  margin-top: 0 !important; }
+
+#post-form .wmd-button-bar {
+  border: none !important;
+  background-color: #000 !important; }
+  #post-form .wmd-button-bar .wmd-button > span {
+    background-image: url("http://i.stack.imgur.com/HqdIJ.png") !important; }
+
+#post-form .form-item label {
+  color: #666 !important; }
+  #post-form .form-item label[for="title"] {
+    padding-top: 4px; }
+
+#post-form .grippie {
+  background-color: #222 !important;
+  border: 1px solid #222 !important;
+  width: auto !important;
+  margin-right: 0 !important; }
+
+#post-form .wmd-preview {
+  border: 2px dotted #222 !important; }
+
+#post-form .tag-editor {
+  border: 1px solid #222 !important; }
+
+.wmd-prompt-dialog {
+  background-color: #000 !important;
+  border: 10px solid #222 !important; }
+
 input, select, button {
   background-color: #000 !important;
   border: 1px solid #333 !important;
@@ -326,6 +375,12 @@ textarea {
 .about-page .new-about-content-page .user-info-rep {
   background-color: transparent !important;
   border: 1px solid transparent !important; }
+
+.ask-page .ask-mainbar {
+  padding: 0 20px !important; }
+
+.ask-page #title {
+  width: 603px !important; }
 
 .login-page .preferred-login {
   background-color: #222 !important;

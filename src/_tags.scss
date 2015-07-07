@@ -29,3 +29,16 @@ a:hover + .item-multiplier {
 .tag-cell {
 	border-bottom : 1px dotted #222 !important;
 }
+
+// Tag deletion button.
+.tag-editor .delete-tag,
+#interestingTags .delete-tag,
+#ignoredTags .delete-tag {
+	margin-top : 5px !important;
+}
+
+// We also fix a 2-pixel padding issue on the tags here. This is introduced by the delete button above.
+#interestingTags .post-tag,
+#ignoredTags .delete-tag {
+	padding : 3px !important;
+}

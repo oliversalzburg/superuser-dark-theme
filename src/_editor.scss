@@ -1,0 +1,60 @@
+// This also changes the width of the editor to fill more space and align elements.
+// Scale these core structure elements to full width.
+#post-form {
+	.wmd-container,
+	.wmd-input,
+	.wmd-preview,
+	.post-editor,
+	.wmd-button-bar,
+	.tag-editor {
+		padding          : 0 !important;
+		width            : 100% !important;
+		background-color : #000 !important;
+	}
+
+	.post-editor {
+		margin-top : 0 !important;
+	}
+
+	.wmd-button-bar {
+		border           : none !important;
+		background-color : #000 !important;
+
+		.wmd-button > span {
+			// wmd-buttons
+			background-image : url("http://i.stack.imgur.com/HqdIJ.png") !important;
+		}
+	}
+
+	// The small labels like: Title, Tags, …
+	.form-item label {
+		color : #666 !important;
+		// Align with text in textbox
+		&[for="title"] {
+			padding-top : 4px;
+		}
+	}
+
+	// The element used to resize the height of the textarea.
+	.grippie {
+		background-color : #222 !important;
+		border           : 1px solid #222 !important;
+		width            : auto !important;
+		margin-right     : 0 !important;
+	}
+
+	.wmd-preview {
+		border : 2px dotted #222 !important;
+	}
+
+	.tag-editor {
+		border : 1px solid #222 !important;
+	}
+}
+
+// WMD Image selection dialog (same style as Popup)
+//TODO: If really same, consider mixin
+.wmd-prompt-dialog {
+	background-color : #000 !important;
+	border           : 10px solid #222 !important;
+}
