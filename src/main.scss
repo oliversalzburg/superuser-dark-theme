@@ -1,5 +1,7 @@
+// Modules with mixins
 @import "tags";
 
+// Core page elements
 @import "header";
 @import "tabs";
 @import "modules";
@@ -7,6 +9,10 @@
 @import "forms";
 @import "pager";
 @import "footer";
+
+// Specific pages
+@import "about";
+
 
 body {
 	background-color : #000 !important;

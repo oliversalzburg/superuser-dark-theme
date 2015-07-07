@@ -1,0 +1,25 @@
+// The about, or tour page
+.about-page .new-about-content-page {
+	// The main headers on this page.
+	h2.about-title {
+		color : #ddd !important;
+	}
+
+	// The QA block that explains the basics of the page.
+	.qa-block {
+		background-color : transparent !important;
+		border           : 1px solid transparent !important;
+	}
+
+	// Those blocks that slide in.
+	.content-block {
+		background-color : transparent !important;
+		border           : 1px solid transparent !important;
+	}
+
+	// The box that explains user reputation
+	.user-info-rep {
+		background-color : transparent !important;
+		border           : 1px solid transparent !important;
+	}
+}

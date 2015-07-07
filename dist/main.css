@@ -92,6 +92,26 @@ a:hover + .item-multiplier {
   #sidebar.show-votes .sidebar-related .answer-votes.answered-accepted {
     background-color: #3a5408 !important; }
 
+#question-header {
+  border-bottom: 1px solid #333 !important; }
+  #question-header h1 {
+    line-height: 20px !important;
+    background-repeat: no-repeat !important;
+    padding-left: 14px !important; }
+    #question-header h1:before {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      content: "";
+      margin-right: 26px;
+      margin-bottom: -3px;
+      background-position: -240px 0px !important;
+      background-image: url("http://i.stack.imgur.com/HqdIJ.png") !important;
+      /* wmd-buttons */ }
+    #question-header h1 a.question-hyperlink {
+      color: #eee !important;
+      font-size: 80% !important; }
+
 .owner {
   background-color: #222 !important;
   background-image: url("http://i.stack.imgur.com/6Bmrf.png");
@@ -281,6 +301,21 @@ textarea {
   #footer #footer-menu {
     color: #333 !important;
     text-align: center !important; }
+
+.about-page .new-about-content-page h2.about-title {
+  color: #ddd !important; }
+
+.about-page .new-about-content-page .qa-block {
+  background-color: transparent !important;
+  border: 1px solid transparent !important; }
+
+.about-page .new-about-content-page .content-block {
+  background-color: transparent !important;
+  border: 1px solid transparent !important; }
+
+.about-page .new-about-content-page .user-info-rep {
+  background-color: transparent !important;
+  border: 1px solid transparent !important; }
 
 body {
   background-color: #000 !important;
