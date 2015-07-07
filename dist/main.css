@@ -63,6 +63,17 @@ a:hover + .item-multiplier {
       border-left: 3px solid #1086a4 !important;
       display: block;
       padding-left: 5px !important; }
+  #sidebar .module #ad502-rooms .ad502-room {
+    background-color: #111 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important; }
+    #sidebar .module #ad502-rooms .ad502-room a img {
+      opacity: 0.3 !important;
+      -webkit-transition: 0.10s ease-in !important;
+              transition: 0.10s ease-in !important; }
+    #sidebar .module #ad502-rooms .ad502-room:hover a img {
+      opacity: 1 !important; }
   #sidebar .module#interesting-tags,
   #sidebar .module#ignoredTags {
     width: 100% !important; }

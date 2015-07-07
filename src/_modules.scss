@@ -43,6 +43,24 @@
 			}
 		}
 
+		// The chat room panel
+		#ad502-rooms {
+			.ad502-room {
+				background-color : #111 !important;
+				border           : none !important;
+				border-radius    : 0 !important;
+				box-shadow       : none !important;
+
+				a img {
+					opacity    : 0.3 !important;
+					transition : 0.10s ease-in !important;
+				}
+				&:hover a img {
+					opacity : 1 !important;
+				}
+			}
+		}
+
 		&#interesting-tags,
 		&#ignoredTags {
 			width : 100% !important;
@@ -51,7 +69,7 @@
 		// These are the counts of how often a certain tag is related or recent.
 		// Float these counts to the right and pull them back on hover over the tag.
 		.item-multiplier {
-			float      : right !important;
+			float : right !important;
 			.item-multiplier-count {
 				font-weight : bold !important;
 			}
