@@ -125,23 +125,20 @@ a:hover + .item-multiplier {
       margin-right: 26px;
       margin-bottom: -3px;
       background-position: -240px 0px !important;
-      background-image: url("http://i.stack.imgur.com/HqdIJ.png") !important;
-      /* wmd-buttons */ }
+      background-image: url("http://i.stack.imgur.com/HqdIJ.png") !important; }
     #question-header h1 a.question-hyperlink {
       color: #eee !important;
       font-size: 80% !important; }
 
 .owner {
   background-color: #222 !important;
-  background-image: url("http://i.stack.imgur.com/6Bmrf.png");
-  /* skewed_print */ }
+  background-image: url("http://i.stack.imgur.com/6Bmrf.png"); }
 
 .question-status {
   background-color: #222 !important; }
 
 .reviewable-answer,
 .answer {
-  /* Overrides the fade when opening a link */
   background-color: transparent !important; }
 
 .answer-hyperlink.deleted-answer,
@@ -214,10 +211,8 @@ a:hover + .item-multiplier {
   color: #1086a4 !important; }
 
 .post-text img {
-  /* Fix transparent backgrounds - makes dropshadows on screenshots look better */
   background-color: #888 !important;
   box-shadow: inset 0 0 10px black !important;
-  /* Fix images being pushed outside of the bounds of a post */
   max-width: 100% !important; }
 
 .comments-link,
@@ -411,6 +406,60 @@ textarea {
 .login-page #openid_btns a {
   background-color: #000;
   background-image: url("http://i.stack.imgur.com/q7kl9.png") !important; }
+
+.mod-page .migrated {
+  background-image: url("http://i.stack.imgur.com/bIOJc.png") !important; }
+
+.mod-page table.sorter {
+  border: none !important; }
+  .mod-page table.sorter tbody tr td {
+    color: inherit !important;
+    background-color: #111 !important;
+    -webkit-transition: 0.10s ease-in !important;
+            transition: 0.10s ease-in !important; }
+    .mod-page table.sorter tbody tr td.hot {
+      color: #dc3071 !important; }
+    .mod-page table.sorter tbody tr td.supernova {
+      color: #ff0d68 !important; }
+  .mod-page table.sorter tbody tr.odd td {
+    background-color: #000 !important; }
+  .mod-page table.sorter tbody tr:hover td {
+    background-color: #222 !important; }
+  .mod-page table.sorter th,
+  .mod-page table.sorter tfoot td {
+    background-color: transparent !important;
+    border: none !important; }
+
+.mod-page .flagged-post {
+  border-bottom: solid 1px #222 !important; }
+
+.mod-page tr.msg {
+  border-top: 1px solid #444 !important; }
+
+.mod-page table.flagged-posts tr.messageDivider > td {
+  border-top: 1px solid #222 !important; }
+
+.mod-page table.flagged-posts .relativetime.old {
+  color: #666 !important; }
+
+.mod-page #content .content-page > ul > li {
+  float: left;
+  list-style-type: none; }
+  .mod-page #content .content-page > ul > li > a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 3px solid #222;
+    border-radius: 3px;
+    margin: 5px;
+    background-color: #222; }
+    .mod-page #content .content-page > ul > li > a:hover {
+      background-color: #444;
+      border-color: #444;
+      color: #fff;
+      text-decoration: none; }
+
+.mod-page #content h3 {
+  clear: left; }
 
 body {
   background-color: #000 !important;

@@ -1,0 +1,82 @@
+.mod-page {
+	.migrated {
+		// fatarrows
+		background-image : url("http://i.stack.imgur.com/bIOJc.png") !important;
+	}
+
+	table.sorter {
+		border : none !important;
+
+		tbody {
+			tr {
+				td {
+					color            : inherit !important;
+					background-color : #111 !important;
+					transition       : 0.10s ease-in !important;
+
+					&.hot {
+						color : #dc3071 !important;
+					}
+					&.supernova {
+						color : #ff0d68 !important;
+					}
+				}
+				&.odd td {
+					background-color : #000 !important;
+				}
+				&:hover td {
+					background-color : #222 !important;
+				}
+			}
+		}
+		th,
+		tfoot td {
+			background-color : transparent !important;
+			border           : none !important;
+		}
+	}
+
+	.flagged-post {
+		border-bottom : solid 1px #222 !important;
+	}
+	// TODO: Possible no longer in use.
+	tr.msg {
+		border-top : 1px solid #444 !important;
+	}
+
+	table.flagged-posts {
+		tr.messageDivider > td {
+			border-top : 1px solid #222 !important;
+		}
+		.relativetime.old {
+			color : #666 !important;
+		}
+	}
+
+	#content {
+		.content-page > ul > li {
+			float           : left;
+			list-style-type : none;
+
+			> a {
+				display          : inline-block;
+				padding          : 5px 10px;
+				border           : 3px solid #222;
+				border-radius    : 3px;
+				margin           : 5px;
+				background-color : #222;
+
+				&:hover {
+					background-color : #444;
+					border-color     : #444;
+					color            : #fff;
+					text-decoration  : none;
+				}
+			}
+		}
+
+		h3 {
+			clear : left;
+		}
+	}
+}
