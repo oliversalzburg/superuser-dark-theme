@@ -84,6 +84,16 @@ a:hover + .item-multiplier {
   #sidebar .module a:hover + .item-multiplier {
     float: none !important; }
 
+#sidebar .everyonelovesstackoverflow {
+  opacity: 0.5 !important;
+  -webkit-transition: 1s ease-in !important;
+          transition: 1s ease-in !important;
+  line-height: 9px !important; }
+  #sidebar .everyonelovesstackoverflow:hover {
+    background-color: #fff !important;
+    opacity: 1 !important;
+    box-shadow: 0 0 18px rgba(255, 255, 255, 0.8) !important; }
+
 #sidebar.show-votes .sidebar-linked .answer-votes,
 #sidebar.show-votes .sidebar-related .answer-votes {
   background-color: #111 !important;

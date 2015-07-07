@@ -80,6 +80,20 @@
 		}
 	}
 
+	// Advertisement panel.
+	.everyonelovesstackoverflow {
+		opacity     : 0.5 !important;
+		transition  : 1s ease-in !important;
+		// Fix pesky line below image
+		line-height : 9px !important;
+
+		&:hover {
+			background-color : #fff !important;
+			opacity          : 1 !important;
+			box-shadow       : 0 0 18px rgba(255, 255, 255, 0.8) !important;
+		}
+	}
+
 	// The vote boxes for the "linked" and "related" questions
 	&.show-votes {
 		.sidebar-linked .answer-votes,
