@@ -29,24 +29,30 @@ a:hover + .item-multiplier {
     border-top: 1px solid #333 !important;
     border-left: 1px solid #333 !important; }
 
-#tabs a {
-  background: #000 !important;
-  border: 1px solid #333 !important;
-  color: #888 !important;
-  margin: 1px 8px 0 0 !important;
-  padding: 10px 16px !important;
-  -webkit-transition: 0.10s ease-in !important;
-          transition: 0.10s ease-in !important; }
-  #tabs a.youarehere {
-    border: 1px solid #333 !important;
-    border-bottom-color: #000 !important;
-    color: #eee !important; }
-  #tabs a.bounty-indicator-tab {
-    line-height: 20px !important; }
-  #tabs a:hover {
-    border: 1px solid #333 !important;
+#header #hmenus .nav li a {
+  padding: 6px 16px !important; }
+
+.subheader {
+  border-bottom: 1px solid #333 !important;
+  color: #888 !important; }
+  .subheader #tabs a {
     background: #000 !important;
-    border-bottom-color: #000 !important; }
+    border: 1px solid #333 !important;
+    color: #888 !important;
+    margin: 1px 8px 0 0 !important;
+    padding: 10px 16px !important;
+    -webkit-transition: 0.10s ease-in !important;
+            transition: 0.10s ease-in !important; }
+    .subheader #tabs a.youarehere {
+      border: 1px solid #333 !important;
+      border-bottom-color: #000 !important;
+      color: #eee !important; }
+    .subheader #tabs a.bounty-indicator-tab {
+      line-height: 20px !important; }
+    .subheader #tabs a:hover {
+      border: 1px solid #333 !important;
+      background: #000 !important;
+      border-bottom-color: #000 !important; }
 
 #sidebar .module {
   background-color: #000 !important;

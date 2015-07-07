@@ -16,3 +16,12 @@
 	}
 }
 
+#header {
+	#hmenus {
+		// Main navigation like: questions, tags, users, badges, unanswered, ask question
+		.nav li a {
+			padding : 6px 16px !important;
+		}
+	}
+}
+
