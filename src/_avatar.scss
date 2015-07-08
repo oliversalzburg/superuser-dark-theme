@@ -1,0 +1,12 @@
+.gravatar-wrapper-32,
+.gravatar-wrapper-48 {
+	background-color : transparent !important;
+}
+
+.user-gravatar32 img,
+.user-gravatar32 .anonymous-gravatar,
+#user-browser img {
+	background-color : #888 !important;
+	box-shadow       : inset 0 0 10px rgba(0, 0, 0, 1) !important;
+	opacity          : 0.5 !important;
+}
