@@ -1,0 +1,45 @@
+@mixin diff-choices() {
+	a {
+		border  : none !important;
+		opacity : 0.5 !important;
+
+		&.selected,
+		&:hover,
+		&.selected:hover {
+			border           : none !important;
+			background-color : #222 !important;
+			opacity          : 1 !important;
+			transition       : 0.10s ease-in !important;
+		}
+	}
+}
+
+@mixin diff() {
+	td {
+		border : none !important;
+
+		&.skip {
+			background-color : #222 !important;
+		}
+		&.inserted {
+			background-color : #43443d !important;
+		}
+		&.deleted {
+			background-color : #604646 !important;
+		}
+
+		> div {
+			background-color : transparent !important;
+		}
+	}
+}
+
+@mixin inline-diff() {
+	span.diff-add {
+		box-shadow : 0 0 5px #d1e1ad !important;
+	}
+
+	span.diff-delete {
+		box-shadow : 0 0 5px #e5bdb2 !important;
+	}
+}

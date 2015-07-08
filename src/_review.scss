@@ -1,0 +1,87 @@
+@import "diff";
+
+// The review landing page.
+.review-page {
+	// An item on the review dashboard, like: close votes, low quality posts, first posts, late answers, …
+	.dashboard-item {
+		border-bottom : 1px dotted #222 !important;
+
+		.dashboard-activity .dashboard-user {
+			opacity    : 0.5 !important;
+			transition : 0.1s ease-in !important;
+		}
+
+		&:hover .dashboard-activity .dashboard-user {
+			opacity : 1 !important;
+		}
+	}
+
+	// The statistics for the current review queue, like: need review, reviews today, reviews all-time
+	.task-stat-table {
+		background-color : #111 !important;
+
+		td {
+			border           : 5px solid #000 !important;
+			background-color : #000 !important;
+		}
+	}
+
+	// The table on the stats page for a certain review type.
+	.review-stats-table {
+		// The stats row for the current user, yourself.
+		.review-stats-count-current-user,
+		.review-stats-current-user {
+			background-color : #222 !important;
+		}
+	}
+}
+
+// A single review task.
+.review-task-page {
+	// The popup that opens when you click the "filter" link at the top.
+	.review-filter-popup {
+		background-color : #222 !important;
+		border           : 1px solid #333 !important;
+		box-shadow       : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+	}
+
+	.review-bar-container .review-bar {
+		border           : 1px solid #333 !important;
+		background-color : rgba(0, 0, 0, 0.95) !important;
+		box-shadow       : 1px 1px 1px rgba(55, 55, 55, 0.8) !important;
+
+		// Message at the top, like: This question has been flagged as: duplicate
+		.review-instructions {
+			b,
+			strong {
+				color       : #fff !important;
+				text-shadow : 0 0 1px #888 !important;
+			}
+		}
+
+		// Message below the instructions, like: duplicate: This question has been asked before and already has an answer.
+		.review-instructions-reason {
+			background-color : #222 !important;
+		}
+	}
+
+	// The display options, like: rendered output, markdown
+	.diff-choices {
+		@include diff-choices();
+	}
+
+	// The diff in suggested edit reviews is a table
+	table.full-diff {
+		@include diff();
+	}
+
+	.post-text {
+		@include inline-diff();
+	}
+}
+
+//TODO: Might not be used anymore
+.review-diff-bar {
+	background-color : #000 !important;
+	border-bottom    : 1px solid #333 !important;
+}

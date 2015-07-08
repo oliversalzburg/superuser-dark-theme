@@ -1,0 +1,53 @@
+@import "diff";
+
+.revision-page {
+	// The first row in a revision, the header.
+	tr.revision {
+		td {
+			background-color : #352a2a !important;
+
+			// The comment the author of the edit left.
+			.revision-comment {
+				padding          : 2px 4px;
+				background-color : #222 !important;
+				border           : 1px solid #333 !important;
+				color            : #fff !important;
+				display          : inline-block !important;
+				box-shadow       : 0 0 8px rgba(255, 255, 255, 0.4) !important;
+			}
+		}
+	}
+
+	// Rows like: Post Migrated Here from stackoverflow.com
+	tr.vote-revision {
+		td {
+			background-color : #222 !important;
+		}
+	}
+
+	// A revision made by the owner.
+	tr.owner-revision {
+		td {
+			background-color : #273133 !important;
+		}
+	}
+
+	//TODO: This might not be used anymore.
+	tr.revision-comment {
+		display : table-row !important;
+	}
+
+	// The display options, like: inline, side-by-side, side-by-side markdown
+	.diff-choices {
+		@include diff-choices();
+	}
+
+	table.full-diff {
+		@include diff();
+	}
+
+	.sidebyside-diff,
+	.inline-diff {
+		@include inline-diff();
+	}
+}

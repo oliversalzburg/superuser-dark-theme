@@ -413,6 +413,143 @@ textarea {
   background-color: #000;
   background-image: url("http://i.stack.imgur.com/q7kl9.png") !important; }
 
+.review-page .dashboard-item {
+  border-bottom: 1px dotted #222 !important; }
+  .review-page .dashboard-item .dashboard-activity .dashboard-user {
+    opacity: 0.5 !important;
+    -webkit-transition: 0.1s ease-in !important;
+            transition: 0.1s ease-in !important; }
+  .review-page .dashboard-item:hover .dashboard-activity .dashboard-user {
+    opacity: 1 !important; }
+
+.review-page .task-stat-table {
+  background-color: #111 !important; }
+  .review-page .task-stat-table td {
+    border: 5px solid #000 !important;
+    background-color: #000 !important; }
+
+.review-page .review-stats-table .review-stats-count-current-user,
+.review-page .review-stats-table .review-stats-current-user {
+  background-color: #222 !important; }
+
+.review-task-page .review-filter-popup {
+  background-color: #222 !important;
+  border: 1px solid #333 !important;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4) !important; }
+
+.review-task-page .review-bar-container .review-bar {
+  border: 1px solid #333 !important;
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  box-shadow: 1px 1px 1px rgba(55, 55, 55, 0.8) !important; }
+  .review-task-page .review-bar-container .review-bar .review-instructions b,
+  .review-task-page .review-bar-container .review-bar .review-instructions strong {
+    color: #fff !important;
+    text-shadow: 0 0 1px #888 !important; }
+  .review-task-page .review-bar-container .review-bar .review-instructions-reason {
+    background-color: #222 !important; }
+
+.review-task-page .diff-choices a {
+  border: none !important;
+  opacity: 0.5 !important; }
+  .review-task-page .diff-choices a.selected,
+  .review-task-page .diff-choices a:hover,
+  .review-task-page .diff-choices a.selected:hover {
+    border: none !important;
+    background-color: #222 !important;
+    opacity: 1 !important;
+    -webkit-transition: 0.10s ease-in !important;
+            transition: 0.10s ease-in !important; }
+
+.review-task-page table.full-diff td {
+  border: none !important; }
+  .review-task-page table.full-diff td.skip {
+    background-color: #222 !important; }
+  .review-task-page table.full-diff td.inserted {
+    background-color: #43443d !important; }
+  .review-task-page table.full-diff td.deleted {
+    background-color: #604646 !important; }
+  .review-task-page table.full-diff td > div {
+    background-color: transparent !important; }
+
+.review-task-page .post-text span.diff-add {
+  box-shadow: 0 0 5px #d1e1ad !important; }
+
+.review-task-page .post-text span.diff-delete {
+  box-shadow: 0 0 5px #e5bdb2 !important; }
+
+.review-diff-bar {
+  background-color: #000 !important;
+  border-bottom: 1px solid #333 !important; }
+
+.revision-page tr.revision td {
+  background-color: #352a2a !important; }
+  .revision-page tr.revision td .revision-comment {
+    padding: 2px 4px;
+    background-color: #222 !important;
+    border: 1px solid #333 !important;
+    color: #fff !important;
+    display: inline-block !important;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.4) !important; }
+
+.revision-page tr.vote-revision td {
+  background-color: #222 !important; }
+
+.revision-page tr.owner-revision td {
+  background-color: #273133 !important; }
+
+.revision-page tr.revision-comment {
+  display: table-row !important; }
+
+.revision-page .diff-choices a {
+  border: none !important;
+  opacity: 0.5 !important; }
+  .revision-page .diff-choices a.selected,
+  .revision-page .diff-choices a:hover,
+  .revision-page .diff-choices a.selected:hover {
+    border: none !important;
+    background-color: #222 !important;
+    opacity: 1 !important;
+    -webkit-transition: 0.10s ease-in !important;
+            transition: 0.10s ease-in !important; }
+
+.revision-page table.full-diff td {
+  border: none !important; }
+  .revision-page table.full-diff td.skip {
+    background-color: #222 !important; }
+  .revision-page table.full-diff td.inserted {
+    background-color: #43443d !important; }
+  .revision-page table.full-diff td.deleted {
+    background-color: #604646 !important; }
+  .revision-page table.full-diff td > div {
+    background-color: transparent !important; }
+
+.revision-page .sidebyside-diff span.diff-add,
+.revision-page .inline-diff span.diff-add {
+  box-shadow: 0 0 5px #d1e1ad !important; }
+
+.revision-page .sidebyside-diff span.diff-delete,
+.revision-page .inline-diff span.diff-delete {
+  box-shadow: 0 0 5px #e5bdb2 !important; }
+
+table.post-timeline tr[data-eventtype="answer"] td,
+table.post-timeline tr[data-eventtype="review"] td {
+  background: #222 !important; }
+
+table.post-timeline tr.separator div {
+  background-color: #333 !important; }
+
+table.post-timeline tr.deleted-event td,
+table.post-timeline tr.deleted-event-details td {
+  background-color: #191314 !important; }
+
+table.post-timeline th,
+table.post-timeline td,
+table.post-timeline .event-comment {
+  color: #888; }
+
+table.post-timeline .event-comment {
+  word-break: break-word; }
+
 .mod-page .migrated {
   background-image: url("http://i.stack.imgur.com/bIOJc.png") !important; }
 

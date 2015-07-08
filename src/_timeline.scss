@@ -1,0 +1,31 @@
+table.post-timeline {
+	tr[data-eventtype="answer"],
+	tr[data-eventtype="review"] {
+		td {
+			background : #222 !important;
+		}
+	}
+
+	tr.separator {
+		div {
+			background-color : #333 !important;
+		}
+	}
+
+	tr.deleted-event,
+	tr.deleted-event-details {
+		td {
+			background-color : #191314 !important;
+		}
+	}
+
+	th,
+	td,
+	.event-comment {
+		color : #888;
+	}
+	// Fix long comments breaking the page width.
+	.event-comment {
+		word-break : break-word;
+	}
+}
